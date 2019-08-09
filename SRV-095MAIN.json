@@ -1,0 +1,189 @@
+{
+    "Aplicacion": "SRV-095MAIN", 
+    "Prioridades": [
+        {
+            "Archivos": [], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/o4glconfig.xml", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "<url>http://ux_desa5:5170/asbsrvgmcweb</url>"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/config.properties", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 2, 
+                            "Texto": "url_progress=//ux_desa5:5170/asbsrvgmcweb"
+                        }
+                    ], 
+                    "NombreCad": "Progress2", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/env/qa/o4glconfig.xml", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "<url>http://LU2APP188:5025/asbsrvgmcweb</url>"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/env/qa/config.properties", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 2, 
+                            "Texto": "url_progress=//LU2APP188:5025/asbsrvgmcweb"
+                        }
+                    ], 
+                    "NombreCad": "Progress2", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/env/dev/o4glconfig.xml", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "<url>http://LU2APP190:5025/asbsrvgmcweb</url>"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/env/dev/config.properties", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 2, 
+                            "Texto": "url_progress=//LU2APP190:5025/asbsrvgmcweb"
+                        }
+                    ], 
+                    "NombreCad": "Progress2", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/env/prod/o4glconfig.xml", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "<url>http://LU1APP93:5025/asbsrvgmcweb</url>"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/env/prod/config.properties", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 2, 
+                            "Texto": "url_progress=//LU1APP93:5025/asbsrvgmcweb"
+                        }
+                    ], 
+                    "NombreCad": "Progress2", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/WebContent/WEB-INF/o4glconfig.xml", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "<url>http://LU2APP188:5025/asbsrvgmcweb</url>"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/WebContent/WEB-INF/config.properties", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 2, 
+                            "Texto": "url_progress=//LU2APP188:5025/asbsrvgmcweb"
+                        }
+                    ], 
+                    "NombreCad": "Progress2", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/src/main/resources/o4glconfig.xml", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "<url>http://LU2APP188:5025/asbsrvgmcweb</url>"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-095MAIN/src/main/resources/config.properties", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 2, 
+                            "Texto": "url_progress=//LU2APP188:5025/asbsrvgmcweb"
+                        }
+                    ], 
+                    "NombreCad": "Progress2", 
+                    "Repeticiones": 1
+                }
+            ], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}

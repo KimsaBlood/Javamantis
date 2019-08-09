@@ -1,0 +1,263 @@
+{
+    "Aplicacion": "FV_019Alertas", 
+    "Prioridades": [
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/test/com/axa/mx/alertas/EnviaPruebaMensajes.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 30, 
+                            "Texto": "//Desa: \"http://smspraxis.com:8080/platform-ingm/MessageSenderWS\""
+                        }, 
+                        {
+                            "Linea": 46, 
+                            "Texto": "//Desa: \"http://smspraxis.com:8080/platform-ingm/MailSenderWS\""
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/qa/properties/configuration.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "#urlWsABC=http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                        }, 
+                        {
+                            "Linea": 13, 
+                            "Texto": "#server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                        }, 
+                        {
+                            "Linea": 16, 
+                            "Texto": "#server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/prod/properties/configuration.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 13, 
+                            "Texto": "#server_url_praxis_SMS=https://smspraxis-02.net:443/platform-ingm/MessageSenderWS"
+                        }, 
+                        {
+                            "Linea": 16, 
+                            "Texto": "#server_url_praxis_MAIL=https://smspraxis-02.net:443/platform-ingm/MailSenderWS"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/src/com/ing/action/ActualizaNumeroCelularAgtes.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 33, 
+                            "Texto": "//strURL      = \"http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\";    /*DESARROLLO y QA*/"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/src/com/ing/ws/wsCte.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 28, 
+                            "Texto": "//            pruebaWS1.InvoiceWS(\"http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\", \"2\", \"5525611830\", \"1\","
+                        }, 
+                        {
+                            "Linea": 31, 
+                            "Texto": "//            pruebaWS1.InvoiceWS(\"http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\", \"2\", \"5534843470\", \"1\","
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 3
+                }
+            ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/local/properties/configuration.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "urlWsABC=http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                        }, 
+                        {
+                            "Linea": 11, 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                        }, 
+                        {
+                            "Linea": 13, 
+                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/qa/properties/configuration.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 11, 
+                            "Texto": "urlWsABC=http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                        }, 
+                        {
+                            "Linea": 14, 
+                            "Texto": "server_url_praxis_SMS=http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
+                        }, 
+                        {
+                            "Linea": 17, 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/dev/properties/configuration.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "urlWsABC=http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                        }, 
+                        {
+                            "Linea": 11, 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                        }, 
+                        {
+                            "Linea": 13, 
+                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/prod/properties/configuration.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 11, 
+                            "Texto": "urlWsABC=http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                        }, 
+                        {
+                            "Linea": 14, 
+                            "Texto": "server_url_praxis_SMS=http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
+                        }, 
+                        {
+                            "Linea": 17, 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "server_url_praxis_BATCH=https://smspraxis-02.net:443/platform-ingm/MessageQueueWS"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 6
+                }
+            ], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/test/com/axa/mx/alertas/EnviaPruebaMensajes.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 29, 
+                            "Texto": "paramsSMS, \"http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS\"); //Prod: \"http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS\""
+                        }, 
+                        {
+                            "Linea": 45, 
+                            "Texto": "paramsCorreo, \"http://smspraxis.com:8080/platform-ingm/MailSenderWS\"); //Prod: \"http://smspraxis-02.net:8080/platform-ingm/MailSenderWS\""
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/src/com/ing/action/ActualizaNumeroCelularAgtes.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 34, 
+                            "Texto": "strURL = \"http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\"; /*PROD*/"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/src/com/ing/ws/wsCte.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 33, 
+                            "Texto": "pruebaWS1.InvoiceWS(\"http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\", \"2\", \"5537337094\", \"1\","
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 3
+                }
+            ], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}

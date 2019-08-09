@@ -3,10 +3,11 @@ from Paths import Paths
 from PrioridadesOut import PrioridadesOut
 from ArchivoOut import ArchivoOut
 from Json import Json
+from Excel import Excel
 
 class AplicacionOut:
 	
-	def __init__(self,paths,config,nombre):
+	def __init__(self,paths,config,nombre,excel):
 		#tipo Path
 		self.paths=paths
 		#tipo Configuracion
@@ -15,6 +16,7 @@ class AplicacionOut:
 		self.nombre=nombre
 		#tipo list
 		self.archivosAux=None
+		self.excel=excel
 
 	"""getters y setters"""
 	def setPaths(self,paths):
@@ -48,6 +50,7 @@ class AplicacionOut:
 		self.prior=PrioridadesOut(self.getArchivosAux(),self.config.getPrioridades())
 		self.prior.ordenar()
 		Json.contenido(self.getNombre()+".json",self.toDict()).convertirAJson()
+		self.excel.addWorksheet(self.prior,self.nombre)
 
 	def buscarPorArchivo(self,archivo,cadenas):
 		for l in cadenas:

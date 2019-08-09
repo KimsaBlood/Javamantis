@@ -1,0 +1,120 @@
+{
+    "Aplicacion": "FV_006-bonos", 
+    "Prioridades": [
+        {
+            "Archivos": [], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 279, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/framework.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 277, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/framework.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 279, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/framework.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 279, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/framework.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 279, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/framework.properties", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 279, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }
+            ], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/dao/ControlCargaMasivaBonosDAO.java", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 235, 
+                            "Texto": "case ConstantesCarga.PROCESO_16_BORRA_PROMO_BAC://agentes, 5. Agrupa PromoBAC //{campo = \"CVE_CC_TITULAR\"; tabla = \"GEN_DIM_CC_BONOS_BAC\";}"
+                        }
+                    ], 
+                    "NombreCad": "Apache", 
+                    "Repeticiones": 1
+                }
+            ], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}
