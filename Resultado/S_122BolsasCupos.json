@@ -11,7 +11,7 @@
                     "Lineas": [
                         {
                             "Linea": 16, 
-                            "Texto": "##mx.com.axa.byc.ws.client.callidus=https://servicioswebqa.axa.com.mx:9044/AXAservicios/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "##mx.com.axa.byc.ws.client.callidus=https://servicioswebqa.axa.com.mx:9044/AXAservicios/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "https://servicioswebqa.axa.com.mx:9044/AXAservicios/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
@@ -26,7 +26,7 @@
                     "Lineas": [
                         {
                             "Linea": 17, 
-                            "Texto": "##mx.com.axa.byc.ws.client.callidusQA=https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "##mx.com.axa.byc.ws.client.callidusQA=https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
@@ -41,7 +41,7 @@
                     "Lineas": [
                         {
                             "Linea": 42, 
-                            "Texto": "##mx.com.axa.byc.ws.client.consultaterritorial=http://mxdata22001.asefi.mex:9081/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "##mx.com.axa.byc.ws.client.consultaterritorial=http://mxdata22001.asefi.mex:9081/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://mxdata22001.asefi.mex:9081/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
@@ -56,7 +56,7 @@
                     "Lineas": [
                         {
                             "Linea": 40, 
-                            "Texto": "##QA mx.com.axa.byc.ws.client.consultaterritorial=http://LU2APP17.asefitest.mex:9081/albpmServices/ENGINE_AX/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "##QA mx.com.axa.byc.ws.client.consultaterritorial=http://LU2APP17.asefitest.mex:9081/albpmServices/ENGINE_AX/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://LU2APP17.asefitest.mex:9081/albpmServices/ENGINE_AX/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
@@ -71,27 +71,12 @@
                     "Lineas": [
                         {
                             "Linea": 40, 
-                            "Texto": "#mx.com.axa.byc.ws.client.consultaterritorial=http://10.133.228.14:9080/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "#mx.com.axa.byc.ws.client.consultaterritorial=http://10.133.228.14:9080/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://10.133.228.14:9080/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/ws/client/consultaterritorial/stub/ConsultaTerritorialServiceStub.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
-                    "Extension": ".java", 
-                    "Hardcode": "true", 
-                    "Lineas": [
-                        {
-                            "Linea": 1317, 
-                            "Texto": "//http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
-                            "Url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
-                        }
-                    ], 
-                    "NombreCad": "IP", 
-                    "Repeticiones": 3
                 }
             ], 
             "Nombre": "comentarios", 
@@ -107,12 +92,12 @@
                     "Lineas": [
                         {
                             "Linea": 15, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 41, 
-                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
@@ -127,12 +112,12 @@
                     "Lineas": [
                         {
                             "Linea": 18, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 39, 
-                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebqa.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebqa.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
@@ -147,12 +132,12 @@
                     "Lineas": [
                         {
                             "Linea": 18, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 41, 
-                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
@@ -167,12 +152,12 @@
                     "Lineas": [
                         {
                             "Linea": 18, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 39, 
-                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://serviciosweb.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener", 
+                            "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://serviciosweb.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
@@ -193,12 +178,17 @@
                     "Lineas": [
                         {
                             "Linea": 154, 
-                            "Texto": "this(configurationContext,\"http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\" );", 
+                            "Texto": "                    this(configurationContext,\"http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\" );\r\n", 
                             "Url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }, 
                         {
                             "Linea": 163, 
-                            "Texto": "this(\"http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\" );", 
+                            "Texto": "                    this(\"http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\" );\r\n", 
+                            "Url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                        }, 
+                        {
+                            "Linea": 1317, 
+                            "Texto": "     //http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
                             "Url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 

@@ -11,7 +11,7 @@
                     "Lineas": [
                         {
                             "Linea": 10, 
-                            "Texto": "##mx.com.axa.byc.ws.client.callidus=https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "##mx.com.axa.byc.ws.client.callidus=https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
@@ -32,7 +32,7 @@
                     "Lineas": [
                         {
                             "Linea": 11, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
@@ -47,7 +47,7 @@
                     "Lineas": [
                         {
                             "Linea": 9, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
@@ -62,7 +62,7 @@
                     "Lineas": [
                         {
                             "Linea": 9, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
@@ -77,7 +77,7 @@
                     "Lineas": [
                         {
                             "Linea": 9, 
-                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente", 
+                            "Texto": "mx.com.axa.byc.ws.client.callidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 

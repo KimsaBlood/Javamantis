@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 9, 
-                            "Texto": "link.action=http://130.2.5.242:9090/", 
+                            "Texto": "link.action=http://130.2.5.242:9090/\r\n", 
                             "Url": "http://130.2.5.242:9090/"
                         }
                     ], 
@@ -31,12 +31,12 @@
                     "Lineas": [
                         {
                             "Linea": 6, 
-                            "Texto": "url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"", 
+                            "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\r\n", 
                             "Url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
-                            "Texto": "url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"", 
+                            "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\r\n", 
                             "Url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 
@@ -51,7 +51,7 @@
                     "Lineas": [
                         {
                             "Linea": 9, 
-                            "Texto": "link.action=http://ntpegasotla:9090/ExpedienteE/", 
+                            "Texto": "link.action=http://ntpegasotla:9090/ExpedienteE/\n", 
                             "Url": "http://ntpegasotla:9090/ExpedienteE/"
                         }
                     ], 
@@ -66,12 +66,12 @@
                     "Lineas": [
                         {
                             "Linea": 6, 
-                            "Texto": "url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"", 
+                            "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\n", 
                             "Url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
-                            "Texto": "url=\"jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte\"", 
+                            "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte\"\n", 
                             "Url": "jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte"
                         }
                     ], 
@@ -86,12 +86,12 @@
                     "Lineas": [
                         {
                             "Linea": 6, 
-                            "Texto": "url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"", 
+                            "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\n", 
                             "Url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
-                            "Texto": "url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"", 
+                            "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\n", 
                             "Url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 

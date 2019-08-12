@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 14, 
-                            "Texto": "<url>http://ux_desa1:5329/asbdandes</url>", 
+                            "Texto": "\t\t<url>http://ux_desa1:5329/asbdandes</url>\r\n", 
                             "Url": "http://ux_desa1:5329/asbdandes"
                         }
                     ], 
@@ -31,12 +31,12 @@
                     "Lineas": [
                         {
                             "Linea": 14, 
-                            "Texto": "<url>http://ux_desa5:5329/asbdanweb</url>", 
+                            "Texto": "            <url>http://ux_desa5:5329/asbdanweb</url>\r\n", 
                             "Url": "http://ux_desa5:5329/asbdanweb"
                         }, 
                         {
                             "Linea": 23, 
-                            "Texto": "<url>http://ux_desa5:5329/asbdancen</url>", 
+                            "Texto": "            <url>http://ux_desa5:5329/asbdancen</url>\r\n", 
                             "Url": "http://ux_desa5:5329/asbdancen"
                         }
                     ], 
@@ -51,7 +51,7 @@
                     "Lineas": [
                         {
                             "Linea": 14, 
-                            "Texto": "<url>http://ux_desa1:5329/asbdandes</url>", 
+                            "Texto": "\t\t<url>http://ux_desa1:5329/asbdandes</url>\r\n", 
                             "Url": "http://ux_desa1:5329/asbdandes"
                         }
                     ], 
@@ -66,17 +66,17 @@
                     "Lineas": [
                         {
                             "Linea": 14, 
-                            "Texto": "<url>http://ux_danos:5329/asbdanweb</url>", 
+                            "Texto": "            <url>http://ux_danos:5329/asbdanweb</url>\r\n", 
                             "Url": "http://ux_danos:5329/asbdanweb"
                         }, 
                         {
                             "Linea": 23, 
-                            "Texto": "<url>http://ux_danos:5329/asbdanweb2</url>", 
+                            "Texto": "            <url>http://ux_danos:5329/asbdanweb2</url>\r\n", 
                             "Url": "http://ux_danos:5329/asbdanweb2"
                         }, 
                         {
                             "Linea": 32, 
-                            "Texto": "<url>http://ux_danos:5329/asbdanweb3</url>", 
+                            "Texto": "            <url>http://ux_danos:5329/asbdanweb3</url>\r\n", 
                             "Url": "http://ux_danos:5329/asbdanweb3"
                         }
                     ], 
@@ -97,7 +97,7 @@
                     "Lineas": [
                         {
                             "Linea": 20, 
-                            "Texto": "public static final String URL_Geocodificacion = \"http://servicioswebqa.axa.com.mx:9221/services/Geocodificacion\";", 
+                            "Texto": "    public static final String URL_Geocodificacion = \"http://servicioswebqa.axa.com.mx:9221/services/Geocodificacion\";\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9221/services/Geocodificacion"
                         }
                     ], 

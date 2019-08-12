@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 279, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -31,7 +31,7 @@
                     "Lineas": [
                         {
                             "Linea": 277, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -46,7 +46,7 @@
                     "Lineas": [
                         {
                             "Linea": 279, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -61,7 +61,7 @@
                     "Lineas": [
                         {
                             "Linea": 279, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -76,7 +76,7 @@
                     "Lineas": [
                         {
                             "Linea": 279, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -91,7 +91,7 @@
                     "Lineas": [
                         {
                             "Linea": 279, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -112,7 +112,7 @@
                     "Lineas": [
                         {
                             "Linea": 235, 
-                            "Texto": "case ConstantesCarga.PROCESO_16_BORRA_PROMO_BAC://agentes, 5. Agrupa PromoBAC //{campo = \"CVE_CC_TITULAR\"; tabla = \"GEN_DIM_CC_BONOS_BAC\";}", 
+                            "Texto": "                case ConstantesCarga.PROCESO_16_BORRA_PROMO_BAC://agentes, 5. Agrupa PromoBAC //{campo = \"CVE_CC_TITULAR\"; tabla = \"GEN_DIM_CC_BONOS_BAC\";}\r\n", 
                             "Url": "PROCESO_16_BORRA_PROMO_BAC://agentes,"
                         }
                     ], 

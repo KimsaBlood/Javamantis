@@ -11,12 +11,12 @@
                     "Lineas": [
                         {
                             "Linea": 8, 
-                            "Texto": "#server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS", 
+                            "Texto": "#server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS\r\n", 
                             "Url": "http://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 12, 
-                            "Texto": "#server_url_praxis_BATCH=http://smspraxis-02.net:8080/platform-ingm/MessageQueueWS", 
+                            "Texto": "#server_url_praxis_BATCH=http://smspraxis-02.net:8080/platform-ingm/MessageQueueWS\r\n", 
                             "Url": "http://smspraxis-02.net:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
@@ -37,17 +37,17 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS", 
+                            "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS\r\n", 
                             "Url": "http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 6, 
-                            "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS", 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS\r\n", 
                             "Url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 8, 
-                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS", 
+                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS\r\n", 
                             "Url": "http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
@@ -62,12 +62,12 @@
                     "Lineas": [
                         {
                             "Linea": 226, 
-                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services", 
+                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services \r\n", 
                             "Url": "http://10.212.213.119:9087/mds/axis/services"
                         }, 
                         {
                             "Linea": 277, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -82,17 +82,17 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "server_url_praxis_SMS=https://smspraxis-02.net:443/platform-ingm/MessageSenderWS", 
+                            "Texto": "server_url_praxis_SMS=https://smspraxis-02.net:443/platform-ingm/MessageSenderWS\r\n", 
                             "Url": "https://smspraxis-02.net:443/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 6, 
-                            "Texto": "server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS", 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS\r\n", 
                             "Url": "http://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 8, 
-                            "Texto": "server_url_praxis_BATCH=http://smspraxis-02.net:8080/platform-ingm/MessageQueueWS", 
+                            "Texto": "server_url_praxis_BATCH=http://smspraxis-02.net:8080/platform-ingm/MessageQueueWS\r\n", 
                             "Url": "http://smspraxis-02.net:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
@@ -107,12 +107,12 @@
                     "Lineas": [
                         {
                             "Linea": 226, 
-                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services", 
+                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services \r\n", 
                             "Url": "http://10.212.213.119:9087/mds/axis/services"
                         }, 
                         {
                             "Linea": 277, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -127,17 +127,17 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS", 
+                            "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS\r\n", 
                             "Url": "http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 6, 
-                            "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS", 
+                            "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS\r\n", 
                             "Url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 8, 
-                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS", 
+                            "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS\r\n", 
                             "Url": "http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
@@ -152,12 +152,12 @@
                     "Lineas": [
                         {
                             "Linea": 226, 
-                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services", 
+                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services\r\n", 
                             "Url": "http://10.212.213.119:9087/mds/axis/services"
                         }, 
                         {
                             "Linea": 277, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -172,17 +172,17 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "server_url_praxis_SMS=https://smspraxis-02.net:443/platform-ingm/MessageSenderWS", 
+                            "Texto": "server_url_praxis_SMS=https://smspraxis-02.net:443/platform-ingm/MessageSenderWS\r\n", 
                             "Url": "https://smspraxis-02.net:443/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 7, 
-                            "Texto": "server_url_praxis_MAIL=https://smspraxis-02.net:443/platform-ingm/MailSenderWS", 
+                            "Texto": "server_url_praxis_MAIL=https://smspraxis-02.net:443/platform-ingm/MailSenderWS\r\n", 
                             "Url": "https://smspraxis-02.net:443/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 11, 
-                            "Texto": "server_url_praxis_BATCH=https://smspraxis-02.net:443/platform-ingm/MessageQueueWS", 
+                            "Texto": "server_url_praxis_BATCH=https://smspraxis-02.net:443/platform-ingm/MessageQueueWS\r\n", 
                             "Url": "https://smspraxis-02.net:443/platform-ingm/MessageQueueWS"
                         }
                     ], 
@@ -197,12 +197,12 @@
                     "Lineas": [
                         {
                             "Linea": 226, 
-                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services", 
+                            "Texto": "SOAPServerURI=http://10.212.213.119:9087/mds/axis/services \r\n", 
                             "Url": "http://10.212.213.119:9087/mds/axis/services"
                         }, 
                         {
                             "Linea": 277, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 

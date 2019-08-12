@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 3, 
-                            "Texto": "EndpointCtasBancarias=http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint", 
+                            "Texto": "EndpointCtasBancarias=http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
@@ -31,7 +31,7 @@
                     "Lineas": [
                         {
                             "Linea": 3, 
-                            "Texto": "EndpointCtasBancarias=http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint", 
+                            "Texto": "EndpointCtasBancarias=http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
@@ -46,7 +46,7 @@
                     "Lineas": [
                         {
                             "Linea": 3, 
-                            "Texto": "EndpointCtasBancarias=http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint", 
+                            "Texto": "EndpointCtasBancarias=http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
@@ -61,7 +61,7 @@
                     "Lineas": [
                         {
                             "Linea": 3, 
-                            "Texto": "EndpointCtasBancarias=http://serviciosweb.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint", 
+                            "Texto": "EndpointCtasBancarias=http://serviciosweb.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 

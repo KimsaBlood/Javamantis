@@ -11,12 +11,12 @@
                     "Lineas": [
                         {
                             "Linea": 10, 
-                            "Texto": "#banamex.url=https://agentesqa.axa.com.mx/SimuladorBanamex/forward", 
+                            "Texto": "#banamex.url=https://agentesqa.axa.com.mx/SimuladorBanamex/forward\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/SimuladorBanamex/forward"
                         }, 
                         {
                             "Linea": 21, 
-                            "Texto": "#mit.url=https://agentesqa.axa.com.mx/SimuladorBanamex/consumeWS_MIT", 
+                            "Texto": "#mit.url=https://agentesqa.axa.com.mx/SimuladorBanamex/consumeWS_MIT\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/SimuladorBanamex/consumeWS_MIT"
                         }
                     ], 
@@ -37,12 +37,12 @@
                     "Lineas": [
                         {
                             "Linea": 15, 
-                            "Texto": "banamex.url=https://agentesqa.axa.com.mx/SimuladorBanamex/forward", 
+                            "Texto": "banamex.url=https://agentesqa.axa.com.mx/SimuladorBanamex/forward\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/SimuladorBanamex/forward"
                         }, 
                         {
                             "Linea": 20, 
-                            "Texto": "mitContext.url=https://agentesqa.axa.com.mx/InterfazBanamex/mitContext", 
+                            "Texto": "mitContext.url=https://agentesqa.axa.com.mx/InterfazBanamex/mitContext\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/InterfazBanamex/mitContext"
                         }
                     ], 
@@ -57,7 +57,7 @@
                     "Lineas": [
                         {
                             "Linea": 265, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -72,7 +72,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "axa.url=https://agentesqa.axa.com.mx/InterfazBanamex/services/IntegracionBanamex", 
+                            "Texto": "axa.url=https://agentesqa.axa.com.mx/InterfazBanamex/services/IntegracionBanamex\r\n", 
                             "Url": "https://agentesqa.axa.com.mx/InterfazBanamex/services/IntegracionBanamex"
                         }
                     ], 
@@ -93,7 +93,7 @@
                     "Lineas": [
                         {
                             "Linea": 25, 
-                            "Texto": "private java.lang.String IntegracionBanamex_address = \"http://10.212.227.26:8080/InterfazBanamex/services/IntegracionBanamex\";", 
+                            "Texto": "    private java.lang.String IntegracionBanamex_address = \"http://10.212.227.26:8080/InterfazBanamex/services/IntegracionBanamex\";\r\n", 
                             "Url": "http://10.212.227.26:8080/InterfazBanamex/services/IntegracionBanamex"
                         }
                     ], 

@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 11, 
-                            "Texto": "endpoint.javaUnitLink=http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral", 
+                            "Texto": "endpoint.javaUnitLink=http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
                             "Url": "http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
@@ -31,7 +31,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "endpoint.progressUnitlink=http://lu2app87:8282/AxaServices/vida", 
+                            "Texto": "endpoint.progressUnitlink=http://lu2app87:8282/AxaServices/vida\r\n", 
                             "Url": "http://lu2app87:8282/AxaServices/vida"
                         }
                     ], 
@@ -46,7 +46,7 @@
                     "Lineas": [
                         {
                             "Linea": 11, 
-                            "Texto": "endpoint.javaUnitLink=http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral", 
+                            "Texto": "endpoint.javaUnitLink=http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
@@ -61,7 +61,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "endpoint.progressUnitlink=http://lu2app88:8282/AxaServices/vida", 
+                            "Texto": "endpoint.progressUnitlink=http://lu2app88:8282/AxaServices/vida\r\n", 
                             "Url": "http://lu2app88:8282/AxaServices/vida"
                         }
                     ], 
@@ -76,7 +76,7 @@
                     "Lineas": [
                         {
                             "Linea": 11, 
-                            "Texto": "endpoint.javaUnitLink=http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral", 
+                            "Texto": "endpoint.javaUnitLink=http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
@@ -91,7 +91,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "endpoint.progressUnitlink=http://progress-apps.axa.com.mx:8282/AxaServices/vida", 
+                            "Texto": "endpoint.progressUnitlink=http://progress-apps.axa.com.mx:8282/AxaServices/vida\r\n", 
                             "Url": "http://progress-apps.axa.com.mx:8282/AxaServices/vida"
                         }
                     ], 

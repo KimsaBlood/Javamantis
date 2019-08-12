@@ -2,38 +2,7 @@
     "Aplicacion": "FV_009_2-PrimaPagadaAXA", 
     "Prioridades": [
         {
-            "Archivos": [
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/mx/cons/dao/GenericoRptDAO.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
-                    "Extension": ".java", 
-                    "Hardcode": "true", 
-                    "Lineas": [
-                        {
-                            "Linea": 66, 
-                            "Texto": "//appServerURL = \"AppServer://10.212.213.3:6006/asbconsagte\";", 
-                            "Url": "AppServer://10.212.213.3:6006/asbconsagte"
-                        }
-                    ], 
-                    "NombreCad": "Progress", 
-                    "Repeticiones": 1
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/mx/cons/dao/EstructuraProgDAO.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
-                    "Extension": ".java", 
-                    "Hardcode": "true", 
-                    "Lineas": [
-                        {
-                            "Linea": 30, 
-                            "Texto": "//appServerURL = \"AppServer://10.212.213.3:6006/asbconsagte\"; // URL del Appserver de progress", 
-                            "Url": "AppServer://10.212.213.3:6006/asbconsagte"
-                        }
-                    ], 
-                    "NombreCad": "Progress", 
-                    "Repeticiones": 1
-                }
-            ], 
+            "Archivos": [], 
             "Nombre": "comentarios", 
             "Numero": "3"
         }, 
@@ -47,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -62,7 +31,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -77,7 +46,7 @@
                     "Lineas": [
                         {
                             "Linea": 2, 
-                            "Texto": "AppServerURL=AppServer://ux_desa5:5176/asbconsagte", 
+                            "Texto": "AppServerURL=AppServer://ux_desa5:5176/asbconsagte\r\n", 
                             "Url": "AppServer://ux_desa5:5176/asbconsagte"
                         }
                     ], 
@@ -92,7 +61,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -107,7 +76,7 @@
                     "Lineas": [
                         {
                             "Linea": 2, 
-                            "Texto": "AppServerURL=AppServer://ux-desa1:6006/asbconsagte", 
+                            "Texto": "AppServerURL=AppServer://ux-desa1:6006/asbconsagte\r\n", 
                             "Url": "AppServer://ux-desa1:6006/asbconsagte"
                         }
                     ], 
@@ -122,7 +91,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -137,7 +106,7 @@
                     "Lineas": [
                         {
                             "Linea": 2, 
-                            "Texto": "AppServerURL=AppServer://ux_conta:5176/asbconsagte", 
+                            "Texto": "AppServerURL=AppServer://ux_conta:5176/asbconsagte\r\n", 
                             "Url": "AppServer://ux_conta:5176/asbconsagte"
                         }
                     ], 
@@ -152,7 +121,7 @@
                     "Lineas": [
                         {
                             "Linea": 1, 
-                            "Texto": "AppServerURL=AppServer://ux_desa5:5176/asbconsagte", 
+                            "Texto": "AppServerURL=AppServer://ux_desa5:5176/asbconsagte\r\n", 
                             "Url": "AppServer://ux_desa5:5176/asbconsagte"
                         }
                     ], 
@@ -164,7 +133,38 @@
             "Numero": "1"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/mx/cons/dao/GenericoRptDAO.java", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 66, 
+                            "Texto": "\t\t//appServerURL = \"AppServer://10.212.213.3:6006/asbconsagte\";\r\n", 
+                            "Url": "AppServer://10.212.213.3:6006/asbconsagte"
+                        }
+                    ], 
+                    "NombreCad": "Progress", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/mx/cons/dao/EstructuraProgDAO.java", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 30, 
+                            "Texto": "\t\t    //appServerURL = \"AppServer://10.212.213.3:6006/asbconsagte\"; // URL del Appserver de progress\r\n", 
+                            "Url": "AppServer://10.212.213.3:6006/asbconsagte"
+                        }
+                    ], 
+                    "NombreCad": "Progress", 
+                    "Repeticiones": 1
+                }
+            ], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

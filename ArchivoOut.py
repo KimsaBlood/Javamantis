@@ -107,24 +107,27 @@ class ArchivoOut:
 					#Si es vacio solo pasamos el numero de linea y el contenido d la linea
 					else:
 						line=LineasOut(j,f)
+				#Agregamos al objeto lineas la linea encontrada
 				lineas.append(line)
 				i+=1	
+		#Si i es diferente a 0 setteamos los valores obtenidos
 		if i!=0:	
 			self.setNombre(cadena.getNombre())
 			self.setRepeticiones(i)
 			self.setCadena(cadena.getExpresion())
 			self.setLineas(lineas)
+		#Si es igual cero regresamos a vacia la lista de lineas
 		else:
 			self.setLineas([])
 
 	def leer(self):
+		"""Lee todas las lineas contenidas en el archivo"""
 		lines2=[]
 		days_file = codecs.open(self.archivo,'r',encoding = "ISO-8859-1")
 		lines=days_file.readlines()
-		for f in lines:
-			lines2.append(f.strip())
-		self.contenido=lines2
+		self.contenido=lines
 
 	def asADict(self):
+		"""Regresa en forma de diccionario el archivo con sus atributos"""
 		self.AsLineasDict()
 		return {"Archivo":self.getArchivo(),"Extension":self.getExtension(),"NombreCad":self.getNombre(),"Cadena":self.getCadena(),"Repeticiones":self.getRepeticiones(),"Hardcode":self.getHardCode(),"Lineas":self.getLineasDict()}

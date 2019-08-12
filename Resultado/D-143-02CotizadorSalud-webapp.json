@@ -11,7 +11,7 @@
                     "Lineas": [
                         {
                             "Linea": 2, 
-                            "Texto": "#urlNode=http\\://servicioswebpreprod.axa.com.mx\\:9253/", 
+                            "Texto": "#urlNode=http\\://servicioswebpreprod.axa.com.mx\\:9253/\r\n", 
                             "Url": "http\\://servicioswebpreprod.axa.com.mx\\:9253/"
                         }
                     ], 
@@ -32,27 +32,27 @@
                     "Lineas": [
                         {
                             "Linea": 1, 
-                            "Texto": "urlNode=http://servicioswebqa.axa.com.mx:9276/CotizadorSaludServicios/AccesoDatos/", 
+                            "Texto": "urlNode=http://servicioswebqa.axa.com.mx:9276/CotizadorSaludServicios/AccesoDatos/\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9276/CotizadorSaludServicios/AccesoDatos/"
                         }, 
                         {
                             "Linea": 10, 
-                            "Texto": "urlNodeSepomex=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl", 
+                            "Texto": "urlNodeSepomex=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl"
                         }, 
                         {
                             "Linea": 13, 
-                            "Texto": "urlNodeCallidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl", 
+                            "Texto": "urlNodeCallidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl"
                         }, 
                         {
                             "Linea": 14, 
-                            "Texto": "urlEcm=http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl", 
+                            "Texto": "urlEcm=http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl"
                         }, 
                         {
                             "Linea": 18, 
-                            "Texto": "urlBpmNuevas= http://servicioswebqa.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl", 
+                            "Texto": "urlBpmNuevas= http://servicioswebqa.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl"
                         }
                     ], 
@@ -67,7 +67,7 @@
                     "Lineas": [
                         {
                             "Linea": 17, 
-                            "Texto": "urlBpm=http://agentesqa.axa.com.mx:82/BpmIntegracion/service/guardarPrefolio", 
+                            "Texto": "urlBpm=http://agentesqa.axa.com.mx:82/BpmIntegracion/service/guardarPrefolio\r\n", 
                             "Url": "http://agentesqa.axa.com.mx:82/BpmIntegracion/service/guardarPrefolio"
                         }
                     ], 
@@ -82,22 +82,22 @@
                     "Lineas": [
                         {
                             "Linea": 10, 
-                            "Texto": "urlNodeSepomex=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl", 
+                            "Texto": "urlNodeSepomex=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl"
                         }, 
                         {
                             "Linea": 13, 
-                            "Texto": "urlNodeCallidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl", 
+                            "Texto": "urlNodeCallidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl"
                         }, 
                         {
                             "Linea": 14, 
-                            "Texto": "urlEcm=http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl", 
+                            "Texto": "urlEcm=http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl"
                         }, 
                         {
                             "Linea": 17, 
-                            "Texto": "urlBpmNuevas= http://servicioswebqa.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl", 
+                            "Texto": "urlBpmNuevas= http://servicioswebqa.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl"
                         }
                     ], 
@@ -112,22 +112,22 @@
                     "Lineas": [
                         {
                             "Linea": 23, 
-                            "Texto": "urlNodeSepomex=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl", 
+                            "Texto": "urlNodeSepomex=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/?wsdl"
                         }, 
                         {
                             "Linea": 26, 
-                            "Texto": "urlNodeCallidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl", 
+                            "Texto": "urlNodeCallidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl"
                         }, 
                         {
                             "Linea": 27, 
-                            "Texto": "urlEcm=http://serviciosweb.axa.com.mx:9185/dp/services/ecm?wsdl", 
+                            "Texto": "urlEcm=http://serviciosweb.axa.com.mx:9185/dp/services/ecm?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm?wsdl"
                         }, 
                         {
                             "Linea": 30, 
-                            "Texto": "urlBpmNuevas= http://serviciosweb.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl", 
+                            "Texto": "urlBpmNuevas= http://serviciosweb.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl"
                         }
                     ], 
@@ -142,27 +142,27 @@
                     "Lineas": [
                         {
                             "Linea": 1, 
-                            "Texto": "urlNode=http://serviciosweb.axa.com.mx:9276/CotizadorSaludServicios/AccesoDatos/", 
+                            "Texto": "urlNode=http://serviciosweb.axa.com.mx:9276/CotizadorSaludServicios/AccesoDatos/\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9276/CotizadorSaludServicios/AccesoDatos/"
                         }, 
                         {
                             "Linea": 11, 
-                            "Texto": "urlNodeSepomex=http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl", 
+                            "Texto": "urlNodeSepomex=http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl"
                         }, 
                         {
                             "Linea": 14, 
-                            "Texto": "urlNodeCallidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl", 
+                            "Texto": "urlNodeCallidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl"
                         }, 
                         {
                             "Linea": 15, 
-                            "Texto": "urlEcm=http://serviciosweb.axa.com.mx:9185/dp/services/ecm?wsdl", 
+                            "Texto": "urlEcm=http://serviciosweb.axa.com.mx:9185/dp/services/ecm?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm?wsdl"
                         }, 
                         {
                             "Linea": 18, 
-                            "Texto": "urlBpmNuevas= http://serviciosweb.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl", 
+                            "Texto": "urlBpmNuevas= http://serviciosweb.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9178/teamworks/webservices/GMP/GastosMedicos?wsdl"
                         }
                     ], 
@@ -183,12 +183,12 @@
                     "Lineas": [
                         {
                             "Linea": 20, 
-                            "Texto": "@WebServiceClient(name = \"ConsultaDetallesAgente\", targetNamespace = \"http://ws.agentes.consulta.infoagentes.axa.mx\", wsdlLocation = \"http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\")", 
+                            "Texto": "@WebServiceClient(name = \"ConsultaDetallesAgente\", targetNamespace = \"http://ws.agentes.consulta.infoagentes.axa.mx\", wsdlLocation = \"http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\")\r\n", 
                             "Url": "http://ws.agentes.consulta.infoagentes.axa.mx"
                         }, 
                         {
                             "Linea": 33, 
-                            "Texto": "url = new URL(\"http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\");", 
+                            "Texto": "            url = new URL(\"http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl\");\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente?wsdl"
                         }
                     ], 
@@ -203,12 +203,12 @@
                     "Lineas": [
                         {
                             "Linea": 19, 
-                            "Texto": "@WebServiceClient(name = \"GastosMedicos\", targetNamespace = \"http://GMP/GastosMedicos.tws\", wsdlLocation = \"http://10.77.5.75:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\")", 
+                            "Texto": "@WebServiceClient(name = \"GastosMedicos\", targetNamespace = \"http://GMP/GastosMedicos.tws\", wsdlLocation = \"http://10.77.5.75:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\")\r\n", 
                             "Url": "http://GMP/GastosMedicos.tws"
                         }, 
                         {
                             "Linea": 32, 
-                            "Texto": "url = new URL(\"http://10.77.5.75:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\");", 
+                            "Texto": "            url = new URL(\"http://10.77.5.75:9178/teamworks/webservices/GMP/GastosMedicos?wsdl\");\r\n", 
                             "Url": "http://10.77.5.75:9178/teamworks/webservices/GMP/GastosMedicos?wsdl"
                         }
                     ], 
@@ -223,12 +223,12 @@
                     "Lineas": [
                         {
                             "Linea": 20, 
-                            "Texto": "@WebServiceClient(name = \"SepomexWS\", targetNamespace = \"http://www.axa.com.mx/services/sepomexws/\", wsdlLocation = \"http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl\")", 
+                            "Texto": "@WebServiceClient(name = \"SepomexWS\", targetNamespace = \"http://www.axa.com.mx/services/sepomexws/\", wsdlLocation = \"http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl\")\r\n", 
                             "Url": "http://www.axa.com.mx/services/sepomexws/"
                         }, 
                         {
                             "Linea": 33, 
-                            "Texto": "url = new URL(\"http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl\");", 
+                            "Texto": "            url = new URL(\"http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl\");\r\n", 
                             "Url": "http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS?wsdl"
                         }
                     ], 
@@ -243,12 +243,12 @@
                     "Lineas": [
                         {
                             "Linea": 20, 
-                            "Texto": "@WebServiceClient(name = \"ecmWS\", targetNamespace = \"http://axa.mx/eip/dp/gestionDocumental/ecmWS\", wsdlLocation = \"http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl\")", 
+                            "Texto": "@WebServiceClient(name = \"ecmWS\", targetNamespace = \"http://axa.mx/eip/dp/gestionDocumental/ecmWS\", wsdlLocation = \"http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl\")\r\n", 
                             "Url": "http://axa.mx/eip/dp/gestionDocumental/ecmWS"
                         }, 
                         {
                             "Linea": 33, 
-                            "Texto": "url = new URL(\"http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl\");", 
+                            "Texto": "            url = new URL(\"http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl\");\r\n", 
                             "Url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm?wsdl"
                         }
                     ], 

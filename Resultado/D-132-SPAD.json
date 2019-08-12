@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 34, 
-                            "Texto": "<url>http://artifactory.axa.com.mx:8082/artifactory/libs-release</url>", 
+                            "Texto": "\t\t\t<url>http://artifactory.axa.com.mx:8082/artifactory/libs-release</url>\r\n", 
                             "Url": "http://artifactory.axa.com.mx:8082/artifactory/libs-release"
                         }
                     ], 

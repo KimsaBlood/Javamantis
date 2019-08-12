@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "progress_url=//LU2APP188:6020/asbautwse", 
+                            "Texto": "progress_url=//LU2APP188:6020/asbautwse\r\n", 
                             "Url": "progress_url=//LU2APP188:6020/asbautwse"
                         }
                     ], 
@@ -31,7 +31,7 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "progress_url=//LU2APP188:6020/asbautwse", 
+                            "Texto": "progress_url=//LU2APP188:6020/asbautwse\r\n", 
                             "Url": "progress_url=//LU2APP188:6020/asbautwse"
                         }
                     ], 
@@ -46,7 +46,7 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "progress_url=//LU2APP190:6020/asbautwse", 
+                            "Texto": "progress_url=//LU2APP190:6020/asbautwse\r\n", 
                             "Url": "progress_url=//LU2APP190:6020/asbautwse"
                         }
                     ], 
@@ -61,7 +61,7 @@
                     "Lineas": [
                         {
                             "Linea": 4, 
-                            "Texto": "progress_url=//ux_danos:5190/asbautwse", 
+                            "Texto": "progress_url=//ux_danos:5190/asbautwse\r\n", 
                             "Url": "progress_url=//ux_danos:5190/asbautwse"
                         }
                     ], 

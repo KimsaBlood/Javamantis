@@ -11,7 +11,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "# JAVO appservice.url=//130.2.1.32:5190/asbautprumet", 
+                            "Texto": "# JAVO appservice.url=//130.2.1.32:5190/asbautprumet\r\n", 
                             "Url": "# JAVO appservice.url=//130.2.1.32:5190/asbautprumet"
                         }
                     ], 
@@ -32,7 +32,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "appservice.url=//130.2.1.17:5180/asautosjava", 
+                            "Texto": "appservice.url=//130.2.1.17:5180/asautosjava\r\n", 
                             "Url": "appservice.url=//130.2.1.17:5180/asautosjava"
                         }
                     ], 
@@ -47,7 +47,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "appservice.url=//130.2.1.17:5180/asautosjava", 
+                            "Texto": "appservice.url=//130.2.1.17:5180/asautosjava\r\n", 
                             "Url": "appservice.url=//130.2.1.17:5180/asautosjava"
                         }
                     ], 
@@ -62,7 +62,7 @@
                     "Lineas": [
                         {
                             "Linea": 13, 
-                            "Texto": "appservice.url=//10.212.213.10:5190/asbcuautos", 
+                            "Texto": "appservice.url=//10.212.213.10:5190/asbcuautos\r\n", 
                             "Url": "appservice.url=//10.212.213.10:5190/asbcuautos"
                         }
                     ], 
@@ -77,7 +77,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "appservice.url=//130.2.1.17:5180/asautosjava", 
+                            "Texto": "appservice.url=//130.2.1.17:5180/asautosjava\r\n", 
                             "Url": "appservice.url=//130.2.1.17:5180/asautosjava"
                         }
                     ], 
@@ -92,7 +92,7 @@
                     "Lineas": [
                         {
                             "Linea": 12, 
-                            "Texto": "appservice.url=//130.2.1.32:5190/asbautmet", 
+                            "Texto": "appservice.url=//130.2.1.32:5190/asbautmet\r\n", 
                             "Url": "appservice.url=//130.2.1.32:5190/asbautmet"
                         }
                     ], 

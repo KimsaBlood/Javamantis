@@ -16,7 +16,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -31,7 +31,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -46,7 +46,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -61,7 +61,7 @@
                     "Lineas": [
                         {
                             "Linea": 258, 
-                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter", 
+                            "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
                             "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
@@ -82,7 +82,7 @@
                     "Lineas": [
                         {
                             "Linea": 68, 
-                            "Texto": "\"http://nagoya.apache.org:5049/axis/services/echo\";", 
+                            "Texto": "                    \"http://nagoya.apache.org:5049/axis/services/echo\";\r\n", 
                             "Url": "http://nagoya.apache.org:5049/axis/services/echo"
                         }
                     ], 
@@ -97,7 +97,7 @@
                     "Lineas": [
                         {
                             "Linea": 99, 
-                            "Texto": "URLEndpoint endpoint = new URLEndpoint(\"http://66.28.98.121:9090/soap\");", 
+                            "Texto": "        URLEndpoint endpoint = new URLEndpoint(\"http://66.28.98.121:9090/soap\");\r\n", 
                             "Url": "http://66.28.98.121:9090/soap"
                         }
                     ], 
@@ -112,7 +112,7 @@
                     "Lineas": [
                         {
                             "Linea": 75, 
-                            "Texto": "* See RFC 1867 (http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt)", 
+                            "Texto": " * See RFC 1867 (http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt)\r\n", 
                             "Url": "http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt"
                         }
                     ], 
