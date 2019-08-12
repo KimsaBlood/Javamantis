@@ -43,5 +43,5 @@ class Excel():
 					worksheet.write(count,1,x.getTexto())
 					worksheet.write(count,2,x.getNumeroLinea())
 					worksheet.write(count,3,f.getNumero())
-					worksheet.write(count,3,x.getUrl())
+					worksheet.write(count,4,x.getUrl())
 					count+=1
