@@ -45,7 +45,7 @@ class Configuracion(Json):
 	def clasificarApps(self):
 		aux=[]
 		for f in self.jsonText["aplicaciones"]:
-			app=Aplicaciones(f["nombre"],f["ruta"])
+			app=Aplicaciones(f["nombre"],f["ruta"],f["carpetas"])
 			aux.append(app)
 		self.setAplicaciones(aux)
 

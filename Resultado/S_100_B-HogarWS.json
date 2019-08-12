@@ -1,0 +1,57 @@
+{
+    "Aplicacion": "S_100_B-HogarWS", 
+    "Prioridades": [
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/src/com/axa/mx/danos/hogarprotegido/clientews/EmisionDanosWSStub.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 1326, 
+                            "Texto": "//http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/", 
+                            "Url": "http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 3
+                }
+            ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/src/com/axa/mx/danos/hogarprotegido/clientews/EmisionDanosWSStub.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 207, 
+                            "Texto": "this(configurationContext,\"http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/\" );", 
+                            "Url": "http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
+                        }, 
+                        {
+                            "Linea": 216, 
+                            "Texto": "this(\"http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/\" );", 
+                            "Url": "http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 3
+                }
+            ], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}

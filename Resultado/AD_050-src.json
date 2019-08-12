@@ -1,0 +1,51 @@
+{
+    "Aplicacion": "AD_050-src", 
+    "Prioridades": [
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_050-src/com/ing/ia3/mx/juridico/rsl/util/ConstantesJuridico.java", 
+                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 223, 
+                            "Texto": "//\"AppServer://10.212.213.3:5214/asbautjuri\";", 
+                            "Url": "AppServer://10.212.213.3:5214/asbautjuri"
+                        }, 
+                        {
+                            "Linea": 225, 
+                            "Texto": "//\"AppServer://130.2.1.21:5178/asbjuridico\";", 
+                            "Url": "AppServer://130.2.1.21:5178/asbjuridico"
+                        }, 
+                        {
+                            "Linea": 227, 
+                            "Texto": "//\"AppServer://130.2.1.17:5170/asbsinijuri\";", 
+                            "Url": "AppServer://130.2.1.17:5170/asbsinijuri"
+                        }, 
+                        {
+                            "Linea": 229, 
+                            "Texto": "//\"AppServer://130.2.1.14:6024/asbjuriressini\";", 
+                            "Url": "AppServer://130.2.1.14:6024/asbjuriressini"
+                        }
+                    ], 
+                    "NombreCad": "Progress", 
+                    "Repeticiones": 4
+                }
+            ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}

@@ -1,16 +1,27 @@
 import codecs
 import re
 from LineasOut import LineasOut
+"""Clase que define la salida de los archivos con su informacion en el json"""
 class ArchivoOut:
+
 	def __init__(self,archivo=None,extension=None,hardcode=None,cadena=None,lineas=None,repeticiones=None,nombre=None):
+		"""Constructor"""
+		#Tipo string
 		self.archivo=archivo
+		#Tipo string
 		self.extension=extension
+		#Tipo string
 		self.hardcode=hardcode
+		#Tipo lineas
 		self.lineas=lineas
+		#tipo string
 		self.cadena=cadena
+		#tipo int
 		self.repeticiones=repeticiones
+		#tipo string
 		self.nombre=nombre
 
+	#getters y setters
 	def getArchivo(self):
 		return self.archivo
 
@@ -66,19 +77,36 @@ class ArchivoOut:
 		return self.lineasDict
 
 	def AsLineasDict(self):
+		"""Asigna en una lista todos los objetos linea de forma para que se genere un json valido"""
 		self.lineasDict=[]
 		for l in self.lineas:
 			self.lineasDict.append(l.toDict())
 	
-	def buscar(self,contenido,cadena):
+	def buscar(self,cadena):
 		j=i=0
 		lineas=[]
-
-		for f in contenido:
-
+		#Recorremos la lista con el contenido del archivo
+		for f in self.contenido:
 			j+=1
+			#Checamos si coincide con la expresion regular
 			if re.match( r''+cadena.getExpresion()+'', f):
-				line=LineasOut(j,f)
+				#creamos un objeto con una epresion regular para extraer las url
+				patron = re.compile("([-|:|\\\\|\w]+:\/\/)(\w*[.|:|/|@|\-|,|=|?|\\\\]*\w*)*")
+				#Buscamos la cadena en la linea del contenido
+				matcher=patron.search(f)
+				#si el objeto no esta vacio creamos un objeto del tipo LineasOut y le pasamos el numero de linea, el texto y la url
+				if matcher:
+					line=LineasOut(j,f,matcher.group(0))
+				else:
+					#si es vacio usamos el segundo filtro para url (url progress por ejemplo)
+					patron = re.compile("(.*url.*=\/\/)(\w*[.|:|/|@|\-|,|=|?|\\\\]*\w*)*")
+					matcher=patron.search(f)
+					#Si no es vacio mandamos el valor de url
+					if matcher:
+						line=LineasOut(j,f,matcher.group(0))
+					#Si es vacio solo pasamos el numero de linea y el contenido d la linea
+					else:
+						line=LineasOut(j,f)
 				lineas.append(line)
 				i+=1	
 		if i!=0:	
@@ -93,7 +121,6 @@ class ArchivoOut:
 		lines2=[]
 		days_file = codecs.open(self.archivo,'r',encoding = "ISO-8859-1")
 		lines=days_file.readlines()
-		#print("Examinando archivo"+file)
 		for f in lines:
 			lines2.append(f.strip())
 		self.contenido=lines2
