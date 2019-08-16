@@ -31,7 +31,7 @@ class Configuracion(Json):
 	def clasificarCadBusqueda(self):
 		aux=[]
 		for f in self.jsonText["cadenasBusqueda"]:
-			cad=CadenasBusqueda(f["nombre"],f["cadena"],f["expresion"])
+			cad=CadenasBusqueda(f["nombre"],f["cadena"],f["expresion"],f["extracciones"])
 			aux.append(cad)
 		self.setCadenasBusqueda(aux)
 
