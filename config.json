@@ -274,9 +274,9 @@
     ],
     "cadenasBusqueda":[
         {
-            "nombre":"DataSource",
+            "nombre":"DataSourceName",
             "cadena":"JNDI",
-            "expresion":"(.*)[j|J][n|N][d|D][i|I](.*)=:(.*)"
+            "expresion":"(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)"
         },
         {
             "nombre":"Progress",
@@ -317,7 +317,7 @@
     "prioridades":[
         {
             "numero":"3",
-            "expresion":"^[\/][\/]|^[#]|^[<][!][-][-]|^[\/][*]",
+            "expresion":"^(.*)[\/][\/]|^(.*)[#]|^(.*)[<][!][-][-]|^(.*)[\/][*]",
             "nombre":"comentarios"
         }
     ]

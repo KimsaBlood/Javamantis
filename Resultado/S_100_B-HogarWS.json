@@ -2,16 +2,6 @@
     "Aplicacion": "S_100_B-HogarWS", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
-            "Archivos": [], 
-            "Nombre": "Sin hardcode", 
-            "Numero": "1"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/src/com/axa/mx/danos/hogarprotegido/clientews/EmisionDanosWSStub.java", 
@@ -39,6 +29,16 @@
                     "Repeticiones": 3
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

@@ -2,11 +2,6 @@
     "Aplicacion": "SRV-100PDP-154", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-100PDP-154/cuentasBancariasDeploy/qa2/cuentasBancarias-qa2.properties", 
@@ -69,6 +64,11 @@
                     "Repeticiones": 1
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

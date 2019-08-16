@@ -2,11 +2,6 @@
     "Aplicacion": "D-132-SPAD", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-132-SPAD/spad/pom.xml", 
@@ -24,6 +19,11 @@
                     "Repeticiones": 1
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

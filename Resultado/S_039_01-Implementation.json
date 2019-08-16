@@ -2,11 +2,6 @@
     "Aplicacion": "S_039_01-Implementation", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_01-Implementation/WSFlotillas/env/qa2/WEB-INF/conf/application.properties", 
@@ -69,6 +64,11 @@
                     "Repeticiones": 1
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

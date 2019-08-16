@@ -2,16 +2,6 @@
     "Aplicacion": "S-116SaludWeb", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
-            "Archivos": [], 
-            "Nombre": "Sin hardcode", 
-            "Numero": "1"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/src/com/axa/mx/saludweb/util/Constantes.java", 
@@ -64,6 +54,16 @@
                     "Repeticiones": 1
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

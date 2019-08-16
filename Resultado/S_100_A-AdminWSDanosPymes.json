@@ -2,11 +2,6 @@
     "Aplicacion": "S_100_A-AdminWSDanosPymes", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_A-AdminWSDanosPymes/env/local/WEB-INF/o4glconfig.xml", 
@@ -84,6 +79,11 @@
                     "Repeticiones": 3
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

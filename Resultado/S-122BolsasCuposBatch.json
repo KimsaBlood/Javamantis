@@ -2,11 +2,6 @@
     "Aplicacion": "S-122BolsasCuposBatch", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-122BolsasCuposBatch/env/local/properties/application.properties", 
@@ -104,6 +99,11 @@
                     "Repeticiones": 3
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

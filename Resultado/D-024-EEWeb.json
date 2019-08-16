@@ -2,11 +2,6 @@
     "Aplicacion": "D-024-EEWeb", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/src/com/isa/simple/SimpleSystem.properties", 
@@ -99,6 +94,11 @@
                     "Repeticiones": 2
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

@@ -2,16 +2,6 @@
     "Aplicacion": "AD_050-src", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
-            "Archivos": [], 
-            "Nombre": "Sin hardcode", 
-            "Numero": "1"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_050-src/com/ing/ia3/mx/juridico/rsl/util/ConstantesJuridico.java", 
@@ -44,6 +34,16 @@
                     "Repeticiones": 4
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

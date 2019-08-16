@@ -10,6 +10,11 @@
                     "Hardcode": "false", 
                     "Lineas": [
                         {
+                            "Linea": 5, 
+                            "Texto": "urlAgentes = jdbc:db2://mxu41l3q:50010/DWH\n", 
+                            "Url": "jdbc:db2://mxu41l3q:50010/DWH"
+                        }, 
+                        {
                             "Linea": 12, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\n", 
                             "Url": "jdbc:db2://10.212.213.11:50005/agentes"
@@ -29,6 +34,11 @@
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "urlAgentes = jdbc:db2://MXU42L3J:50010/DWH\n", 
+                            "Url": "jdbc:db2://MXU42L3J:50010/DWH"
+                        }, 
                         {
                             "Linea": 9, 
                             "Texto": "#urlAgentes = jdbc:db2://10.133.32.154:50030/DWH\n", 
@@ -74,60 +84,34 @@
                     "Repeticiones": 3
                 }, 
                 {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/qa/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 416, 
-                            "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidadm\r\n", 
-                            "Url": "AppServer://Ing_bkp2:5305/asbvidadm"
+                            "Linea": 38, 
+                            "Texto": "#       JNDIDataSourceName\r\n", 
+                            "Url": null
                         }, 
                         {
-                            "Linea": 417, 
-                            "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidaweb\r\n", 
-                            "Url": "AppServer://Ing_bkp2:5305/asbvidaweb"
-                        }
-                    ], 
-                    "NombreCad": "Progress", 
-                    "Repeticiones": 3
-                }
-            ], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
-            "Archivos": [
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/ProgsUnix/IMSS/env/qa/pruebajaredocta.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)", 
-                    "Extension": ".properties", 
-                    "Hardcode": "false", 
-                    "Lineas": [
+                            "Linea": 111, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
+                            "Url": null
+                        }, 
                         {
-                            "Linea": 5, 
-                            "Texto": "urlAgentes = jdbc:db2://mxu41l3q:50010/DWH\n", 
-                            "Url": "jdbc:db2://mxu41l3q:50010/DWH"
-                        }
-                    ], 
-                    "NombreCad": "JDBC", 
-                    "Repeticiones": 3
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/ProgsUnix/IMSS/env/dev/pruebajaredocta.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)", 
-                    "Extension": ".properties", 
-                    "Hardcode": "false", 
-                    "Lineas": [
+                            "Linea": 126, 
+                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n", 
+                            "Url": null
+                        }, 
                         {
-                            "Linea": 5, 
-                            "Texto": "urlAgentes = jdbc:db2://MXU42L3J:50010/DWH\n", 
-                            "Url": "jdbc:db2://MXU42L3J:50010/DWH"
+                            "Linea": 158, 
+                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n", 
+                            "Url": null
                         }
                     ], 
-                    "NombreCad": "JDBC", 
-                    "Repeticiones": 4
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/framework.properties", 
@@ -170,6 +154,16 @@
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
+                        {
+                            "Linea": 416, 
+                            "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidadm\r\n", 
+                            "Url": "AppServer://Ing_bkp2:5305/asbvidadm"
+                        }, 
+                        {
+                            "Linea": 417, 
+                            "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidaweb\r\n", 
+                            "Url": "AppServer://Ing_bkp2:5305/asbvidaweb"
+                        }, 
                         {
                             "Linea": 418, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
@@ -283,13 +277,7 @@
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
-                }
-            ], 
-            "Nombre": "Sin hardcode", 
-            "Numero": "1"
-        }, 
-        {
-            "Archivos": [
+                }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/cargaArchivos.jsp", 
                     "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)", 
@@ -319,8 +307,114 @@
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 38, 
+                            "Texto": "#       JNDIDataSourceName\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 92, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 107, 
+                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 116, 
+                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 9
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 57, 
+                            "Texto": "\tJNDIDataSourceName=ReportesNaranjaDS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 134, 
+                            "Texto": "\tJNDIDataSourceName=dwhDS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 166, 
+                            "Texto": "\tJNDIDataSourceName=dwhupdaDS|\\\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 8
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 53, 
+                            "Texto": "TheDBConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/ReportesNaranjaDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=Reportes DS Not Available|\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 55, 
+                            "Texto": "TheContactAXAConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/contactINGDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=ContactING DS Not Available|\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "TheCatComConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/catComServDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=CatComServ DS Not Available|\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 59, 
+                            "Texto": "TheDB2Connection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/dwhDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=TheDBConnection Not Available|\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 61, 
+                            "Texto": "TheDB2Connection_Updated_Daily=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java:comp/env/dwhupdaDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=TheDBConnection Not Available|\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 9
+                }
+            ], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

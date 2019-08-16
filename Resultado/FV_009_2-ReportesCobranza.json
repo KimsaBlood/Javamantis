@@ -2,12 +2,112 @@
     "Aplicacion": "FV_009_2-ReportesCobranza", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/axis-1_1/samples/userguide/example1/TestClient.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 68, 
+                            "Texto": "                    \"http://nagoya.apache.org:5049/axis/services/echo\";\r\n", 
+                            "Url": "http://nagoya.apache.org:5049/axis/services/echo"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/axis-1_1/samples/jaxm/DelayedStockQuote.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 99, 
+                            "Texto": "        URLEndpoint endpoint = new URLEndpoint(\"http://66.28.98.121:9090/soap\");\r\n", 
+                            "Url": "http://66.28.98.121:9090/soap"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/sampleapp/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 55, 
+                            "Texto": "#\tJNDIDataSourceName=WebLogic_CMP_RDBMS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 106, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/jakarta-struts-1.1/src/share/org/apache/struts/upload/MultipartValueStream.java", 
+                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 75, 
+                            "Texto": " * See RFC 1867 (http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt)\r\n", 
+                            "Url": "http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/src/com/framework/misc/DatabaseQuerier.java", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 278, 
+                            "Texto": "            if ( sJNDIDataSourceName != null )  // use it\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 38, 
+                            "Texto": "#       JNDIDataSourceName\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 96, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 3
+                }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/env/local/properties/framework.properties", 
                     "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
@@ -69,55 +169,111 @@
                     "Repeticiones": 1
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/sampleapp/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 62, 
+                            "Texto": "\tJNDIDataSourceName=WebLogic_CMP_RDBMS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 72, 
+                            "Texto": "\tJNDIDataSourceName=OracleXADS|\\\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 82, 
+                            "Texto": "\tJNDIDataSourceName=DB2XADS|\\\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/properties/connectionpool.properties", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 57, 
+                            "Texto": "\tJNDIDataSourceName=ReportesCobranzaDS|\\\r\n", 
+                            "Url": null
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 3
+                }
+            ], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 
         {
             "Archivos": [
                 {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/axis-1_1/samples/userguide/example1/TestClient.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/aib/com/framework/codetemplate/ConnectionPoolInputs.java", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
-                            "Linea": 68, 
-                            "Texto": "                    \"http://nagoya.apache.org:5049/axis/services/echo\";\r\n", 
-                            "Url": "http://nagoya.apache.org:5049/axis/services/echo"
+                            "Linea": 100, 
+                            "Texto": "            sFormat.append( \"\\tJNDIDataSourceName=\" + this.m_sJNDIName + \"|\\\\\\n\" );\r\n", 
+                            "Url": null
                         }
                     ], 
-                    "NombreCad": "IP", 
+                    "NombreCad": "DataSourceName", 
                     "Repeticiones": 1
                 }, 
                 {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/axis-1_1/samples/jaxm/DelayedStockQuote.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/src/com/framework/misc/DatabaseQuerier.java", 
+                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
-                            "Linea": 99, 
-                            "Texto": "        URLEndpoint endpoint = new URLEndpoint(\"http://66.28.98.121:9090/soap\");\r\n", 
-                            "Url": "http://66.28.98.121:9090/soap"
-                        }
-                    ], 
-                    "NombreCad": "IP", 
-                    "Repeticiones": 1
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/jakarta-struts-1.1/src/share/org/apache/struts/upload/MultipartValueStream.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
-                    "Extension": ".java", 
-                    "Hardcode": "true", 
-                    "Lineas": [
+                            "Linea": 216, 
+                            "Texto": "    public String getJNDIDataSourceName()\r\n", 
+                            "Url": null
+                        }, 
                         {
-                            "Linea": 75, 
-                            "Texto": " * See RFC 1867 (http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt)\r\n", 
-                            "Url": "http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt"
+                            "Linea": 218, 
+                            "Texto": "        return( (String)getProperties().get( JNDIDataSourceName ) );\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 276, 
+                            "Texto": "            String sJNDIDataSourceName      = getJNDIDataSourceName();\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 289, 
+                            "Texto": "                    DataSource ds = (DataSource)getDataSourceFromCache( sJNDIDataSourceName );\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 300, 
+                            "Texto": "                    ConnectionPoolDataSource ds = (ConnectionPoolDataSource)getDataSourceFromCache( sJNDIDataSourceName );\r\n", 
+                            "Url": null
+                        }, 
+                        {
+                            "Linea": 1463, 
+                            "Texto": "    private final static String     JNDIDataSourceName = \"JNDIDataSourceName\";\r\n", 
+                            "Url": null
                         }
                     ], 
-                    "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 7
                 }
             ], 
             "Nombre": "HardCode", 

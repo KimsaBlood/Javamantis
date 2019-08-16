@@ -2,11 +2,6 @@
     "Aplicacion": "SRV-080-MAIN", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/target/CuentaBancariaWS/WEB-INF/o4glconfig.xml", 
@@ -619,6 +614,11 @@
                     "Repeticiones": 2
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 

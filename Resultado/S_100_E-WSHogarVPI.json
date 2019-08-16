@@ -2,11 +2,6 @@
     "Aplicacion": "S_100_E-WSHogarVPI", 
     "Prioridades": [
         {
-            "Archivos": [], 
-            "Nombre": "comentarios", 
-            "Numero": "3"
-        }, 
-        {
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/env/local/conf/WEB-INF/o4glconfig.xml", 
@@ -99,6 +94,11 @@
                     "Repeticiones": 2
                 }
             ], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 
