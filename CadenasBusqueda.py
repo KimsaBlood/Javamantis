@@ -1,4 +1,5 @@
 class CadenasBusqueda:
+	""""""
 	def __init__(self,nombre,cadena,expresion):
 		self.nombre=nombre
 		self.cadena=cadena
