@@ -5,19 +5,21 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/test/com/ing/ia3/mx/seguros/autos/emisionpolizas/proxy/ConsultaAutosProxyTest.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 26, 
                             "Texto": "\t\t// urlString = \"AppServer://ds_vida:5235/asbautwse\";\r\n", 
-                            "Url": "AppServer://ds_vida:5235/asbautwse"
+                            "url": "AppServer://ds_vida:5235/asbautwse"
                         }, 
                         {
                             "Linea": 27, 
                             "Texto": "\t\turlString = \"AppServer://ds_vida:5235/asbautwse2\";\r\n", 
-                            "Url": "AppServer://ds_vida:5235/asbautwse2"
+                            "url": "AppServer://ds_vida:5235/asbautwse2"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -25,234 +27,723 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/build/classes/com/ing/ia3/mx/seguros/autos/emisionpolizas/resource/parametros.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 14, 
                             "Texto": "URL_WS1=http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "Url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "URL_WS2=http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "Url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
                         }
                     ], 
                     "NombreCad": "IP", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 145, 
+                            "Texto": "\t<!-- Configuraci\u00c3\u00b3n de recursos JNDI -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 97, 
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
                     "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
+                            "null": null, 
                             "Linea": 39, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
+                            "Texto": "#       JNDIDataSourceName\r\n"
                         }, 
                         {
+                            "null": null, 
                             "Linea": 97, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 161, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 179, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 209, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 218, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 241, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
                         }
                     ], 
-                    "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/EmisionPolizasWS.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 166, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 169, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/classes/com/ing/ia3/mx/seguros/autos/emisionpolizas/resource/parametros.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 14, 
                             "Texto": "URL_WS1=http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "Url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "URL_WS2=http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "Url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 17, 
+                            "Texto": "\t\tdescription=\"JMS Connection Factory\" factory=\"org.apache.activemq.jndi.JNDIReferenceFactory\" brokerURL=\"vm://localhost\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 39, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 97, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 39, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 97, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 161, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 179, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 209, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 218, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 241, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/EmisionPolizasWS.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 166, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 169, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 39, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 97, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 39, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 97, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 161, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 179, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 211, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 220, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 243, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/EmisionPolizasWS.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 166, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 169, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 39, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 97, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 39, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 97, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 161, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 179, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 209, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 218, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 241, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/EmisionPolizasWS.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 166, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 169, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 39, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 97, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 39, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 97, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 161, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 179, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 211, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 220, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 243, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/EmisionPolizasWS.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 166, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 169, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 190, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 145, 
+                            "Texto": "\t<!-- Configuraci\u00c3\u00b3n de recursos JNDI -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 17, 
+                            "Texto": "\t\tdescription=\"JMS Connection Factory\" factory=\"org.apache.activemq.jndi.JNDIReferenceFactory\" brokerURL=\"vm://localhost\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/resource/parametros.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 14, 
                             "Texto": "URL_WS1=http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "Url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "URL_WS2=http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "Url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -260,14 +751,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/gestiondocumental/ecmws/EcmWSClient.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 59, 
                             "Texto": "    \t//String url  = \"http://servicioswebdev.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS\";\r\n", 
-                            "Url": "http://servicioswebdev.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "http://servicioswebdev.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -275,14 +768,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/gestiondocumental/ecmws/EcmWSClient.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 60, 
                             "Texto": "    \t//String url  = \"http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS\";\r\n", 
-                            "Url": "http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -290,14 +785,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/action/CondicionesEmisionAction.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
+                            "null": null, 
                             "Linea": 718, 
-                            "Texto": "            // ING:18/06/08\r\n", 
-                            "Url": null
+                            "Texto": "            // ING:18/06/08\r\n"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -311,85 +808,474 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=EmisionPolizasWSDataSource", 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 199, 
+                            "Texto": "\tJNDIName=jms/queueEmisionAutos|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 195, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 330, 
+                            "Texto": "JNDI_MTCF = jms/WSEITCF\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 331, 
+                            "Texto": "JNDI_TOPIC = jms/WSEITOPIC\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 21, 
+                            "Texto": "\t\tdescription=\"EmisionPolizasQueue\" factory=\"org.apache.activemq.jndi.JNDIReferenceFactory\" physicalName=\"EMISION.POLIZAS.Q\" />\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=EmisionPolizasWSDataSource", 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 199, 
+                            "Texto": "\tJNDIName=jms/queueEmisionAutos|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 195, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 331, 
+                            "Texto": "JNDI_MTCF = jms/WSEITCF\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 332, 
+                            "Texto": "JNDI_TOPIC = jms/WSEITOPIC\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=EmisionPolizasWSDataSource", 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 199, 
+                            "Texto": "\tJNDIName=java:comp/env/jms/queueEmisionAutos|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 195, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 331, 
+                            "Texto": "JNDI_MTCF = jms/WSEITCF\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 332, 
+                            "Texto": "JNDI_TOPIC = jms/WSEITOPIC\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=EmisionPolizasWSDataSource", 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 199, 
+                            "Texto": "\tJNDIName=jms/queueEmisionAutos|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 195, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 330, 
+                            "Texto": "JNDI_MTCF = jms/WSEITCF\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 331, 
+                            "Texto": "JNDI_TOPIC = jms/WSEITOPIC\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=EmisionPolizasWSDataSource", 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 199, 
+                            "Texto": "\tJNDIName=java:comp/env/jms/queueEmisionAutos|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/EmisionPolizasWS.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 195, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 330, 
+                            "Texto": "JNDI_MTCF = jms/WSEITCF\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 331, 
+                            "Texto": "JNDI_TOPIC = jms/WSEITOPIC\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 21, 
+                            "Texto": "\t\tdescription=\"EmisionPolizasQueue\" factory=\"org.apache.activemq.jndi.JNDIReferenceFactory\" physicalName=\"EMISION.POLIZAS.Q\" />\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
                 }
             ], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/util/FrameworkTopicWriter.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 42, 
+                            "Texto": "     * Writes a Message on the Default Topic with JNDI names received as parameters.  The message is of type ObjectMessage\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 51, 
+                            "Texto": "            String mtcf = Utility.getFrameworkProperties().getProperty(\"JNDI_MTCF\");\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 52, 
+                            "Texto": "            String topic = Utility.getFrameworkProperties().getProperty(\"JNDI_TOPIC\");\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 113, 
+                            "Texto": "     * Writes a Message on the Default Queue with JNDI names received as parameters.  The message is of type ObjectMessage\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 122, 
+                            "Texto": "            String mqcf = Utility.getFrameworkProperties().getProperty(\"JNDI_MTCF\");\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 123, 
+                            "Texto": "            String queue = Utility.getFrameworkProperties().getProperty(\"JNDI_TOPIC\");\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/ejb/SeriesServiceSessionBean.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 33, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, obtiene las series por producto.\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 62, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, obtiene las series por solicitante.\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 91, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, obtiene las series por solicitante\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 127, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, obtiene las series \r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 158, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, obtiene las series \r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 189, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, crea una serie con \r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 219, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, borra una serie especifica por \r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 249, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, envia a borrar todas las\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 279, 
+                            "Texto": "     * Crea el DAO por medio del JNDI, envia a borrar todas las\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 9
+                }
+            ], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

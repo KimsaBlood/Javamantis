@@ -5,19 +5,21 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/target/VisorCFDPlusXApp/WEB-INF/classes/config/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 7, 
                             "Texto": "#ecm.conexion = mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027, lu2mdb02.asefitest.mex:27027, lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
+                            "url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
                         }, 
                         {
                             "Linea": 8, 
                             "Texto": "ecm.conexion = mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -25,19 +27,21 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/target/classes/config/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 7, 
                             "Texto": "#ecm.conexion = mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027, lu2mdb02.asefitest.mex:27027, lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
+                            "url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
                         }, 
                         {
                             "Linea": 8, 
                             "Texto": "ecm.conexion = mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -45,19 +49,21 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/resources/config/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 7, 
                             "Texto": "#ecm.conexion = mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027, lu2mdb02.asefitest.mex:27027, lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
+                            "url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
                         }, 
                         {
                             "Linea": 8, 
                             "Texto": "ecm.conexion = mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -65,14 +71,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/java/mx/com/axa/ecm/visorCFD/ecmWS/EcmWS_ServiceLocator.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 27, 
                             "Texto": "    private java.lang.String ecmWS_address = \"http://serviciosweb.axa.com.mx:9185/dp/services/ecm\";\r\n", 
-                            "Url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm"
+                            "url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -80,14 +88,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/java/mx/com/axa/ecm/visorCFD/ecmWS/EcmWS_ServiceLocator.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 25, 
                             "Texto": "    //private java.lang.String ecmWS_address = \"http://10.77.5.75:9185/dp/services/ecm\";\r\n", 
-                            "Url": "http://10.77.5.75:9185/dp/services/ecm"
+                            "url": "http://10.77.5.75:9185/dp/services/ecm"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -95,19 +105,21 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/java/mx/com/axa/ecm/visorCFD/mongodb/ConexionBD.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[m|M][o|O][n|N][g|G][o|O][d|D][b|B]://(.*):(.*)@((.*):[0-9]{2,5})+/(.*)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 29, 
                             "Texto": "\t\t\t\t\"mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM\");\r\n", 
-                            "Url": "mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM"
+                            "url": "mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM"
                         }, 
                         {
                             "Linea": 31, 
                             "Texto": "\t\t//URI = new MongoClientURI(\"mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\");\r\n", 
-                            "Url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 

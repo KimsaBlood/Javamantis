@@ -5,224 +5,724 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
-                        {
-                            "Linea": 37, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
                         {
                             "Linea": 109, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
-                        }
-                    ], 
-                    "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
-                    "Extension": ".properties", 
-                    "Hardcode": "false", 
-                    "Lineas": [
-                        {
-                            "Linea": 279, 
-                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
-                        }
-                    ], 
-                    "NombreCad": "IP", 
-                    "Repeticiones": 1
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
-                    "Extension": ".properties", 
-                    "Hardcode": "false", 
-                    "Lineas": [
-                        {
-                            "Linea": 37, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
-                            "Linea": 95, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 3
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 109, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 191, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 202, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 211, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 221, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 230, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 253, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 279, 
+                            "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 141, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 95, 
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 95, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 159, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 177, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 188, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 197, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 207, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 216, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 239, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 277, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 141, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 37, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 110, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 110, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 174, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 192, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 203, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 212, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 222, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 231, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 254, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 141, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 37, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 109, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 109, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 191, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 202, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 211, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 221, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 230, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 253, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 141, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 37, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 110, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 110, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 174, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 192, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 203, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 212, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 222, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 231, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 254, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 141, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 37, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 109, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 37, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 109, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 191, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 202, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 211, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 221, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 230, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 253, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 141, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.  \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/dao/ControlCargaMasivaBonosDAO.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 235, 
                             "Texto": "                case ConstantesCarga.PROCESO_16_BORRA_PROMO_BAC://agentes, 5. Agrupa PromoBAC //{campo = \"CVE_CC_TITULAR\"; tabla = \"GEN_DIM_CC_BONOS_BAC\";}\r\n", 
-                            "Url": "PROCESO_16_BORRA_PROMO_BAC://agentes,"
+                            "url": "PROCESO_16_BORRA_PROMO_BAC://agentes,"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -236,34 +736,143 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 146, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "Texto": "\tJNDIDataSourceName=bonosDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "DataSourceName", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 56, 
+                            "Texto": "\tJNDIDataSourceName=bonosDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 146, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 56, 
+                            "NombreSource": "=bonosOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
+                        }, 
+                        {
+                            "Linea": 71, 
+                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
@@ -271,90 +880,1803 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
+                            "null": null, 
                             "Linea": 56, 
-                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n", 
-                            "Url": null
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
+                            "null": null, 
                             "Linea": 71, 
-                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n", 
-                            "Url": null
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
-                    "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 146, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 146, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 56, 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 146, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 4
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 11
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 146, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
                 }
             ], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/InventarioProcesosEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.InventarioProcesosDAO) factory.getFrameworkDAO(InventarioProcesosJNDINames.INVENTARIOPROCESOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    InventarioProcesosJNDINames.INVENTARIOPROCESOSSERVICE_EJBHOME, InventarioProcesosServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_PRODUCTOEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_PRODUCTODAO) factory.getFrameworkDAO(GEN_DIM_PRODUCTOJNDINames.GEN_DIM_PRODUCTO_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_PRODUCTOJNDINames.GEN_DIM_PRODUCTOSERVICE_EJBHOME, GEN_DIM_PRODUCTOServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCCAgrupaEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimCCAgrupaDAO) factory.getFrameworkDAO(GenDimCCAgrupaJNDINames.GENDIMCCAGRUPA_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimCCAgrupaJNDINames.GENDIMCCAGRUPASERVICE_EJBHOME, GenDimCCAgrupaServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCambioCCJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimCambioCCJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_POLEXCLUJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_POLEXCLUJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimProductoEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimProductoDAO) factory.getFrameworkDAO(GenDimProductoJNDINames.GENDIMPRODUCTO_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimProductoJNDINames.GENDIMPRODUCTOSERVICE_EJBHOME, GenDimProductoServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_POLEXCLUEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_POLEXCLUDAO) factory.getFrameworkDAO(GEN_DIM_POLEXCLUJNDINames.GEN_DIM_POLEXCLU_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_POLEXCLUJNDINames.GEN_DIM_POLEXCLUSERVICE_EJBHOME, GEN_DIM_POLEXCLUServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimAgentesJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimAgentesJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/BONOS_RAMOS_FUENTESEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.BONOS_RAMOS_FUENTESDAO) factory.getFrameworkDAO(BONOS_RAMOS_FUENTESJNDINames.BONOS_RAMOS_FUENTES_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    BONOS_RAMOS_FUENTESJNDINames.BONOS_RAMOS_FUENTESSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_PRODUCTOJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_PRODUCTOJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCambioCCEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimCambioCCDAO) factory.getFrameworkDAO(GenDimCambioCCJNDINames.GENDIMCAMBIOCC_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimCambioCCJNDINames.GENDIMCAMBIOCCSERVICE_EJBHOME, GenDimCambioCCServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCCAgrupaBacEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimCCAgrupaBacDAO) factory.getFrameworkDAO(GenDimCCAgrupaBacJNDINames.GENDIMCCAGRUPABAC_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimCCAgrupaBacJNDINames.GENDIMCCAGRUPABACSERVICE_EJBHOME, GenDimCCAgrupaBacServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacReciboChdeEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenFacReciboChdeDAO) factory.getFrameworkDAO(GenFacReciboChdeJNDINames.GENFACRECIBOCHDE_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenFacReciboChdeJNDINames.GENFACRECIBOCHDESERVICE_EJBHOME, GenFacReciboChdeServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_AGENTESEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_AGENTESDAO) factory.getFrameworkDAO(GEN_DIM_AGENTESJNDINames.GEN_DIM_AGENTES_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_AGENTESJNDINames.GEN_DIM_AGENTESSERVICE_EJBHOME, GEN_DIM_AGENTESServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_EXCLUSIONESJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_EXCLUSIONESJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_DEFINICION_BONOJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_DEFINICION_BONOJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimTipoCambioJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimTipoCambioJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCCAgrupaJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimCCAgrupaJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/ControlCargaMasivaBonosEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 60, 
+                            "Texto": "            gControlCargaMasivaBonosHome = (ControlCargaMasivaBonosHome)RemoteEJBServiceLocator.getEJBServiceLocator().lookup( ControlCargaMasivaBonosJNDINames.CONTROLCARGAMASIVABONOS_EJBHOME );\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 76, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.ControlCargaMasivaBonosDAO) factory.getFrameworkDAO(ControlCargaMasivaBonosJNDINames.CONTROLCARGAMASIVABONOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 94, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.LogErrorDAO) factory.getFrameworkDAO(ControlCargaMasivaBonosJNDINames.LOGERRORES_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 115, 
+                            "Texto": "                    ControlCargaMasivaBonosJNDINames.CONTROLCARGAMASIVABONOSSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCtlProcesosEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimCtlProcesosDAO) factory.getFrameworkDAO(GenDimCtlProcesosJNDINames.GENDIMCTLPROCESOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimCtlProcesosJNDINames.GENDIMCTLPROCESOSSERVICE_EJBHOME, GenDimCtlProcesosServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimTarifasBacJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimTarifasBacJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimTipoCambioEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimTipoCambioDAO) factory.getFrameworkDAO(GenDimTipoCambioJNDINames.GENDIMTIPOCAMBIO_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimTipoCambioJNDINames.GENDIMTIPOCAMBIOSERVICE_EJBHOME, GenDimTipoCambioServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCalendarizacionEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimCalendarizacionDAO) factory.getFrameworkDAO(GenDimCalendarizacionJNDINames.GENDIMCALENDARIZACION_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimCalendarizacionJNDINames.GENDIMCALENDARIZACIONSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimProductoJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimProductoJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_COBERTURASJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_COBERTURASJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/BONOS_RAMOS_FUENTESJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface BONOS_RAMOS_FUENTESJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacReciboChdeJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenFacReciboChdeJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimConcepBonoBacJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimConcepBonoBacJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenTmpMatrizDefEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenTmpMatrizDefDAO) factory.getFrameworkDAO(GenTmpMatrizDefJNDINames.GENTMPMATRIZDEF_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenTmpMatrizDefJNDINames.GENTMPMATRIZDEFSERVICE_EJBHOME, GenTmpMatrizDefServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacAnticiposEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenFacAnticiposDAO) factory.getFrameworkDAO(GenFacAnticiposJNDINames.GENFACANTICIPOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 77, 
+                            "Texto": "                    GenFacAnticiposJNDINames.GENFACANTICIPOSSERVICE_EJBHOME, GenFacAnticiposServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_DIVIDENDOSJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_DIVIDENDOSJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimMetasBacJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimMetasBacJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCCAgrupaBacJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimCCAgrupaBacJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimAgtAgrupaEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimAgtAgrupaDAO) factory.getFrameworkDAO(GenDimAgtAgrupaJNDINames.GENDIMAGTAGRUPA_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimAgtAgrupaJNDINames.GENDIMAGTAGRUPASERVICE_EJBHOME, GenDimAgtAgrupaServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacAnticiposEspeJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 6, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": "public interface GenFacAnticiposEspeJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/ProxyAnticiposEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "                    ProxyAnticiposJNDINames.PROXYANTICIPOSSERVICE_EJBHOME, ProxyAnticiposServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_BLOQUEOSEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_BLOQUEOSDAO) factory.getFrameworkDAO(GEN_DIM_BLOQUEOSJNDINames.GEN_DIM_BLOQUEOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_BLOQUEOSJNDINames.GEN_DIM_BLOQUEOSSERVICE_EJBHOME, GEN_DIM_BLOQUEOSServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_DEFINICION_BONOEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_DEFINICION_BONODAO) factory.getFrameworkDAO(GEN_DIM_DEFINICION_BONOJNDINames.GEN_DIM_DEFINICION_BONO_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_DEFINICION_BONOJNDINames.GEN_DIM_DEFINICION_BONOSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/ProxyAnticiposJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 6, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": "public interface ProxyAnticiposJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimEstructuraJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimEstructuraJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacAnticiposEspeEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenFacAnticiposEspeDAO) factory.getFrameworkDAO(GenFacAnticiposEspeJNDINames.GENFACANTICIPOSESPE_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 77, 
+                            "Texto": "                    GenFacAnticiposEspeJNDINames.GENFACANTICIPOSESPESERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimGeneracionesJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimGeneracionesJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimGeneracionesEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimGeneracionesDAO) factory.getFrameworkDAO(GenDimGeneracionesJNDINames.GENDIMGENERACIONES_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimGeneracionesJNDINames.GENDIMGENERACIONESSERVICE_EJBHOME, GenDimGeneracionesServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_DIVIDENDOSEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_DIVIDENDOSDAO) factory.getFrameworkDAO(GEN_DIM_DIVIDENDOSJNDINames.GEN_DIM_DIVIDENDOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_DIVIDENDOSJNDINames.GEN_DIM_DIVIDENDOSSERVICE_EJBHOME, GEN_DIM_DIVIDENDOSServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenTmpMatrizEspecialesJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenTmpMatrizEspecialesJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenTmpMatrizEspecialesEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenTmpMatrizEspecialesDAO) factory.getFrameworkDAO(GenTmpMatrizEspecialesJNDINames.GenTmpMatrizEspeciales_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenTmpMatrizEspecialesJNDINames.GenTmpMatrizEspecialesSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimAgtAgrupaJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimAgtAgrupaJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/ControlCargaMasivaBonosJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface ControlCargaMasivaBonosJNDINames {\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 32, 
+                            "Texto": "     * with java:comp/env/ and use the standard JNDI name\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/InventarioProcesosJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface InventarioProcesosJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimTarifasBacEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimTarifasBacDAO) factory.getFrameworkDAO(GenDimTarifasBacJNDINames.GENDIMTARIFASBAC_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimTarifasBacJNDINames.GENDIMTARIFASBACSERVICE_EJBHOME, GenDimTarifasBacServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimAgentesEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimAgentesDAO) factory.getFrameworkDAO(GenDimAgentesJNDINames.GENDIMAGENTES_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimAgentesJNDINames.GENDIMAGENTESSERVICE_EJBHOME, GenDimAgentesServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacAnticiposJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 6, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": "public interface GenFacAnticiposJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacBonoReciboJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenFacBonoReciboJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_BLOQUEOSJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_BLOQUEOSJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_AGENTESJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_AGENTESJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCtlProcesosJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimCtlProcesosJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimConcepBonoBacEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimConcepBonoBacDAO) factory.getFrameworkDAO(GenDimConcepBonoBacJNDINames.GENDIMCONCEPBONOBAC_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimConcepBonoBacJNDINames.GENDIMCONCEPBONOBACSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenTmpDescuentosJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenTmpDescuentosJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_ESTRUCTURAEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_ESTRUCTURADAO) factory.getFrameworkDAO(GEN_DIM_ESTRUCTURAJNDINames.GEN_DIM_ESTRUCTURA_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_ESTRUCTURAJNDINames.GEN_DIM_ESTRUCTURASERVICE_EJBHOME, GEN_DIM_ESTRUCTURAServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_EXCLUSIONESEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_EXCLUSIONESDAO) factory.getFrameworkDAO(GEN_DIM_EXCLUSIONESJNDINames.GEN_DIM_EXCLUSIONES_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_EXCLUSIONESJNDINames.GEN_DIM_EXCLUSIONESSERVICE_EJBHOME,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenTmpMatrizDefJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenTmpMatrizDefJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimCalendarizacionJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GenDimCalendarizacionJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_ESTRUCTURAJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 11, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 16, 
+                            "Texto": "public interface GEN_DIM_ESTRUCTURAJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimMetasBacEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimMetasBacDAO) factory.getFrameworkDAO(GenDimMetasBacJNDINames.GENDIMMETASBAC_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimMetasBacJNDINames.GENDIMMETASBACSERVICE_EJBHOME, GenDimMetasBacServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacBonoReciboEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenFacBonoReciboDAO) factory.getFrameworkDAO(GenFacBonoReciboJNDINames.GENFACBONORECIBO_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenFacBonoReciboJNDINames.GENFACBONORECIBOSERVICE_EJBHOME, GenFacBonoReciboServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenTmpDescuentosEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenTmpDescuentosDAO) factory.getFrameworkDAO(GenTmpDescuentosJNDINames.GENTMPDESCUENTOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenTmpDescuentosJNDINames.GENTMPDESCUENTOSSERVICE_EJBHOME, GenTmpDescuentosServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacDetAnticiposJNDINames.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 6, 
+                            "Texto": " * JNDI names of various entities. Any change here should\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 12, 
+                            "Texto": "public interface GenFacDetAnticiposJNDINames {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenFacDetAnticiposEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenFacDetAnticiposDAO) factory.getFrameworkDAO(GenFacDetAnticiposJNDINames.GENFACDETANTICIPOS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 77, 
+                            "Texto": "                    GenFacDetAnticiposJNDINames.GENFACDETANTICIPOSSERVICE_EJBHOME, GenFacDetAnticiposServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GenDimEstructuraEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GenDimEstructuraDAO) factory.getFrameworkDAO(GenDimEstructuraJNDINames.GENDIMESTRUCTURA_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 81, 
+                            "Texto": "                    GenDimEstructuraJNDINames.GENDIMESTRUCTURASERVICE_EJBHOME, GenDimEstructuraServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/misc/GEN_DIM_COBERTURASEJBUtil.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "            dao = (com.ing.ia3.mx.bonos.dao.GEN_DIM_COBERTURASDAO) factory.getFrameworkDAO(GEN_DIM_COBERTURASJNDINames.GEN_DIM_COBERTURAS_DAO);\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 82, 
+                            "Texto": "                    GEN_DIM_COBERTURASJNDINames.GEN_DIM_COBERTURASSERVICE_EJBHOME, GEN_DIM_COBERTURASServiceHome.class);\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 2
+                }
+            ], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

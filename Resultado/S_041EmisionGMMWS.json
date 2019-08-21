@@ -5,14 +5,16 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/test/test/PrsavecotizaDAOTest.java", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 470, 
                             "Texto": "            String appserver = \"http://ux_desa5:5165/asbliongmi\";\r\n", 
-                            "Url": "http://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -20,14 +22,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/build/WEB-INF/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://10.133.32.158:5180/asbliongmi", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -35,14 +39,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/build/classes/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "Url": "http://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -50,14 +56,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "Url": "http://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -65,19 +73,21 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/bin/WEB-INF/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "#AppServer = http://10.133.32.158:5180/asbliongmi\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }, 
                         {
                             "Linea": 3, 
                             "Texto": "AppServer = http://ux_desa5:5165/asbliongmi", 
-                            "Url": "http://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -85,14 +95,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/bin/WEB-INF/classes/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "Url": "http://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -100,14 +112,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/bin/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "Url": "http://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -115,14 +129,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa2/WEB-INF/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 15, 
                             "Texto": "\t\t<url>http://ux_desa5:5165/asbliongmi</url>\r\n", 
-                            "Url": "http://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -130,14 +146,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa2/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP188:5018/asbliongmi\r\n", 
-                            "Url": "AppServer://LU2APP188:5018/asbliongmi"
+                            "url": "AppServer://LU2APP188:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -145,14 +163,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa/WEB-INF/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 15, 
                             "Texto": "\t\t<url>http://ux_desa5:5165/asbliongmi</url>\r\n", 
-                            "Url": "http://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -160,14 +180,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP88:5018/asbliongmi\r\n", 
-                            "Url": "AppServer://LU2APP88:5018/asbliongmi"
+                            "url": "AppServer://LU2APP88:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -175,14 +197,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/dev2/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP190:5018/asbliongmi", 
-                            "Url": "AppServer://LU2APP190:5018/asbliongmi"
+                            "url": "AppServer://LU2APP190:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -190,14 +214,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/dev/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP87:5018/asbliongmi", 
-                            "Url": "AppServer://LU2APP87:5018/asbliongmi"
+                            "url": "AppServer://LU2APP87:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -205,14 +231,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/preprod/WEB-INF/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 15, 
                             "Texto": "\t\t<url>http://ux_desa5:5165/asbliongmi</url>\r\n", 
-                            "Url": "http://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -220,14 +248,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/preprod/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP89:5018/asbliongmi\r\n", 
-                            "Url": "AppServer://LU2APP89:5018/asbliongmi"
+                            "url": "AppServer://LU2APP89:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -235,14 +265,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/prod/WEB-INF/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 14, 
                             "Texto": "\t\t<url>http://k9000:5165/asbliongmi</url>\r\n", 
-                            "Url": "http://k9000:5165/asbliongmi"
+                            "url": "http://k9000:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -250,14 +282,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/prod/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = Appserver://LU1APP93:5018/asbliongmi", 
-                            "Url": "Appserver://LU1APP93:5018/asbliongmi"
+                            "url": "Appserver://LU1APP93:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -265,14 +299,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/WebContent/WEB-INF/properties/proxy.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "Url": "http://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -280,14 +316,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/ConexionLegado_ConexionLegadoPort_Server.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 21, 
                             "Texto": "        String address = \"http://portaldev.asefi.mex:80/EmisionGMMWS/ConexionLegadoPort\";\r\n", 
-                            "Url": "http://portaldev.asefi.mex:80/EmisionGMMWS/ConexionLegadoPort"
+                            "url": "http://portaldev.asefi.mex:80/EmisionGMMWS/ConexionLegadoPort"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -295,14 +333,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsCuestDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 30, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -310,14 +350,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrlistaCotizacionDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 19, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -325,14 +367,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcCalculaDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 18, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -340,14 +384,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveContraDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 22, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -355,14 +401,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 21, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -370,14 +418,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsOcupaDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 25, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -385,14 +435,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsCuestDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 21, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -400,14 +452,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcListaCotizacionDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 19, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -415,14 +469,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrpdfDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 16, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -430,14 +486,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrParamDiasDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 27, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -445,14 +503,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsHabitosDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 27, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -460,14 +520,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcPdfDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 17, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -475,14 +537,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrsavecotizaDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 36, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -490,14 +554,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsOcupaDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 27, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -505,14 +571,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsDAOBK.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 13, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -520,14 +588,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcatalogoscoreDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 21, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -535,14 +605,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 19, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -550,14 +622,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrfindcotizaDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 35, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -565,14 +639,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrfindcontraDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 21, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -580,14 +656,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcArespDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 29, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -595,14 +673,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsHabitosDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 20, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -610,14 +690,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PruebaConexionDAO.java", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".java", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 25, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "Url": "http://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 

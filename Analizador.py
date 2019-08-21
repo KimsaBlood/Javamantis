@@ -20,7 +20,8 @@ class Analizador:
 		ex=Excel()
 		threads = list()
 		count=1
-		config=Configuracion("config.json")
+		config=Configuracion("config.json","Collection2.json")
+		
 		#Recorremos la lista de objetos Aplicacion en config y creamos un hilo por cada objeto
 		for l in config.getAplicaciones():
 			#Creamos el hilo y un objeto como parametro del tipo paths 

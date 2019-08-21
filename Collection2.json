@@ -1,0 +1,158 @@
+{
+	"Aplicaciones":
+
+[
+
+    {
+
+        "nombre":"bonos",
+
+        "JNDI":[
+
+            {
+
+                "Name":"(.*)JNDI(.*)",
+
+                "Tipo":"JMSTopic"
+
+            },
+
+            {   "Name":"jndi2",
+
+                "Tipo":"JMSQue"
+
+            },
+
+            {   "Name":"(.*)JNDI(.*)",
+
+                "Tipo":"DataSources"
+
+            }
+
+        ],
+
+        "Roles": [
+
+            {
+
+                "Reference":"rol1",
+
+                "Mapped user":[
+
+                    "user1",
+
+                    "user2"
+
+                ],
+
+                "Mapped Group":[
+
+                    "Group1",
+
+                    "Group2"
+
+                ]
+
+            },
+
+           {
+
+                "Reference":"rol1",
+
+                "Mapped user":[
+
+                    "user1",
+
+                    "user2"
+
+                ],
+
+                "Mapped Group":[
+
+                    "Group1",
+
+                    "Group2"
+
+                ]
+
+            }
+
+
+        ],
+
+        "OrdenClases": "WAR MULTYPLE CLASS"
+
+
+    }
+
+],
+
+"Recursos":
+
+[
+
+    {
+
+        "DataSources":[
+
+            {
+
+                "JNDI":"ds_jndi",
+
+                "InfoBase": {
+
+                    "NombreDatasources":"DS",
+
+                    "Provider":"ProviderOracle"
+
+
+                },
+
+                "InfoJ2EE":{
+
+                    "URL":"jdbc.oracle@localhost:0222:prueba",
+
+                    "PORT":"0222"
+
+                }
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "JMS":[
+
+            {
+
+                "JNDI":"ds_jndi",
+
+                "InfoBase": {
+
+                    "NombreDatasources":"DS",
+
+                    "Provider":"ProviderOracle"
+
+
+                },
+
+                "InfoJ2EE":{
+
+                    "URL":"jdbc.oracle@localhost:0222:prueba",
+
+                    "PORT":"0222"
+
+                }
+
+            }
+
+        ]
+
+    }
+
+
+]
+}

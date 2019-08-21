@@ -12,7 +12,106 @@
             "Numero": "1"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_018WS/war/20130913/C\u0432digo/Entrega Jboss WebServices ACV/Codigo/CotizadorVida_Actualizador/src/mx/com/axa/connectionManager/WebServiceDao.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 21, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 51, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 123, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 170, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_018WS/war/20130913/C\u0432digo/Entrega Jboss WebServices ACV/Codigo/CotizadorVida_Actualizador/src/mx/com/axa/connectionManager/OracleJNDIConnection.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 9, 
+                            "Texto": "public class OracleJNDIConnection {\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_018WS/war/20131021/c\u0432digo/CotizadorVida_Actualizador/src/mx/com/axa/connectionManager/WebServiceDao.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 21, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 51, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 123, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 170, 
+                            "Texto": "\t\tOracleJNDIConnection connection = new OracleJNDIConnection();\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_018WS/war/20131021/c\u0432digo/CotizadorVida_Actualizador/src/mx/com/axa/connectionManager/OracleJNDIConnection.java", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 9, 
+                            "Texto": "public class OracleJNDIConnection {\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }
+            ], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

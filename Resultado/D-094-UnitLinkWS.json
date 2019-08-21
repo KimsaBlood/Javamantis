@@ -5,14 +5,16 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Dev/vida-integrador-dev.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 11, 
                             "Texto": "endpoint.javaUnitLink=http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
-                            "Url": "http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
+                            "url": "http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -20,14 +22,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Dev/vida-integrador-dev.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 12, 
                             "Texto": "endpoint.progressUnitlink=http://lu2app87:8282/AxaServices/vida\r\n", 
-                            "Url": "http://lu2app87:8282/AxaServices/vida"
+                            "url": "http://lu2app87:8282/AxaServices/vida"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -35,14 +39,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Qa/vida-integrador-qa.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 11, 
                             "Texto": "endpoint.javaUnitLink=http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
-                            "Url": "http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
+                            "url": "http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -50,14 +56,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Qa/vida-integrador-qa.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 12, 
                             "Texto": "endpoint.progressUnitlink=http://lu2app88:8282/AxaServices/vida\r\n", 
-                            "Url": "http://lu2app88:8282/AxaServices/vida"
+                            "url": "http://lu2app88:8282/AxaServices/vida"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -65,14 +73,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Prod/vida-integrador-prod.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 11, 
                             "Texto": "endpoint.javaUnitLink=http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
-                            "Url": "http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
+                            "url": "http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -80,14 +90,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Prod/vida-integrador-prod.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 12, 
                             "Texto": "endpoint.progressUnitlink=http://progress-apps.axa.com.mx:8282/AxaServices/vida\r\n", 
-                            "Url": "http://progress-apps.axa.com.mx:8282/AxaServices/vida"
+                            "url": "http://progress-apps.axa.com.mx:8282/AxaServices/vida"
                         }
                     ], 
                     "NombreCad": "IP", 

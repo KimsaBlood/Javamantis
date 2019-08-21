@@ -6,19 +6,20 @@ from Prioridades import Prioridades
 
 class Configuracion(Json):
 
-	def __init__(self,jsonRuta):
+	def __init__(self,jsonRuta,jsonMongo):
 		self.jsonR=jsonRuta
 		self.json=Json(self.jsonR)
 		self.openJson()
-		self.clasificar()
+		json2=Json(jsonMongo).leer()
+		self.clasificar(json2)
 
 	def openJson(self):
 		self.jsonText=self.json.leer()
 
-	def clasificar(self):
+	def clasificar(self,mongo):
 		self.clasificarApps()
 		self.clasificarValidos()
-		self.clasificarCadBusqueda()
+		self.clasificarCadBusqueda(mongo)
 		self.clasificarPrioridades()
 	
 	def clasificarPrioridades(self):
@@ -28,12 +29,18 @@ class Configuracion(Json):
 			aux.append(prior)
 		self.setPrioridades(aux)
 
-	def clasificarCadBusqueda(self):
+	def clasificarCadBusqueda(self,mongo):
 		aux=[]
 		for f in self.jsonText["cadenasBusqueda"]:
-			cad=CadenasBusqueda(f["nombre"],f["cadena"],f["expresion"],f["extracciones"])
+			cad=CadenasBusqueda(f["nombre"],f["cadena"],f["expresion"],f["extracciones"][0])
 			aux.append(cad)
+		for f in mongo["Aplicaciones"][0]["JNDI"]:
+			if f["Tipo"] in "DataSources":
+				aux.append(CadenasBusqueda("JNDI",f["Tipo"],[f["Name"]],{}))
 		self.setCadenasBusqueda(aux)
+		for x in aux:
+			for l in x.getExpresion():
+				print(l)
 
 	def clasificarValidos(self):
 		aux=[]
@@ -57,7 +64,7 @@ class Configuracion(Json):
 
 	def setCadenasBusqueda(self,cadenasBusqueda):
 		self.cadenasBusqueda=cadenasBusqueda
-
+		
 	def setPrioridades(self,prioridades):
 		self.prioridades=prioridades
 

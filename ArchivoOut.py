@@ -1,6 +1,7 @@
 import codecs
 import re
 from LineasOut import LineasOut
+from Extracciones import Extracciones
 """Clase que define la salida de los archivos con su informacion en el json"""
 class ArchivoOut:
 
@@ -88,28 +89,22 @@ class ArchivoOut:
 		#Recorremos la lista con el contenido del archivo
 		for f in self.contenido:
 			j+=1
-			#Checamos si coincide con la expresion regular
-			if re.match( r''+cadena.getExpresion()+'', f):
-				#creamos un objeto con una epresion regular para extraer las url
-				patron = re.compile("([-|:|\\\\|\w]+:\/\/)(\w*[.|:|/|@|\-|,|=|?|\\\\]*\w*)*")
-				#Buscamos la cadena en la linea del contenido
-				matcher=patron.search(f)
-				#si el objeto no esta vacio creamos un objeto del tipo LineasOut y le pasamos el numero de linea, el texto y la url
-				if matcher:
-					line=LineasOut(j,f,matcher.group(0))
-				else:
-					#si es vacio usamos el segundo filtro para url (url progress por ejemplo)
-					patron = re.compile("(.*url.*=\/\/)(\w*[.|:|/|@|\-|,|=|?|\\\\]*\w*)*")
-					matcher=patron.search(f)
-					#Si no es vacio mandamos el valor de url
-					if matcher:
-						line=LineasOut(j,f,matcher.group(0))
-					#Si es vacio solo pasamos el numero de linea y el contenido d la linea
-					else:
-						line=LineasOut(j,f)
-				#Agregamos al objeto lineas la linea encontrada
-				lineas.append(line)
-				i+=1	
+			for l in cadena.getExpresion():
+				if re.match( r''+l+'', f):
+					line=LineasOut(j,f)
+					for x in cadena.getExtracciones():
+						for y in x.getExpresiones():
+							patron = re.compile(y)
+							#Buscamos la cadena en la linea del contenido
+							matcher=patron.search(f)
+							#si el objeto no esta vacio creamos un objeto del tipo LineasOut y le pasamos el numero de linea, el texto y la url
+							if matcher:
+								line=LineasOut(j,f,matcher.group(0),x.getNombre())
+								break
+					lineas.append(line)
+					i+=1	
+
+			
 		#Si i es diferente a 0 setteamos los valores obtenidos
 		if i!=0:	
 			self.setNombre(cadena.getNombre())

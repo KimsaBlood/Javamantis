@@ -5,14 +5,16 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/env/qa/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://wu1xad04:5020/asbvidaws</url>\r\n", 
-                            "Url": "http://wu1xad04:5020/asbvidaws"
+                            "url": "http://wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -20,14 +22,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/env/qa/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//wu1xad04:5020/asbvidaws", 
-                            "Url": "url_progress=//wu1xad04:5020/asbvidaws"
+                            "url": "url_progress=//wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -35,14 +39,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/env/dev/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://wu1xad04:5020/asbvidaws</url>\r\n", 
-                            "Url": "http://wu1xad04:5020/asbvidaws"
+                            "url": "http://wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -50,14 +56,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/env/dev/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//wu1xad04:5020/asbvidaws", 
-                            "Url": "url_progress=//wu1xad04:5020/asbvidaws"
+                            "url": "url_progress=//wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -65,14 +73,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/env/prod/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 9, 
                             "Texto": "    <url>http://wu1xad04:5020/asbvidaws</url>\r\n", 
-                            "Url": "http://wu1xad04:5020/asbvidaws"
+                            "url": "http://wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -80,14 +90,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/env/prod/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//wu1xad04:5020/asbvidaws", 
-                            "Url": "url_progress=//wu1xad04:5020/asbvidaws"
+                            "url": "url_progress=//wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -95,14 +107,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/WebContent/WEB-INF/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://wu1xad04:5020/asbvidaws</url>\r\n", 
-                            "Url": "http://wu1xad04:5020/asbvidaws"
+                            "url": "http://wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -110,14 +124,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/src/test/resources/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 9, 
                             "Texto": "    <url>http://ux_desa5:5170/asbsrvgmcweb</url>\r\n", 
-                            "Url": "http://ux_desa5:5170/asbsrvgmcweb"
+                            "url": "http://ux_desa5:5170/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -125,14 +141,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/src/main/resources/o4glconfig.xml", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".xml", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://wu1xad04:5020/asbvidaws</url>\r\n", 
-                            "Url": "http://wu1xad04:5020/asbvidaws"
+                            "url": "http://wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -140,14 +158,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/src/main/resources/config.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))[uU][rR][lL]_[pP][rR]og[rR][eE][sS][sS](\\s)*"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//wu1xad04:5020/asbvidaws", 
-                            "Url": "url_progress=//wu1xad04:5020/asbvidaws"
+                            "url": "url_progress=//wu1xad04:5020/asbvidaws"
                         }
                     ], 
                     "NombreCad": "Progress2", 

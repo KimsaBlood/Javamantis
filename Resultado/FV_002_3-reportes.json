@@ -5,24 +5,26 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/ProgsUnix/IMSS/env/qa/pruebajaredocta.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 5, 
                             "Texto": "urlAgentes = jdbc:db2://mxu41l3q:50010/DWH\n", 
-                            "Url": "jdbc:db2://mxu41l3q:50010/DWH"
+                            "url": "jdbc:db2://mxu41l3q:50010/DWH"
                         }, 
                         {
                             "Linea": 12, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\n", 
-                            "Url": "jdbc:db2://10.212.213.11:50005/agentes"
+                            "url": "jdbc:db2://10.212.213.11:50005/agentes"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.212.14:50010/agentes\n", 
-                            "Url": "jdbc:db2://10.212.212.14:50010/agentes"
+                            "url": "jdbc:db2://10.212.212.14:50010/agentes"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -30,29 +32,31 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/ProgsUnix/IMSS/env/dev/pruebajaredocta.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 5, 
                             "Texto": "urlAgentes = jdbc:db2://MXU42L3J:50010/DWH\n", 
-                            "Url": "jdbc:db2://MXU42L3J:50010/DWH"
+                            "url": "jdbc:db2://MXU42L3J:50010/DWH"
                         }, 
                         {
                             "Linea": 9, 
                             "Texto": "#urlAgentes = jdbc:db2://10.133.32.154:50030/DWH\n", 
-                            "Url": "jdbc:db2://10.133.32.154:50030/DWH"
+                            "url": "jdbc:db2://10.133.32.154:50030/DWH"
                         }, 
                         {
                             "Linea": 13, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\n", 
-                            "Url": "jdbc:db2://10.212.213.11:50005/agentes"
+                            "url": "jdbc:db2://10.212.213.11:50005/agentes"
                         }, 
                         {
                             "Linea": 19, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.37:50030/agentes\n", 
-                            "Url": "jdbc:db2://10.212.213.37:50030/agentes"
+                            "url": "jdbc:db2://10.212.213.37:50030/agentes"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -60,24 +64,26 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/ProgsUnix/IMSS/env/prod/pruebajaredocta.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[J|j][d|D][b|B][c|C]:(.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 5, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.226.164:50030/agentes\r\n", 
-                            "Url": "jdbc:db2://10.212.226.164:50030/agentes"
+                            "url": "jdbc:db2://10.212.226.164:50030/agentes"
                         }, 
                         {
                             "Linea": 9, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\r\n", 
-                            "Url": "jdbc:db2://10.212.213.11:50005/agentes"
+                            "url": "jdbc:db2://10.212.213.11:50005/agentes"
                         }, 
                         {
                             "Linea": 15, 
                             "Texto": "#urlAgentes = jdbc:db2://mxu40l3e:50010/DWH\r\n", 
-                            "Url": "jdbc:db2://mxu40l3e:50010/DWH"
+                            "url": "jdbc:db2://mxu40l3e:50010/DWH"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -85,44 +91,110 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 38, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 111, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }, 
                         {
                             "Linea": 126, 
-                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=dwhDS", 
+                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n"
                         }, 
                         {
                             "Linea": 158, 
-                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n", 
-                            "Url": null
+                            "NombreSource": "=dwhupdaDS", 
+                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 8
+                    "Repeticiones": 7
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 38, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 111, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 126, 
+                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 158, 
+                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 233, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 251, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 262, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 271, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 281, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 290, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 313, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 414, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
-                            "Url": "AppServer://ds_vida:5175/asbmeganor"
+                            "url": "AppServer://ds_vida:5175/asbmeganor"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -130,44 +202,80 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/framework.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 301, 
                             "Texto": "url_applet = http\\://tlp23406.mx.americas.intranet\\:82/axa\r\n", 
-                            "Url": "http\\://tlp23406.mx.americas.intranet\\:82/axa"
+                            "url": "http\\://tlp23406.mx.americas.intranet\\:82/axa"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 137, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/qa/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 416, 
                             "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidadm\r\n", 
-                            "Url": "AppServer://Ing_bkp2:5305/asbvidadm"
+                            "url": "AppServer://Ing_bkp2:5305/asbvidadm"
                         }, 
                         {
                             "Linea": 417, 
                             "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidaweb\r\n", 
-                            "Url": "AppServer://Ing_bkp2:5305/asbvidaweb"
+                            "url": "AppServer://Ing_bkp2:5305/asbvidaweb"
                         }, 
                         {
                             "Linea": 418, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
-                            "Url": "AppServer://ds_vida:5175/asbmeganor"
+                            "url": "AppServer://ds_vida:5175/asbmeganor"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -175,14 +283,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/qa/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 303, 
                             "Texto": "url_applet = https\\://agentesqa.axa.com.mx\r\n", 
-                            "Url": "https\\://agentesqa.axa.com.mx"
+                            "url": "https\\://agentesqa.axa.com.mx"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -190,34 +300,70 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/qa/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 432, 
                             "Texto": "CFDIEndpoint=http://was-servicesqa.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint", 
-                            "Url": "http://was-servicesqa.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
+                            "url": "http://was-servicesqa.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/qa/properties/Reportes.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 137, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/dev/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 414, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
-                            "Url": "AppServer://ds_vida:5175/asbmeganor"
+                            "url": "AppServer://ds_vida:5175/asbmeganor"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -225,34 +371,70 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/dev/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 301, 
                             "Texto": "url_applet = http\\://tlp23406.mx.americas.intranet\\:82/axa\r\n", 
-                            "Url": "http\\://tlp23406.mx.americas.intranet\\:82/axa"
+                            "url": "http\\://tlp23406.mx.americas.intranet\\:82/axa"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/dev/properties/Reportes.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 137, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/prod/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R](.*)://(.*):[0-9]{2,5}/(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 416, 
                             "Texto": "urlServerProxyGen=AppServer://ux_vida:5305/asbvidaweb\r\n", 
-                            "Url": "AppServer://ux_vida:5305/asbvidaweb"
+                            "url": "AppServer://ux_vida:5305/asbvidaweb"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -260,34 +442,70 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/prod/properties/Reportes.properties", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "Url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 430, 
                             "Texto": "CFDIEndpoint=http://was-services.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint", 
-                            "Url": "http://was-services.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
+                            "url": "http://was-services.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
                 }, 
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/prod/properties/Reportes.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 128, 
+                            "Texto": "# JNDI Properties\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 131, 
+                            "Texto": "# objects within JNDI. Add as many additional key/value pairings as is required,\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "JNDI_ARGS=\\#\\tjava.naming.security.principal\\=poc|\\#\\tjava.naming.security.credentials\\=put_encrypted_password_here|\\#\\tjava.naming.factory.initial\\=weblogic.jndi.WLInitialContextFactory|\\#\\tjava.naming.provider.url\\=t3\\://localhost\\:7001\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 137, 
+                            "Texto": "# each EJB when accessing from the JNDI tree.\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/cargaArchivos.jsp", 
-                    "Cadena": "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)", 
+                    "Cadena": [
+                        "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)://[a|A][g|G][e|E][n|N][t|T][e|E][s|S](.*)"
+                    ], 
                     "Extension": ".jsp", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 73, 
                             "Texto": "\tString accionQA = \"https://agentesqa.axa.com.mx/waxs\";\r\n", 
-                            "Url": "https://agentesqa.axa.com.mx/waxs"
+                            "url": "https://agentesqa.axa.com.mx/waxs"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -295,14 +513,16 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/cargaArchivos.jsp", 
-                    "Cadena": "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
                     "Extension": ".jsp", 
                     "Hardcode": "true", 
                     "Lineas": [
                         {
                             "Linea": 70, 
                             "Texto": "String accionDES = \"http://tlp23406.mx.americas.intranet:82/axa\";\r\n", 
-                            "Url": "http://tlp23406.mx.americas.intranet:82/axa"
+                            "url": "http://tlp23406.mx.americas.intranet:82/axa"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -310,33 +530,97 @@
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 38, 
-                            "Texto": "#       JNDIDataSourceName\r\n", 
-                            "Url": null
-                        }, 
-                        {
                             "Linea": 92, 
-                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=MyOracleDataSource", 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }, 
                         {
                             "Linea": 107, 
-                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=dwhDS", 
+                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n"
                         }, 
                         {
                             "Linea": 116, 
-                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n", 
-                            "Url": null
+                            "NombreSource": "=dwhupdaDS", 
+                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 9
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 38, 
+                            "Texto": "#       JNDIDataSourceName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 92, 
+                            "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 107, 
+                            "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 116, 
+                            "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 173, 
+                            "Texto": "#   JNDIName\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 191, 
+                            "Texto": "#\tJNDIName=weblogic.poc.event.proofofconceptEventTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 202, 
+                            "Texto": "# if necessary.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 211, 
+                            "Texto": "#\tJNDIName=weblogic.poc.task.proofofconceptTaskTopic|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 221, 
+                            "Texto": "# a JMS Queue Definition.  Make sure the JNDI name and factory name are set\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 230, 
+                            "Texto": "#\tJNDIName=SampleJMSQueue|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 253, 
+                            "Texto": "#\tJNDIName=weblogic.poc.notify.valueObjectNotificationTopic|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 16
                 }
             ], 
             "Nombre": "comentarios", 
@@ -346,75 +630,214 @@
             "Archivos": [
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Cadena": [
+                        "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E]=(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "Texto": "\tJNDIDataSourceName=ReportesNaranjaDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=ReportesNaranjaDS", 
+                            "Texto": "\tJNDIDataSourceName=ReportesNaranjaDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=contactINGDS", 
+                            "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n"
                         }, 
                         {
                             "Linea": 134, 
-                            "Texto": "\tJNDIDataSourceName=dwhDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=dwhDS", 
+                            "Texto": "\tJNDIDataSourceName=dwhDS|\\\r\n"
                         }, 
                         {
                             "Linea": 166, 
-                            "Texto": "\tJNDIDataSourceName=dwhupdaDS|\\\r\n", 
-                            "Url": null
+                            "NombreSource": "=dwhupdaDS", 
+                            "Texto": "\tJNDIDataSourceName=dwhupdaDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 8
+                    "Repeticiones": 7
                 }, 
                 {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
-                    "Cadena": "(.*)[j|J][n|N][d|D][i|I][d|D][a|A][t|T][a|A][s|S][o|O][u|U][r|R][c|C][e|E][n|N][a|A][m|M][e|E](.*)", 
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
                     "Extension": ".properties", 
                     "Hardcode": "false", 
                     "Lineas": [
                         {
-                            "Linea": 53, 
-                            "Texto": "TheDBConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/ReportesNaranjaDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=Reportes DS Not Available|\r\n", 
-                            "Url": null
-                        }, 
-                        {
-                            "Linea": 55, 
-                            "Texto": "TheContactAXAConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/contactINGDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=ContactING DS Not Available|\r\n", 
-                            "Url": null
-                        }, 
-                        {
+                            "null": null, 
                             "Linea": 57, 
-                            "Texto": "TheCatComConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/catComServDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=CatComServ DS Not Available|\r\n", 
-                            "Url": null
+                            "Texto": "\tJNDIDataSourceName=ReportesNaranjaDS|\\\r\n"
                         }, 
                         {
-                            "Linea": 59, 
-                            "Texto": "TheDB2Connection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/dwhDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=TheDBConnection Not Available|\r\n", 
-                            "Url": null
+                            "null": null, 
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n"
                         }, 
                         {
-                            "Linea": 61, 
-                            "Texto": "TheDB2Connection_Updated_Daily=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java:comp/env/dwhupdaDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=TheDBConnection Not Available|\r\n", 
-                            "Url": null
+                            "null": null, 
+                            "Linea": 134, 
+                            "Texto": "\tJNDIDataSourceName=dwhDS|\\\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 166, 
+                            "Texto": "\tJNDIDataSourceName=dwhupdaDS|\\\r\n"
                         }
                     ], 
-                    "NombreCad": "DataSourceName", 
-                    "Repeticiones": 9
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 15
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/framework.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 142, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/qa/properties/Reportes.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 142, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/dev/properties/Reportes.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 142, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/env/prod/properties/Reportes.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 142, 
+                            "Texto": "JNDIEJBNamePrefix=\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 53, 
+                            "Texto": "TheDBConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/ReportesNaranjaDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=Reportes DS Not Available|\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 55, 
+                            "Texto": "TheContactAXAConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/contactINGDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=ContactING DS Not Available|\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 57, 
+                            "Texto": "TheCatComConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/catComServDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=CatComServ DS Not Available|\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 59, 
+                            "Texto": "TheDB2Connection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/dwhDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=TheDBConnection Not Available|\r\n"
+                        }, 
+                        {
+                            "null": null, 
+                            "Linea": 61, 
+                            "Texto": "TheDB2Connection_Updated_Daily=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java:comp/env/dwhupdaDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=TheDBConnection Not Available|\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 16
                 }
             ], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/admin/jmsproperties.jsp", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 51, 
+                            "Texto": "                JNDI Name\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/carga/admin/jmsproperties.jsp", 
+                    "Cadena": [
+                        "(.*)JNDI(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "null": null, 
+                            "Linea": 51, 
+                            "Texto": "                JNDI Name\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }
+            ], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }
