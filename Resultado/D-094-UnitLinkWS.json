@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Qa/vida-integrador-qa.properties", 
@@ -52,7 +52,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Qa/vida-integrador-qa.properties", 
@@ -69,7 +69,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Prod/vida-integrador-prod.properties", 
@@ -86,7 +86,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/Flujo_VidaIntegrador/VidaIntegrador-Ant/Prod/vida-integrador-prod.properties", 
@@ -103,7 +103,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }
             ], 
             "Nombre": "comentarios", 

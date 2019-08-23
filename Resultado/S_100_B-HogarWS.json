@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/conf/config.properties", 
@@ -52,7 +52,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/env/local/config.properties", 
@@ -69,7 +69,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/env/qa/config.properties", 
@@ -86,7 +86,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/env/dev/config.properties", 
@@ -103,7 +103,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/env/prod/config.properties", 
@@ -120,7 +120,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/WebContent/WEB-INF/services/EmisionDanosWS/config.properties", 
@@ -137,7 +137,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/src/com/axa/mx/danos/hogarprotegido/clientews/EmisionDanosWSStub.java", 
@@ -164,7 +164,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 11
                 }
             ], 
             "Nombre": "comentarios", 

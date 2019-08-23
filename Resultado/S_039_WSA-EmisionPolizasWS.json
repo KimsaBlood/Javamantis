@@ -45,7 +45,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/web.xml", 
@@ -62,7 +62,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
@@ -79,7 +79,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
@@ -131,7 +131,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 14
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/EmisionPolizasWS.properties", 
@@ -148,7 +148,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/EmisionPolizasWS.properties", 
@@ -180,7 +180,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 7
+                    "Repeticiones": 19
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/classes/com/ing/ia3/mx/seguros/autos/emisionpolizas/resource/parametros.properties", 
@@ -202,7 +202,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 21
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/META-INF/context.xml", 
@@ -219,7 +219,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 22
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
@@ -236,7 +236,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 23
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
@@ -288,7 +288,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 31
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/EmisionPolizasWS.properties", 
@@ -305,7 +305,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 32
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/EmisionPolizasWS.properties", 
@@ -337,7 +337,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 7
+                    "Repeticiones": 36
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
@@ -354,7 +354,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 37
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
@@ -406,7 +406,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 45
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/EmisionPolizasWS.properties", 
@@ -423,7 +423,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 46
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/EmisionPolizasWS.properties", 
@@ -455,7 +455,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 7
+                    "Repeticiones": 50
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
@@ -472,7 +472,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 51
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
@@ -524,7 +524,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 59
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/EmisionPolizasWS.properties", 
@@ -541,7 +541,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 60
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/EmisionPolizasWS.properties", 
@@ -573,7 +573,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 7
+                    "Repeticiones": 64
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
@@ -590,7 +590,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 65
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
@@ -642,7 +642,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 73
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/EmisionPolizasWS.properties", 
@@ -659,7 +659,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 74
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/EmisionPolizasWS.properties", 
@@ -691,7 +691,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 7
+                    "Repeticiones": 78
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/WEB-INF/web.xml", 
@@ -708,7 +708,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 79
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/META-INF/context.xml", 
@@ -725,7 +725,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 80
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/resource/parametros.properties", 
@@ -747,7 +747,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 82
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/gestiondocumental/ecmws/EcmWSClient.java", 
@@ -764,7 +764,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 83
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/gestiondocumental/ecmws/EcmWSClient.java", 
@@ -781,7 +781,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 84
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/src/com/ing/ia3/mx/seguros/autos/emisionpolizas/action/CondicionesEmisionAction.java", 
@@ -798,7 +798,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 85
                 }
             ], 
             "Nombre": "comentarios", 

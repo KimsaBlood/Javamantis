@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-BolsasCuposWS/env/qa/properties/application.properties", 
@@ -52,7 +52,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-BolsasCuposWS/env/dev/properties/application.properties", 
@@ -69,7 +69,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-BolsasCuposWS/env/prod/properties/application.properties", 
@@ -86,7 +86,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 5
                 }
             ], 
             "Nombre": "comentarios", 

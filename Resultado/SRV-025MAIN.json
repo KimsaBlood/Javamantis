@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/local/local.config.properties", 
@@ -52,7 +52,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/local/local.config.properties", 
@@ -69,7 +69,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/qa/qa.config.properties", 
@@ -86,7 +86,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/qa/qa.config.properties", 
@@ -103,7 +103,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/dev/dev.config.properties", 
@@ -120,7 +120,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/dev/dev.config.properties", 
@@ -137,7 +137,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/prod/prod.config.properties", 
@@ -154,7 +154,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 9
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/resources/properties/prod/prod.config.properties", 
@@ -171,7 +171,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-025MAIN/src/main/java/mx/axa/ecmproxy/wsclient/ecmws/EcmWS_Service.java", 
@@ -198,7 +198,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 3
+                    "Repeticiones": 13
                 }
             ], 
             "Nombre": "comentarios", 

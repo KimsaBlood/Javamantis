@@ -40,7 +40,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 2
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/expedientee/WEB-INF/classes/com/ing/net/dbconfig.xml~", 
@@ -62,7 +62,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 2
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/defaultroot/WEB-INF/classes/com/isa/simple/SimpleSystem.properties", 
@@ -79,7 +79,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/defaultroot/WEB-INF/classes/com/ing/net/dbconfig.xml", 
@@ -101,7 +101,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 2
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/local/com/isa/simple/SimpleSystem.properties", 
@@ -118,7 +118,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 9
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/local/com/ing/net/dbconfig.xml", 
@@ -140,7 +140,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 2
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/qa/com/isa/simple/SimpleSystem.properties", 
@@ -157,7 +157,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 12
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/qa/com/ing/net/dbconfig.xml", 
@@ -179,7 +179,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 2
+                    "Repeticiones": 14
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/dev/com/isa/simple/SimpleSystem.properties", 
@@ -196,7 +196,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/prod/com/isa/simple/SimpleSystem.properties", 
@@ -213,7 +213,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 16
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/env/prod/com/ing/net/dbconfig.xml", 
@@ -240,7 +240,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 3
+                    "Repeticiones": 19
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/src/com/isa/simple/SimpleSystem.properties", 
@@ -257,7 +257,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 20
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/src/com/ing/net/dbconfig.xml", 
@@ -279,7 +279,7 @@
                         }
                     ], 
                     "NombreCad": "JDBC", 
-                    "Repeticiones": 2
+                    "Repeticiones": 22
                 }
             ], 
             "Nombre": "comentarios", 

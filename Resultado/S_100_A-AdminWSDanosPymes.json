@@ -40,7 +40,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_A-AdminWSDanosPymes/env/dev/WEB-INF/o4glconfig.xml", 
@@ -57,7 +57,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_A-AdminWSDanosPymes/env/prod/WEB-INF/o4glconfig.xml", 
@@ -84,7 +84,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_A-AdminWSDanosPymes/WebContent/WEB-INF/web.xml", 
@@ -101,7 +101,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 8
                 }
             ], 
             "Nombre": "comentarios", 

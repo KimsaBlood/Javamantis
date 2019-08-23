@@ -67,7 +67,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 8
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa2/properties/framework.properties", 
@@ -94,7 +94,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 9
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/local/WEB-INF/o4glconfig.xml", 
@@ -111,7 +111,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/local/properties/connectionpool.properties", 
@@ -128,7 +128,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/local/properties/connectionpool.properties", 
@@ -155,7 +155,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 8
+                    "Repeticiones": 14
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/local/properties/framework.properties", 
@@ -182,7 +182,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 17
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa/WEB-INF/o4glconfig.xml", 
@@ -204,7 +204,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 2
+                    "Repeticiones": 19
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa/properties/connectionpool.properties", 
@@ -221,7 +221,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 20
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa/properties/connectionpool.properties", 
@@ -248,7 +248,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 8
+                    "Repeticiones": 23
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa/properties/framework.properties", 
@@ -275,7 +275,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 26
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/dev/WEB-INF/o4glconfig.xml", 
@@ -292,7 +292,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 27
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/dev/properties/connectionpool.properties", 
@@ -309,7 +309,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 28
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/dev/properties/connectionpool.properties", 
@@ -336,7 +336,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 8
+                    "Repeticiones": 31
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/dev/properties/framework.properties", 
@@ -363,7 +363,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 34
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/prod/WEB-INF/o4glconfig.xml", 
@@ -390,7 +390,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 3
+                    "Repeticiones": 37
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/prod/properties/connectionpool.properties", 
@@ -407,7 +407,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 38
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/prod/properties/connectionpool.properties", 
@@ -434,7 +434,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 8
+                    "Repeticiones": 41
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/prod/properties/framework.properties", 
@@ -461,7 +461,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 44
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/WebContent/META-INF/weblogic-ejb-jar.xml", 
@@ -493,7 +493,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 4
+                    "Repeticiones": 48
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/src/com/ing/ia3/seguros/cotizadores/pbe/dao/AgentesDAO.java", 
@@ -510,7 +510,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 49
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/src/com/ing/ia3/seguros/cotizadores/pbe/common/ApplicationUSOM.java", 
@@ -527,7 +527,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 50
                 }
             ], 
             "Nombre": "comentarios", 

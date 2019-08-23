@@ -53,19 +53,23 @@ class PrioridadesOut:
 		archPrior=[]
 		self.archivos2=[]
 		self.priorList=[]
+		
 		for f in self.prioridades:
+			count=0
 			for l in self.archivos:
 				linePrior=[]
 				linePrior2=[]
 				for x in l.getLineas():
 					if re.match( r''+f.getExpresion()+'', x.getTexto()):
 						linePrior.append(x)
+						count+=1
 					else:
 						linePrior2.append(x)
 				if linePrior:
-					archPrior.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior,l.getRepeticiones(),l.getNombre()))
+					archPrior.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior,count,l.getNombre()))
 				if linePrior2:
 					self.archivos2.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior2,l.getRepeticiones(),l.getNombre()))
+					print(l.getRepeticiones()-count)
 			self.priorList.append(Prioridad(f.getNumero(),archPrior,f.getNombre()))
 
 	def AsPriorDict(self):

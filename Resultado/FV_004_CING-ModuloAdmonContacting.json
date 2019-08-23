@@ -23,7 +23,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 32
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/aib/com/framework/codetemplate/TemplateGenerator.java", 
@@ -45,7 +45,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 26
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/axis-1_1/samples/jms/jndi-connection-factory.properties", 
@@ -62,7 +62,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/axis-1_1/samples/userguide/example1/TestClient.java", 
@@ -79,7 +79,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/axis-1_1/samples/jaxm/DelayedStockQuote.java", 
@@ -96,7 +96,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/sampleapp/com/ing/ia3/app/sample/misc/CustomerJNDINames.java", 
@@ -113,7 +113,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 4
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/sampleapp/com/ing/ia3/app/sample/misc/AddressJNDINames.java", 
@@ -130,7 +130,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 4
+                    "Repeticiones": 9
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/sampleapp/properties/connectionpool.properties", 
@@ -152,7 +152,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 5
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/sampleapp/properties/connectionpool.properties", 
@@ -184,7 +184,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/sampleapp/properties/framework.properties", 
@@ -211,7 +211,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 18
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/jakarta-struts-1.1/src/share/org/apache/struts/upload/MultipartValueStream.java", 
@@ -228,7 +228,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 19
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/ing/ia3/common/RemoteEJBServiceLocator.java", 
@@ -265,7 +265,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 37
+                    "Repeticiones": 24
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/objectpool/JMSTopicImpl.java", 
@@ -282,7 +282,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 25
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/objectpool/ConnectionPoolManager.java", 
@@ -299,7 +299,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 26
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/objectpool/JMSQueueImpl.java", 
@@ -316,7 +316,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 27
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/hook/FrameworkHookManager.java", 
@@ -333,7 +333,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 28
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/jmx/WeblogicJMXServerFactory.java", 
@@ -350,7 +350,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 2
+                    "Repeticiones": 29
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/misc/DatabaseQuerier.java", 
@@ -367,7 +367,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 15
+                    "Repeticiones": 30
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/src/com/framework/misc/FrameworkPropertiesHandler.java", 
@@ -434,7 +434,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 35
+                    "Repeticiones": 41
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/properties/framework.properties.bak", 
@@ -461,7 +461,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 44
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/properties/framework.propertiesa", 
@@ -488,7 +488,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 47
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/properties/framework.properties.keep", 
@@ -515,7 +515,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 50
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/properties/connectionpool.properties", 
@@ -532,7 +532,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 51
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/properties/connectionpool.properties", 
@@ -579,7 +579,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 9
+                    "Repeticiones": 58
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/properties/framework.properties", 
@@ -606,7 +606,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 61
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/env/local/properties/framework.properties.bak", 
@@ -633,7 +633,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 64
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/env/local/properties/framework.properties", 
@@ -660,7 +660,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 67
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/env/qa/properties/framework.properties", 
@@ -687,7 +687,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 70
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/env/dev/properties/framework.properties", 
@@ -714,7 +714,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 73
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/env/prod/properties/framework.properties", 
@@ -741,7 +741,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 76
                 }
             ], 
             "Nombre": "comentarios", 

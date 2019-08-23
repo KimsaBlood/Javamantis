@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_01-Implementation/WSFlotillas/env/dev/WEB-INF/conf/application.properties", 
@@ -52,7 +52,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_01-Implementation/WSFlotillas/env/pro/WEB-INF/conf/application.properties", 
@@ -69,7 +69,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }
             ], 
             "Nombre": "comentarios", 

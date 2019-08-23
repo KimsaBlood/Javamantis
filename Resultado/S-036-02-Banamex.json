@@ -50,7 +50,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 3
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-036-02-Banamex/InterfazBanamex/WebContent/WEB-INF/properties/InterfazBanamex.properties", 
@@ -67,7 +67,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-036-02-Banamex/InterfazBanamex/WebContent/WEB-INF/properties/InterfazBanamex.properties", 
@@ -99,7 +99,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-036-02-Banamex/SimuladorBanamex/properties/config.properties", 
@@ -116,7 +116,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 1
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-036-02-Banamex/SimuladorBanamex/src/com/axa/mx/seguros/cobranza/servicios/IntegracionBanamexServiceLocator.java", 
@@ -133,7 +133,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 12
                 }
             ], 
             "Nombre": "comentarios", 

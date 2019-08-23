@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/build/classes/proxy.properties", 
@@ -52,7 +52,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 3
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/properties/proxy.properties", 
@@ -69,7 +69,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/bin/WEB-INF/properties/proxy.properties", 
@@ -91,7 +91,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 2
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/bin/WEB-INF/classes/proxy.properties", 
@@ -108,7 +108,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/bin/properties/proxy.properties", 
@@ -125,7 +125,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa2/WEB-INF/o4glconfig.xml", 
@@ -142,7 +142,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 9
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa2/properties/proxy.properties", 
@@ -159,7 +159,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa/WEB-INF/o4glconfig.xml", 
@@ -176,7 +176,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/qa/properties/proxy.properties", 
@@ -193,7 +193,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 12
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/dev2/properties/proxy.properties", 
@@ -210,7 +210,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 13
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/dev/properties/proxy.properties", 
@@ -227,7 +227,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 14
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/preprod/WEB-INF/o4glconfig.xml", 
@@ -244,7 +244,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/preprod/properties/proxy.properties", 
@@ -261,7 +261,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 16
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/prod/WEB-INF/o4glconfig.xml", 
@@ -278,7 +278,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 17
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/env/prod/properties/proxy.properties", 
@@ -295,7 +295,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 18
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/WebContent/WEB-INF/properties/proxy.properties", 
@@ -312,7 +312,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 19
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/ConexionLegado_ConexionLegadoPort_Server.java", 
@@ -329,7 +329,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 20
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsCuestDAO.java", 
@@ -346,7 +346,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 21
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrlistaCotizacionDAO.java", 
@@ -363,7 +363,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 22
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcCalculaDAO.java", 
@@ -380,7 +380,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 23
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveContraDAO.java", 
@@ -397,7 +397,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 24
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsDAO.java", 
@@ -414,7 +414,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 25
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsOcupaDAO.java", 
@@ -431,7 +431,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 26
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsCuestDAO.java", 
@@ -448,7 +448,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 27
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcListaCotizacionDAO.java", 
@@ -465,7 +465,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 28
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrpdfDAO.java", 
@@ -482,7 +482,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 29
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrParamDiasDAO.java", 
@@ -499,7 +499,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 30
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsHabitosDAO.java", 
@@ -516,7 +516,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 31
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcPdfDAO.java", 
@@ -533,7 +533,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 32
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrsavecotizaDAO.java", 
@@ -550,7 +550,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 33
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsOcupaDAO.java", 
@@ -567,7 +567,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 34
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsDAOBK.java", 
@@ -584,7 +584,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 35
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcatalogoscoreDAO.java", 
@@ -601,7 +601,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 36
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsDAO.java", 
@@ -618,7 +618,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 37
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrfindcotizaDAO.java", 
@@ -635,7 +635,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 38
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrfindcontraDAO.java", 
@@ -652,7 +652,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 39
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcArespDAO.java", 
@@ -669,7 +669,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 40
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcSaveAsegsHabitosDAO.java", 
@@ -686,7 +686,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 41
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PruebaConexionDAO.java", 
@@ -703,7 +703,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 42
                 }
             ], 
             "Nombre": "comentarios", 

@@ -65,7 +65,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/qa/properties/configuration.properties", 
@@ -112,7 +112,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 7
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/dev/properties/configuration.properties", 
@@ -144,7 +144,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 19
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/env/prod/properties/configuration.properties", 
@@ -186,7 +186,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 6
+                    "Repeticiones": 25
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/src/com/ing/action/ActualizaNumeroCelularAgtes.java", 
@@ -208,7 +208,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 27
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/src/com/ing/ws/wsCte.java", 
@@ -235,7 +235,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 30
                 }
             ], 
             "Nombre": "comentarios", 

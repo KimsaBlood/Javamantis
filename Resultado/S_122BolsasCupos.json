@@ -45,7 +45,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 1
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/local/properties/application.properties", 
@@ -62,7 +62,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 5
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/qa/properties/application.properties", 
@@ -84,7 +84,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/qa/properties/application.properties", 
@@ -101,7 +101,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/dev/properties/application.properties", 
@@ -123,7 +123,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/dev/properties/application.properties", 
@@ -140,7 +140,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/prod/properties/application.properties", 
@@ -162,7 +162,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 13
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/ws/client/consultaterritorial/stub/ConsultaTerritorialServiceStub.java", 
@@ -189,7 +189,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 16
                 }
             ], 
             "Nombre": "comentarios", 

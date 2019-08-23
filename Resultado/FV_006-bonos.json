@@ -18,7 +18,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/connectionpool.properties", 
@@ -75,7 +75,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 11
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
@@ -92,7 +92,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/properties/framework.properties", 
@@ -119,7 +119,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 14
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
@@ -136,7 +136,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/connectionpool.properties", 
@@ -193,7 +193,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 10
+                    "Repeticiones": 24
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/framework.properties", 
@@ -210,7 +210,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 25
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/local/properties/framework.properties", 
@@ -237,7 +237,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 28
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/connectionpool.properties", 
@@ -254,7 +254,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 29
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/connectionpool.properties", 
@@ -311,7 +311,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 11
+                    "Repeticiones": 38
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/framework.properties", 
@@ -328,7 +328,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 39
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/qa/properties/framework.properties", 
@@ -355,7 +355,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 42
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/connectionpool.properties", 
@@ -372,7 +372,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 43
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/connectionpool.properties", 
@@ -429,7 +429,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 11
+                    "Repeticiones": 52
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/framework.properties", 
@@ -446,7 +446,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 53
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/dev/properties/framework.properties", 
@@ -473,7 +473,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 56
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/connectionpool.properties", 
@@ -490,7 +490,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 57
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/connectionpool.properties", 
@@ -547,7 +547,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 11
+                    "Repeticiones": 66
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/framework.properties", 
@@ -564,7 +564,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 67
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/env/prod/properties/framework.properties", 
@@ -591,7 +591,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 70
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/connectionpool.properties", 
@@ -608,7 +608,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 3
+                    "Repeticiones": 71
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/connectionpool.properties", 
@@ -665,7 +665,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 11
+                    "Repeticiones": 80
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/framework.properties", 
@@ -682,7 +682,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 81
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/WebContent/WEB-INF/properties/framework.properties", 
@@ -709,7 +709,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 84
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/src/com/ing/ia3/mx/bonos/dao/ControlCargaMasivaBonosDAO.java", 
@@ -726,7 +726,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 1
+                    "Repeticiones": 85
                 }
             ], 
             "Nombre": "comentarios", 

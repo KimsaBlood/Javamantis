@@ -55,7 +55,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 1
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/profiles/dev/config.properties", 
@@ -87,7 +87,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 4
+                    "Repeticiones": 10
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/profiles/preprod/config.properties", 
@@ -124,7 +124,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 5
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/profiles/prod/config.properties", 
@@ -161,7 +161,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 5
+                    "Repeticiones": 20
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/java/mx/axa/salud/web/client/callidus/ConsultaDetallesAgente.java", 
@@ -183,7 +183,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 22
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/java/mx/axa/salud/web/client/bpm/GastosMedicos.java", 
@@ -205,7 +205,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 24
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/java/mx/axa/salud/web/client/sepomex/SepomexWS.java", 
@@ -227,7 +227,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 26
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/D-143-02CotizadorSalud/D-143-02CotizadorSalud-webapp/src/main/java/mx/axa/salud/web/client/ecm/EcmWS_Service.java", 
@@ -249,7 +249,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 28
                 }
             ], 
             "Nombre": "comentarios", 

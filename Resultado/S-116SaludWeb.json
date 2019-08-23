@@ -165,7 +165,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 13
+                    "Repeticiones": 28
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/qa2/config.properties", 
@@ -182,7 +182,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 29
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/qa2/config.properties", 
@@ -199,7 +199,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 30
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/local/config.properties", 
@@ -241,7 +241,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 6
+                    "Repeticiones": 36
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/local/config.properties", 
@@ -258,7 +258,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 1
+                    "Repeticiones": 37
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/local/config.properties", 
@@ -310,7 +310,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 8
+                    "Repeticiones": 45
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/local/config.properties", 
@@ -327,7 +327,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 46
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/qa/config.properties", 
@@ -414,7 +414,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 15
+                    "Repeticiones": 61
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/qa/config.properties", 
@@ -471,7 +471,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 9
+                    "Repeticiones": 70
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/qa/config.properties", 
@@ -488,7 +488,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 71
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/qa/config.properties", 
@@ -505,7 +505,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 72
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/dev/config.properties", 
@@ -552,7 +552,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 7
+                    "Repeticiones": 79
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/dev/config.properties", 
@@ -584,7 +584,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 83
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/dev/config.properties", 
@@ -601,7 +601,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 84
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prod/config.properties", 
@@ -693,7 +693,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 16
+                    "Repeticiones": 100
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prod/config.properties", 
@@ -720,7 +720,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 103
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prod/config.properties", 
@@ -737,7 +737,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 104
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prep/config.properties", 
@@ -789,7 +789,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 8
+                    "Repeticiones": 112
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prep/config.properties", 
@@ -861,7 +861,7 @@
                         }
                     ], 
                     "NombreCad": "Apache", 
-                    "Repeticiones": 12
+                    "Repeticiones": 124
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prep/config.properties", 
@@ -878,7 +878,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 125
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/env/prep/config.properties", 
@@ -895,7 +895,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 1
+                    "Repeticiones": 126
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/saludweb/sepomex/SepomexWSStub.java", 
@@ -922,7 +922,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 129
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/saludweb/ecm/EncryptionServiceStub.java", 
@@ -949,7 +949,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 132
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/saludweb/ecm/EcmWSStub.java", 
@@ -976,7 +976,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 135
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/gmm/wscliente/TipoCambioWSStub.java", 
@@ -1003,7 +1003,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 138
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/gmm/wscliente/PolizaWSStub.java", 
@@ -1030,7 +1030,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 141
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/gmm/wscliente/PrestadorWSStub.java", 
@@ -1057,7 +1057,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 144
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/gmm/wscliente/SiniestroWSStub.java", 
@@ -1084,7 +1084,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 147
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/ws/com/axa/mx/gmm/wscliente/CuentaBancariaWSPortTypeServiceStub.java", 
@@ -1111,7 +1111,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 150
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/src/com/axa/mx/saludweb/util/Constantes.java", 
@@ -1133,7 +1133,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 152
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/src/com/axa/mx/saludweb/business/SaludWebResolucionServiceImpl.java", 
@@ -1150,7 +1150,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 153
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/src/com/axa/mx/saludweb/business/SaludWebCatalogoServiceImpl.java", 
@@ -1167,7 +1167,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 154
                 }
             ], 
             "Nombre": "comentarios", 

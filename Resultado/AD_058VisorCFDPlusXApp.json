@@ -45,7 +45,7 @@
                         }
                     ], 
                     "NombreCad": "MongoDB", 
-                    "Repeticiones": 2
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/resources/config/config.properties", 
@@ -67,7 +67,7 @@
                         }
                     ], 
                     "NombreCad": "MongoDB", 
-                    "Repeticiones": 2
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/java/mx/com/axa/ecm/visorCFD/ecmWS/EcmWS_ServiceLocator.java", 
@@ -84,7 +84,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 1
+                    "Repeticiones": 7
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/java/mx/com/axa/ecm/visorCFD/ecmWS/EcmWS_ServiceLocator.java", 
@@ -101,7 +101,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/src/main/java/mx/com/axa/ecm/visorCFD/mongodb/ConexionBD.java", 
@@ -123,7 +123,7 @@
                         }
                     ], 
                     "NombreCad": "MongoDB", 
-                    "Repeticiones": 2
+                    "Repeticiones": 10
                 }
             ], 
             "Nombre": "comentarios", 

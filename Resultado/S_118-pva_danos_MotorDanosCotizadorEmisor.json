@@ -45,7 +45,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 3
+                    "Repeticiones": 4
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_118-pva_danos_MotorDanosCotizadorEmisor/src/com/soa/worksite/ContextListener.java", 
@@ -62,7 +62,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 7
+                    "Repeticiones": 5
                 }
             ], 
             "Nombre": "comentarios", 

@@ -65,7 +65,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/target/CuentaBancariaWS/WEB-INF/classes/config.properties", 
@@ -97,7 +97,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 4
+                    "Repeticiones": 12
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/target/m2e-wtp/web-resources/WEB-INF/o4glconfig.xml", 
@@ -129,7 +129,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 16
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/target/classes/o4glconfig.xml", 
@@ -161,7 +161,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 20
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/target/classes/config.properties", 
@@ -188,7 +188,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 3
+                    "Repeticiones": 23
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/qa2/o4glconfig.xml", 
@@ -220,7 +220,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 27
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/qa2/config.properties", 
@@ -247,7 +247,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 3
+                    "Repeticiones": 30
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/qa/o4glconfig.xml", 
@@ -279,7 +279,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 34
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/qa/config.properties", 
@@ -306,7 +306,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 3
+                    "Repeticiones": 37
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/dev2/o4glconfig.xml", 
@@ -338,7 +338,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 41
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/dev2/config.properties", 
@@ -370,7 +370,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 4
+                    "Repeticiones": 45
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/dev/o4glconfig.xml", 
@@ -402,7 +402,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 49
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/dev/config.properties", 
@@ -434,7 +434,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 4
+                    "Repeticiones": 53
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/prod/o4glconfig.xml", 
@@ -466,7 +466,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 57
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/prod/config.properties", 
@@ -498,7 +498,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 4
+                    "Repeticiones": 61
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/prep/o4glconfig.xml", 
@@ -520,7 +520,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 63
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/env/prep/config.properties", 
@@ -547,7 +547,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 3
+                    "Repeticiones": 66
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/WebContent/WEB-INF/o4glconfig.xml", 
@@ -574,7 +574,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 3
+                    "Repeticiones": 69
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/src/main/resources/o4glconfig.xml", 
@@ -606,7 +606,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 4
+                    "Repeticiones": 73
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/src/main/resources/config.properties", 
@@ -633,7 +633,7 @@
                         }
                     ], 
                     "NombreCad": "Progress2", 
-                    "Repeticiones": 3
+                    "Repeticiones": 76
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaServices/SRV-080-MAIN/src/main/webapp/WEB-INF/o4glconfig.xml", 
@@ -655,7 +655,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 2
+                    "Repeticiones": 78
                 }
             ], 
             "Nombre": "comentarios", 

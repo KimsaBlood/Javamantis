@@ -18,7 +18,7 @@
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
-                    "Repeticiones": 2
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/properties/connectionpool.properties", 
@@ -92,7 +92,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 11
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/properties/framework.properties", 
@@ -124,7 +124,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 15
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/qa/framework.properties", 
@@ -141,7 +141,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 16
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/qa/framework.properties", 
@@ -173,7 +173,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 20
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/qa/db.properties", 
@@ -190,7 +190,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 21
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/dev/framework.properties", 
@@ -207,7 +207,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 22
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/dev/framework.properties", 
@@ -239,7 +239,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 26
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/dev/db.properties", 
@@ -256,7 +256,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 27
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/prod/framework.properties", 
@@ -273,7 +273,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 28
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/prod/framework.properties", 
@@ -305,7 +305,7 @@
                         }
                     ], 
                     "NombreCad": "JNDI", 
-                    "Repeticiones": 5
+                    "Repeticiones": 32
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/env/prod/db.properties", 
@@ -322,7 +322,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 33
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/db.properties", 
@@ -339,7 +339,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 34
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/mx/cons/dao/GenericoRptDAO.java", 
@@ -356,7 +356,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 35
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/src/mx/cons/dao/EstructuraProgDAO.java", 
@@ -373,7 +373,7 @@
                         }
                     ], 
                     "NombreCad": "Progress", 
-                    "Repeticiones": 1
+                    "Repeticiones": 36
                 }
             ], 
             "Nombre": "comentarios", 

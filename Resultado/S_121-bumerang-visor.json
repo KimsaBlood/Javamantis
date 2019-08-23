@@ -35,7 +35,7 @@
                         }
                     ], 
                     "NombreCad": "IP", 
-                    "Repeticiones": 1
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_121-bumerang-visor/src/main/java/mx/com/axa/ecm/visor/bumerang/mongodb/ConexionBD.java", 
@@ -57,7 +57,7 @@
                         }
                     ], 
                     "NombreCad": "MongoDB", 
-                    "Repeticiones": 2
+                    "Repeticiones": 4
                 }
             ], 
             "Nombre": "comentarios", 

@@ -55,7 +55,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 3
+                    "Repeticiones": 6
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-122BolsasCuposBatch/env/dev/properties/application.properties", 
@@ -77,7 +77,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 2
+                    "Repeticiones": 8
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-122BolsasCuposBatch/env/prod/properties/application.properties", 
@@ -104,7 +104,7 @@
                         }
                     ], 
                     "NombreCad": "Datapower", 
-                    "Repeticiones": 3
+                    "Repeticiones": 11
                 }
             ], 
             "Nombre": "comentarios", 
