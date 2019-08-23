@@ -14,6 +14,3 @@ class opcionesCSV:
 
 	def setNombre(self):
 		self.nombre=nombre
-
-	def toDict(self):
-		return {self.getNombre():self.getInfo()}

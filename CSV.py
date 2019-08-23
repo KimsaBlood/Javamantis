@@ -33,6 +33,7 @@ class CSV:
 					apps.append(l[:-2])
 					if app:
 						self.apps2.append(app)
+						opcs2=[]
 					app=AplicacionesCSV(l[:-2],opcs2)
 					cad="true"
 			else:
@@ -51,8 +52,7 @@ class CSV:
 	def getOpcToJson(self,opciones):
 		opcs=[]
 		for l in opciones:
-			#print(l.toDict())
-			opcs.append(l.toDict())
+			opcs.append({l.getNombre():l.getInfo()})
 		return opcs
 
 	def getAppToJson(self):
