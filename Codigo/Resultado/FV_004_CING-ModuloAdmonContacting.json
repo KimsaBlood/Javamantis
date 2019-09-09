@@ -13,12 +13,12 @@
                     "Lineas": [
                         {
                             "Linea": 55, 
-                            "NombreSource": "=WebLogic_CMP_RDBMS", 
+                            "NombreSource": "WebLogic_CMP_RDBMS", 
                             "Texto": "#\tJNDIDataSourceName=WebLogic_CMP_RDBMS|\\\r\n"
                         }, 
                         {
                             "Linea": 106, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -35,7 +35,7 @@
                     "Lineas": [
                         {
                             "Linea": 89, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -58,17 +58,17 @@
                     "Lineas": [
                         {
                             "Linea": 62, 
-                            "NombreSource": "=WebLogic_CMP_RDBMS", 
+                            "NombreSource": "WebLogic_CMP_RDBMS", 
                             "Texto": "\tJNDIDataSourceName=WebLogic_CMP_RDBMS|\\\r\n"
                         }, 
                         {
                             "Linea": 72, 
-                            "NombreSource": "=OracleXADS", 
+                            "NombreSource": "OracleXADS", 
                             "Texto": "\tJNDIDataSourceName=OracleXADS|\\\r\n"
                         }, 
                         {
                             "Linea": 82, 
-                            "NombreSource": "=DB2XADS", 
+                            "NombreSource": "DB2XADS", 
                             "Texto": "\tJNDIDataSourceName=DB2XADS|\\\r\n"
                         }
                     ], 
@@ -85,12 +85,12 @@
                     "Lineas": [
                         {
                             "Linea": 55, 
-                            "NombreSource": "=contactINGDS", 
+                            "NombreSource": "contactINGDS", 
                             "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n"
                         }, 
                         {
                             "Linea": 63, 
-                            "NombreSource": "=CatComServ_DS", 
+                            "NombreSource": "CatComServ_DS", 
                             "Texto": "\tJNDIDataSourceName=CatComServ_DS|\\\r\n"
                         }
                     ], 
@@ -113,7 +113,7 @@
                     "Lineas": [
                         {
                             "Linea": 100, 
-                            "NombreSource": "=", 
+                            "NombreSource": "", 
                             "Texto": "            sFormat.append( \"\\tJNDIDataSourceName=\" + this.m_sJNDIName + \"|\\\\\\n\" );\r\n"
                         }
                     ], 
@@ -131,7 +131,7 @@
                         {
                             "Linea": 68, 
                             "Texto": "                    \"http://nagoya.apache.org:5049/axis/services/echo\";\r\n", 
-                            "url": "http://nagoya.apache.org:5049/axis/services/echo"
+                            "url": "ttp://nagoya.apache.org:5049/axis/services/echo"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -148,7 +148,7 @@
                         {
                             "Linea": 99, 
                             "Texto": "        URLEndpoint endpoint = new URLEndpoint(\"http://66.28.98.121:9090/soap\");\r\n", 
-                            "url": "http://66.28.98.121:9090/soap"
+                            "url": "ttp://66.28.98.121:9090/soap"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -165,7 +165,7 @@
                         {
                             "Linea": 75, 
                             "Texto": " * See RFC 1867 (http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt)\r\n", 
-                            "url": "http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt"
+                            "url": "ttp://info.internet.isi.edu:80/in-notes/rfc/files/rfc1867.txt"
                         }
                     ], 
                     "NombreCad": "IP", 

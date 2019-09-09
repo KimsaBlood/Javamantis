@@ -19,7 +19,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "    <url>http://ux_desa5:5170/asbsrvgmcweb</url>\r\n", 
-                            "url": "http://ux_desa5:5170/asbsrvgmcweb"
+                            "url": "ttp://ux_desa5:5170/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -36,7 +36,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//ux_desa5:5170/asbsrvgmcweb", 
-                            "url": "url_progress=//ux_desa5:5170/asbsrvgmcweb"
+                            "url": "rl_progress=//ux_desa5:5170/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -53,7 +53,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://LU2APP188:5025/asbsrvgmcweb</url>\r\n", 
-                            "url": "http://LU2APP188:5025/asbsrvgmcweb"
+                            "url": "ttp://LU2APP188:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -70,7 +70,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//LU2APP188:5025/asbsrvgmcweb", 
-                            "url": "url_progress=//LU2APP188:5025/asbsrvgmcweb"
+                            "url": "rl_progress=//LU2APP188:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -87,7 +87,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://LU2APP190:5025/asbsrvgmcweb</url>\r\n", 
-                            "url": "http://LU2APP190:5025/asbsrvgmcweb"
+                            "url": "ttp://LU2APP190:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -104,7 +104,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//LU2APP190:5025/asbsrvgmcweb", 
-                            "url": "url_progress=//LU2APP190:5025/asbsrvgmcweb"
+                            "url": "rl_progress=//LU2APP190:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -121,7 +121,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "    <url>http://LU1APP93:5025/asbsrvgmcweb</url>\r\n", 
-                            "url": "http://LU1APP93:5025/asbsrvgmcweb"
+                            "url": "ttp://LU1APP93:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -138,7 +138,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//LU1APP93:5025/asbsrvgmcweb", 
-                            "url": "url_progress=//LU1APP93:5025/asbsrvgmcweb"
+                            "url": "rl_progress=//LU1APP93:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -155,7 +155,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://LU2APP188:5025/asbsrvgmcweb</url>\r\n", 
-                            "url": "http://LU2APP188:5025/asbsrvgmcweb"
+                            "url": "ttp://LU2APP188:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -172,7 +172,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//LU2APP188:5025/asbsrvgmcweb", 
-                            "url": "url_progress=//LU2APP188:5025/asbsrvgmcweb"
+                            "url": "rl_progress=//LU2APP188:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "Progress2", 
@@ -189,7 +189,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "\t\t<url>http://LU2APP188:5025/asbsrvgmcweb</url>\r\n", 
-                            "url": "http://LU2APP188:5025/asbsrvgmcweb"
+                            "url": "ttp://LU2APP188:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -206,7 +206,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "url_progress=//LU2APP188:5025/asbsrvgmcweb", 
-                            "url": "url_progress=//LU2APP188:5025/asbsrvgmcweb"
+                            "url": "rl_progress=//LU2APP188:5025/asbsrvgmcweb"
                         }
                     ], 
                     "NombreCad": "Progress2", 

@@ -19,7 +19,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "\t\t<url>http://ux_desa1:5329/asbdandes</url>\r\n", 
-                            "url": "http://ux_desa1:5329/asbdandes"
+                            "url": "ttp://ux_desa1:5329/asbdandes"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -36,12 +36,12 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_desa5:5329/asbdanweb</url>\r\n", 
-                            "url": "http://ux_desa5:5329/asbdanweb"
+                            "url": "ttp://ux_desa5:5329/asbdanweb"
                         }, 
                         {
                             "Linea": 23, 
                             "Texto": "            <url>http://ux_desa5:5329/asbdancen</url>\r\n", 
-                            "url": "http://ux_desa5:5329/asbdancen"
+                            "url": "ttp://ux_desa5:5329/asbdancen"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -58,7 +58,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "\t\t<url>http://ux_desa1:5329/asbdandes</url>\r\n", 
-                            "url": "http://ux_desa1:5329/asbdandes"
+                            "url": "ttp://ux_desa1:5329/asbdandes"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -75,17 +75,17 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_danos:5329/asbdanweb</url>\r\n", 
-                            "url": "http://ux_danos:5329/asbdanweb"
+                            "url": "ttp://ux_danos:5329/asbdanweb"
                         }, 
                         {
                             "Linea": 23, 
                             "Texto": "            <url>http://ux_danos:5329/asbdanweb2</url>\r\n", 
-                            "url": "http://ux_danos:5329/asbdanweb2"
+                            "url": "ttp://ux_danos:5329/asbdanweb2"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "            <url>http://ux_danos:5329/asbdanweb3</url>\r\n", 
-                            "url": "http://ux_danos:5329/asbdanweb3"
+                            "url": "ttp://ux_danos:5329/asbdanweb3"
                         }
                     ], 
                     "NombreCad": "IP", 

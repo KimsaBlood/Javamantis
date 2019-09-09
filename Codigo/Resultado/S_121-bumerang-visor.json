@@ -14,7 +14,7 @@
                         {
                             "Linea": 27, 
                             "Texto": "//    private java.lang.String ecmWS_address = \"http://serviciosweb.axa.com.mx:9185/dp/services/ecm\";\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm"
+                            "url": "ttp://serviciosweb.axa.com.mx:9185/dp/services/ecm"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -42,7 +42,7 @@
                         {
                             "Linea": 25, 
                             "Texto": "    private java.lang.String ecmWS_address = \"http://10.77.5.75:9185/dp/services/ecm\";\r\n", 
-                            "url": "http://10.77.5.75:9185/dp/services/ecm"
+                            "url": "ttp://10.77.5.75:9185/dp/services/ecm"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -59,12 +59,12 @@
                         {
                             "Linea": 28, 
                             "Texto": "\t\t// \"mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM\");\r\n", 
-                            "url": "mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM"
+                            "url": "ongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "\t\t\t\t\"mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\");\r\n", 
-                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "ongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 

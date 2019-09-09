@@ -19,7 +19,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "link.action=http://ntpegasotla:9090/ExpedienteE/\n", 
-                            "url": "http://ntpegasotla:9090/ExpedienteE/"
+                            "url": "ttp://ntpegasotla:9090/ExpedienteE/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -36,12 +36,12 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte\"\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte"
+                            "url": "dbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -58,12 +58,12 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -80,7 +80,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "link.action=http://130.2.5.242:9090/\r\n", 
-                            "url": "http://130.2.5.242:9090/"
+                            "url": "ttp://130.2.5.242:9090/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -97,12 +97,12 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -119,7 +119,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "link.action=http://ntdesa02:9090/ExpedienteE/\r\n", 
-                            "url": "http://ntdesa02:9090/ExpedienteE/"
+                            "url": "ttp://ntdesa02:9090/ExpedienteE/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -136,12 +136,12 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -158,7 +158,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "link.action=http://ntdesa02:9090/ExpedienteE/\r\n", 
-                            "url": "http://ntdesa02:9090/ExpedienteE/"
+                            "url": "ttp://ntdesa02:9090/ExpedienteE/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -175,12 +175,12 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.226.170:1660/expedientes:INFORMIXSERVER=tsttcpexpdte\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.226.170:1660/expedientes:INFORMIXSERVER=tsttcpexpdte"
+                            "url": "dbc:informix-sqli://10.212.226.170:1660/expedientes:INFORMIXSERVER=tsttcpexpdte"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -197,7 +197,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "link.action=http://ntdesa02:9090/ExpedienteE/\r\n", 
-                            "url": "http://ntdesa02:9090/ExpedienteE/"
+                            "url": "ttp://ntdesa02:9090/ExpedienteE/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -214,7 +214,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "link.action=http://ntpegasotla:9090/ExpedienteE/\r\n", 
-                            "url": "http://ntpegasotla:9090/ExpedienteE/"
+                            "url": "ttp://ntpegasotla:9090/ExpedienteE/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -231,17 +231,17 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte"
+                            "url": "dbc:informix-sqli://10.212.49.2:1591/expedientes:INFORMIXSERVER=prodtcpexpdte"
                         }, 
                         {
                             "Linea": 30, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.213.32:1660/expedientes:INFORMIXSERVER=protcpexpdte\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.213.32:1660/expedientes:INFORMIXSERVER=protcpexpdte"
+                            "url": "dbc:informix-sqli://10.212.213.32:1660/expedientes:INFORMIXSERVER=protcpexpdte"
                         }, 
                         {
                             "Linea": 56, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.213.32:1660/expedientes:INFORMIXSERVER=protcpexpdte\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.213.32:1660/expedientes:INFORMIXSERVER=protcpexpdte"
+                            "url": "dbc:informix-sqli://10.212.213.32:1660/expedientes:INFORMIXSERVER=protcpexpdte"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -258,7 +258,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "link.action=http://130.2.5.242:9090/\r\n", 
-                            "url": "http://130.2.5.242:9090/"
+                            "url": "ttp://130.2.5.242:9090/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -275,12 +275,12 @@
                         {
                             "Linea": 6, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.11:1630/expedientes:INFORMIXSERVER=desatcpexp"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "               url=\"jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp\"\r\n", 
-                            "url": "jdbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
+                            "url": "dbc:informix-sqli://10.212.49.2:1590/expedientes:INFORMIXSERVER=prodtcpexp"
                         }
                     ], 
                     "NombreCad": "JDBC", 

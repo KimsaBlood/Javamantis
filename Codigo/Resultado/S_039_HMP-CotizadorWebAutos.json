@@ -13,7 +13,7 @@
                     "Lineas": [
                         {
                             "Linea": 81, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -30,7 +30,7 @@
                     "Lineas": [
                         {
                             "Linea": 81, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -48,7 +48,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "# JAVO appservice.url=//130.2.1.32:5190/asbautprumet\r\n", 
-                            "url": "# JAVO appservice.url=//130.2.1.32:5190/asbautprumet"
+                            "url": " JAVO appservice.url=//130.2.1.32:5190/asbautprumet"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -71,7 +71,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "appservice.url=//130.2.1.17:5180/asautosjava\r\n", 
-                            "url": "appservice.url=//130.2.1.17:5180/asautosjava"
+                            "url": "ppservice.url=//130.2.1.17:5180/asautosjava"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -88,7 +88,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "appservice.url=//130.2.1.17:5180/asautosjava\r\n", 
-                            "url": "appservice.url=//130.2.1.17:5180/asautosjava"
+                            "url": "ppservice.url=//130.2.1.17:5180/asautosjava"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -104,7 +104,7 @@
                     "Lineas": [
                         {
                             "Linea": 55, 
-                            "NombreSource": "=CotizadorWebDataSource", 
+                            "NombreSource": "CotizadorWebDataSource", 
                             "Texto": "\tJNDIDataSourceName=CotizadorWebDataSource|\\\r\n"
                         }
                     ], 
@@ -121,7 +121,7 @@
                     "Lineas": [
                         {
                             "Linea": 55, 
-                            "NombreSource": "=CotizadorWebDataSource", 
+                            "NombreSource": "CotizadorWebDataSource", 
                             "Texto": "\tJNDIDataSourceName=CotizadorWebDataSource|\\\r\n"
                         }
                     ], 
@@ -139,7 +139,7 @@
                         {
                             "Linea": 13, 
                             "Texto": "appservice.url=//10.212.213.10:5190/asbcuautos\r\n", 
-                            "url": "appservice.url=//10.212.213.10:5190/asbcuautos"
+                            "url": "ppservice.url=//10.212.213.10:5190/asbcuautos"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -156,7 +156,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "appservice.url=//130.2.1.17:5180/asautosjava\r\n", 
-                            "url": "appservice.url=//130.2.1.17:5180/asautosjava"
+                            "url": "ppservice.url=//130.2.1.17:5180/asautosjava"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -173,7 +173,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "appservice.url=//130.2.1.32:5190/asbautmet\r\n", 
-                            "url": "appservice.url=//130.2.1.32:5190/asbautmet"
+                            "url": "ppservice.url=//130.2.1.32:5190/asbautmet"
                         }
                     ], 
                     "NombreCad": "IP", 

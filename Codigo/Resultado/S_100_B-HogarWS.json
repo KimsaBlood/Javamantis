@@ -14,7 +14,7 @@
                         {
                             "Linea": 1326, 
                             "Texto": "     //http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -42,12 +42,12 @@
                         {
                             "Linea": 207, 
                             "Texto": "                    this(configurationContext,\"http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 216, 
                             "Texto": "                    this(\"http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.7.79:9080/HogarWS/services/EmisionDanosWS.EmisionDanosWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 

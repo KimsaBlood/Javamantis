@@ -14,7 +14,7 @@
                         {
                             "Linea": 10, 
                             "Texto": "##mx.com.axa.byc.ws.client.callidus=https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttps://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -37,7 +37,7 @@
                         {
                             "Linea": 11, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -54,7 +54,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -71,7 +71,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -88,7 +88,7 @@
                         {
                             "Linea": 9, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Datapower", 

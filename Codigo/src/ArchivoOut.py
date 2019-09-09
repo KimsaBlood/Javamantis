@@ -99,7 +99,7 @@ class ArchivoOut:
 							matcher=patron.search(f)
 							#si el objeto no esta vacio creamos un objeto del tipo LineasOut y le pasamos el numero de linea, el texto y la url
 							if matcher:
-								line=LineasOut(j,f,matcher.group(0),x.getNombre())
+								line=LineasOut(j,f,matcher.group(0)[1:],x.getNombre())
 								break
 					lineas.append(line)
 					i+=1	

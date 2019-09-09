@@ -14,7 +14,7 @@
                         {
                             "Linea": 429, 
                             "Texto": "     //http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -37,7 +37,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -54,12 +54,12 @@
                         {
                             "Linea": 12, 
                             "Texto": "mx.com.axa.ficheros.filetx.derivacion.urlbase = sftp://10.133.32.158:22/bancs/vehiculos/output/\r\n", 
-                            "url": "sftp://10.133.32.158:22/bancs/vehiculos/output/"
+                            "url": "ftp://10.133.32.158:22/bancs/vehiculos/output/"
                         }, 
                         {
                             "Linea": 19, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://10.77.66.42:21002/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "http://10.77.66.42:21002/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://10.77.66.42:21002/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -76,7 +76,7 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://servicioswebqa.axa.com.mx:7850/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7850/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7850/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -93,7 +93,7 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -110,7 +110,7 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://serviciosweb.axa.com.mx:7815/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:7815/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://serviciosweb.axa.com.mx:7815/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -133,12 +133,12 @@
                         {
                             "Linea": 106, 
                             "Texto": "                    this(configurationContext,\"http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS\" );\r\n", 
-                            "url": "http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
                         }, 
                         {
                             "Linea": 115, 
                             "Texto": "                    this(\"http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS\" );\r\n", 
-                            "url": "http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "ttp://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "IP", 

@@ -14,12 +14,12 @@
                         {
                             "Linea": 10, 
                             "Texto": "#banamex.url=https://agentesqa.axa.com.mx/SimuladorBanamex/forward\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SimuladorBanamex/forward"
+                            "url": "ttps://agentesqa.axa.com.mx/SimuladorBanamex/forward"
                         }, 
                         {
                             "Linea": 21, 
                             "Texto": "#mit.url=https://agentesqa.axa.com.mx/SimuladorBanamex/consumeWS_MIT\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SimuladorBanamex/consumeWS_MIT"
+                            "url": "ttps://agentesqa.axa.com.mx/SimuladorBanamex/consumeWS_MIT"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -42,12 +42,12 @@
                         {
                             "Linea": 15, 
                             "Texto": "banamex.url=https://agentesqa.axa.com.mx/SimuladorBanamex/forward\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SimuladorBanamex/forward"
+                            "url": "ttps://agentesqa.axa.com.mx/SimuladorBanamex/forward"
                         }, 
                         {
                             "Linea": 20, 
                             "Texto": "mitContext.url=https://agentesqa.axa.com.mx/InterfazBanamex/mitContext\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/InterfazBanamex/mitContext"
+                            "url": "ttps://agentesqa.axa.com.mx/InterfazBanamex/mitContext"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -64,7 +64,7 @@
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -81,7 +81,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "axa.url=https://agentesqa.axa.com.mx/InterfazBanamex/services/IntegracionBanamex\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/InterfazBanamex/services/IntegracionBanamex"
+                            "url": "ttps://agentesqa.axa.com.mx/InterfazBanamex/services/IntegracionBanamex"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -104,7 +104,7 @@
                         {
                             "Linea": 25, 
                             "Texto": "    private java.lang.String IntegracionBanamex_address = \"http://10.212.227.26:8080/InterfazBanamex/services/IntegracionBanamex\";\r\n", 
-                            "url": "http://10.212.227.26:8080/InterfazBanamex/services/IntegracionBanamex"
+                            "url": "ttp://10.212.227.26:8080/InterfazBanamex/services/IntegracionBanamex"
                         }
                     ], 
                     "NombreCad": "IP", 

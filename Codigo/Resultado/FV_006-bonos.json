@@ -13,7 +13,7 @@
                     "Lineas": [
                         {
                             "Linea": 109, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -30,7 +30,7 @@
                     "Lineas": [
                         {
                             "Linea": 95, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -47,7 +47,7 @@
                     "Lineas": [
                         {
                             "Linea": 110, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -64,7 +64,7 @@
                     "Lineas": [
                         {
                             "Linea": 109, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -81,7 +81,7 @@
                     "Lineas": [
                         {
                             "Linea": 110, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -98,7 +98,7 @@
                     "Lineas": [
                         {
                             "Linea": 109, 
-                            "NombreSource": "=MyOracleDataSource", 
+                            "NombreSource": "MyOracleDataSource", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -121,12 +121,12 @@
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "NombreSource": "=bonosOracleDS", 
+                            "NombreSource": "bonosOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "NombreSource": "bonosSegregadoOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
@@ -144,7 +144,7 @@
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -160,7 +160,7 @@
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "NombreSource": "=bonosDS", 
+                            "NombreSource": "bonosDS", 
                             "Texto": "\tJNDIDataSourceName=bonosDS|\\\r\n"
                         }
                     ], 
@@ -178,7 +178,7 @@
                         {
                             "Linea": 277, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -194,12 +194,12 @@
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "NombreSource": "=bonosOracleDS", 
+                            "NombreSource": "bonosOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "NombreSource": "bonosSegregadoOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
@@ -217,7 +217,7 @@
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -233,12 +233,12 @@
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "NombreSource": "=bonosOracleDS", 
+                            "NombreSource": "bonosOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "NombreSource": "bonosSegregadoOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
@@ -256,7 +256,7 @@
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -272,12 +272,12 @@
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "NombreSource": "=bonosOracleDS", 
+                            "NombreSource": "bonosOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "NombreSource": "bonosSegregadoOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
@@ -295,7 +295,7 @@
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -311,12 +311,12 @@
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "NombreSource": "=bonosOracleDS", 
+                            "NombreSource": "bonosOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosOracleDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "NombreSource": "=bonosSegregadoOracleDS", 
+                            "NombreSource": "bonosSegregadoOracleDS", 
                             "Texto": "\tJNDIDataSourceName=bonosSegregadoOracleDS|\\\r\n"
                         }
                     ], 
@@ -334,7 +334,7 @@
                         {
                             "Linea": 279, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -357,7 +357,7 @@
                         {
                             "Linea": 235, 
                             "Texto": "                case ConstantesCarga.PROCESO_16_BORRA_PROMO_BAC://agentes, 5. Agrupa PromoBAC //{campo = \"CVE_CC_TITULAR\"; tabla = \"GEN_DIM_CC_BONOS_BAC\";}\r\n", 
-                            "url": "PROCESO_16_BORRA_PROMO_BAC://agentes,"
+                            "url": "ROCESO_16_BORRA_PROMO_BAC://agentes,"
                         }
                     ], 
                     "NombreCad": "Apache", 

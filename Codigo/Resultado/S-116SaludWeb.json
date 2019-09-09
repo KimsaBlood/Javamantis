@@ -14,12 +14,12 @@
                         {
                             "Linea": 40, 
                             "Texto": "#com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 43, 
                             "Texto": "#com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -36,42 +36,42 @@
                         {
                             "Linea": 18, 
                             "Texto": "#com.axa.mx.gmm.wscliente.SiniestroWSStub=https://agentesqa-2.axa.com.mx/SaludWebWS2/services/SiniestroWS?wsdl\r\n", 
-                            "url": "https://agentesqa-2.axa.com.mx/SaludWebWS2/services/SiniestroWS?wsdl"
+                            "url": "ttps://agentesqa-2.axa.com.mx/SaludWebWS2/services/SiniestroWS?wsdl"
                         }, 
                         {
                             "Linea": 25, 
                             "Texto": "#com.axa.mx.gmm.wscliente.ClienteWSStub=https://agentesqa-2.axa.com.mx/SaludWebWS2/services/ClienteWS?wsdl\r\n", 
-                            "url": "https://agentesqa-2.axa.com.mx/SaludWebWS2/services/ClienteWS?wsdl"
+                            "url": "ttps://agentesqa-2.axa.com.mx/SaludWebWS2/services/ClienteWS?wsdl"
                         }, 
                         {
                             "Linea": 32, 
                             "Texto": "#com.axa.mx.gmm.wscliente.PolizaWSStub=https://agentesqa-2.axa.com.mx/SaludWebWS2/services/PolizaWS?wsdl\r\n", 
-                            "url": "https://agentesqa-2.axa.com.mx/SaludWebWS2/services/PolizaWS?wsdl"
+                            "url": "ttps://agentesqa-2.axa.com.mx/SaludWebWS2/services/PolizaWS?wsdl"
                         }, 
                         {
                             "Linea": 50, 
                             "Texto": "#com.axa.mx.gmm.wscliente.PrestadorWSStub=https://agentesqa-2.axa.com.mx/SaludWebWS2/services/PrestadorWS?wsdl\r\n", 
-                            "url": "https://agentesqa-2.axa.com.mx/SaludWebWS2/services/PrestadorWS?wsdl"
+                            "url": "ttps://agentesqa-2.axa.com.mx/SaludWebWS2/services/PrestadorWS?wsdl"
                         }, 
                         {
                             "Linea": 105, 
                             "Texto": "#digitalizacion.webscan.UrlWsImg=https://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx"
+                            "url": "ttps://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx"
                         }, 
                         {
                             "Linea": 114, 
                             "Texto": "#mx.com.axa.servicios.wsimagenes.WsImagenesStub=https://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx"
+                            "url": "ttps://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx"
                         }, 
                         {
                             "Linea": 118, 
                             "Texto": "#mx.com.axa.servicios.wsconsultas.ConsultasWebStub=https://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl"
                         }, 
                         {
                             "Linea": 122, 
                             "Texto": "#url.control.digitalizador = https://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -88,7 +88,7 @@
                         {
                             "Linea": 145, 
                             "Texto": "#com.axa.mx.saludweb.reglas.DecisionServiceSaludWebRulesStub = http://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL\r\n", 
-                            "url": "http://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
+                            "url": "ttp://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -105,7 +105,7 @@
                         {
                             "Linea": 131, 
                             "Texto": "#com.axa.mx.saludweb.reglas.DecisionServiceDecisionServiceStub = http://servicioswebdev.axa.com.mx:9091/DecisionService/ws/SaludWebRulesApp\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9091/DecisionService/ws/SaludWebRulesApp"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9091/DecisionService/ws/SaludWebRulesApp"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -122,27 +122,27 @@
                         {
                             "Linea": 14, 
                             "Texto": "#com.axa.mx.gmm.wscliente.SiniestroWSStub=https://mxdata22001.asefi.mex:9091/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 21, 
                             "Texto": "#com.axa.mx.gmm.wscliente.ClienteWSStub=https://mxdata22001.asefi.mex:9091/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 28, 
                             "Texto": "#com.axa.mx.gmm.wscliente.PolizaWSStub=https://mxdata22001.asefi.mex:9091/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 35, 
                             "Texto": "#com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=https://mxdata22001.asefi.mex:9091/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 46, 
                             "Texto": "#com.axa.mx.gmm.wscliente.PrestadorWSStub=https://mxdata22001.asefi.mex:9091/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -159,12 +159,12 @@
                         {
                             "Linea": 37, 
                             "Texto": "#com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 40, 
                             "Texto": "#com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -181,22 +181,22 @@
                         {
                             "Linea": 101, 
                             "Texto": "#digitalizacion.webscan.UrlWsImg=https://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx"
+                            "url": "ttps://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx"
                         }, 
                         {
                             "Linea": 110, 
                             "Texto": "#mx.com.axa.servicios.wsimagenes.WsImagenesStub=https://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx"
+                            "url": "ttps://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx"
                         }, 
                         {
                             "Linea": 114, 
                             "Texto": "#mx.com.axa.servicios.wsconsultas.ConsultasWebStub=https://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl"
                         }, 
                         {
                             "Linea": 118, 
                             "Texto": "#url.control.digitalizador = https://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -213,7 +213,7 @@
                         {
                             "Linea": 141, 
                             "Texto": "#com.axa.mx.saludweb.reglas.DecisionServiceSaludWebRulesStub = http://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL\r\n", 
-                            "url": "http://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
+                            "url": "ttp://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -230,7 +230,7 @@
                         {
                             "Linea": 130, 
                             "Texto": "#com.axa.sms.webservice.EnviarMensajeWSStub=http://servicioswebdev.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -247,17 +247,17 @@
                         {
                             "Linea": 37, 
                             "Texto": "#com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=https://mxdata22001.asefi.mex:9091/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 146, 
                             "Texto": "#com.axa.mx.saludweb.wscliente.CedulasSATWSStub = https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 152, 
                             "Texto": "#com.axa.mx.saludweb.wscliente.CedulasSEPWSStub = https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -274,7 +274,7 @@
                         {
                             "Linea": 122, 
                             "Texto": "#com.axa.mx.saludweb.ecm.EcmWSStub = http://serviciosweb.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS_BPM\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS_BPM"
+                            "url": "ttp://serviciosweb.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS_BPM"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -291,7 +291,7 @@
                         {
                             "Linea": 145, 
                             "Texto": "#com.axa.mx.saludweb.reglas.DecisionServiceSaludWebRulesStub = http://mxu40p0o.asefi.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL\r\n", 
-                            "url": "http://mxu40p0o.asefi.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
+                            "url": "ttp://mxu40p0o.asefi.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -308,12 +308,12 @@
                         {
                             "Linea": 128, 
                             "Texto": "#com.axa.mx.saludweb.ecm.EcmWSStub = http://servicioswebqa.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
                         }, 
                         {
                             "Linea": 145, 
                             "Texto": "#com.axa.sms.webservice.EnviarMensajeWSStub=http://servicioswebqa.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -330,37 +330,37 @@
                         {
                             "Linea": 19, 
                             "Texto": "#com.axa.mx.gmm.wscliente.SiniestroWSStub=https://agentesqa.axa.com.mx/SaludWebWS/services/SiniestroWS?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWebWS/services/SiniestroWS?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWebWS/services/SiniestroWS?wsdl"
                         }, 
                         {
                             "Linea": 26, 
                             "Texto": "#com.axa.mx.gmm.wscliente.ClienteWSStub=https://agentesqa.axa.com.mx/SaludWebWS/services/ClienteWS?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWebWS/services/ClienteWS?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWebWS/services/ClienteWS?wsdl"
                         }, 
                         {
                             "Linea": 49, 
                             "Texto": "#com.axa.mx.gmm.wscliente.PrestadorWSStub=https://agentesqa.axa.com.mx/SaludWebWS/services/PrestadorWS?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWebWS/services/PrestadorWS?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWebWS/services/PrestadorWS?wsdl"
                         }, 
                         {
                             "Linea": 104, 
                             "Texto": "#digitalizacion.webscan.UrlWsImg=https://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx"
+                            "url": "ttps://agentesqa.axa.com.mx/WsImagenesV9/WsImagenes.asmx"
                         }, 
                         {
                             "Linea": 113, 
                             "Texto": "#mx.com.axa.servicios.wsimagenes.WsImagenesStub=https://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx"
+                            "url": "ttps://agentesqa.axa.com.mx/WsImagenesV9/WSImagenes.asmx"
                         }, 
                         {
                             "Linea": 117, 
                             "Texto": "#mx.com.axa.servicios.wsconsultas.ConsultasWebStub=https://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/WsConsultasV9/ConsultasWeb.asmx?wsdl"
                         }, 
                         {
                             "Linea": 121, 
                             "Texto": "#url.control.digitalizador = https://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/WinControlTwain.DLL"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -377,7 +377,7 @@
                         {
                             "Linea": 150, 
                             "Texto": "#com.axa.mx.saludweb.reglas.DecisionServiceSaludWebRulesStub = http://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL\r\n", 
-                            "url": "http://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
+                            "url": "ttp://mxu41l0g.asefitest.mex:9081/DecisionService/ws/SaludWebRulesApp/1.0/SaludWebRules/1.0?WSDL"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -394,7 +394,7 @@
                         {
                             "Linea": 1610, 
                             "Texto": "     //http://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/\r\n", 
-                            "url": "http://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -411,7 +411,7 @@
                         {
                             "Linea": 981, 
                             "Texto": "     //http://10.77.5.75:9174/TSS/services/encryptionService\r\n", 
-                            "url": "http://10.77.5.75:9174/TSS/services/encryptionService"
+                            "url": "ttp://10.77.5.75:9174/TSS/services/encryptionService"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -428,7 +428,7 @@
                         {
                             "Linea": 3197, 
                             "Texto": "     //http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS\r\n", 
-                            "url": "http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "ttp://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -445,7 +445,7 @@
                         {
                             "Linea": 430, 
                             "Texto": "     //http://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -462,7 +462,7 @@
                         {
                             "Linea": 8733, 
                             "Texto": "     //http://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -479,7 +479,7 @@
                         {
                             "Linea": 5863, 
                             "Texto": "     //http://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -496,7 +496,7 @@
                         {
                             "Linea": 18890, 
                             "Texto": "     //http://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -513,7 +513,7 @@
                         {
                             "Linea": 981, 
                             "Texto": "     //http://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -536,67 +536,67 @@
                         {
                             "Linea": 19, 
                             "Texto": "com.axa.mx.gmm.wscliente.SiniestroWSStub=http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 26, 
                             "Texto": "com.axa.mx.gmm.wscliente.ClienteWSStub=http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 33, 
                             "Texto": "com.axa.mx.gmm.wscliente.PolizaWSStub=http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 44, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 51, 
                             "Texto": "com.axa.mx.gmm.wscliente.PrestadorWSStub=http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 58, 
                             "Texto": "com.axa.mx.agentesws.bussiness.ConsultaDetallesAgenteStub=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 75, 
                             "Texto": "com.axa.mx.saludweb.sepomex.SepomexWSStub=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/"
                         }, 
                         {
                             "Linea": 85, 
                             "Texto": "com.axa.mx.gmm.wscliente.TipoCambioWSStub=http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/TipoCambioWS?wsdl\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/TipoCambioWS?wsdl"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9272/SaludWebWS/services/TipoCambioWS?wsdl"
                         }, 
                         {
                             "Linea": 125, 
                             "Texto": "com.axa.mx.saludweb.ecm.EncryptionServiceStub = http://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 129, 
                             "Texto": "com.axa.mx.saludweb.ecm.EcmWSStub = http://servicioswebqa.axa.com.mx:9185/dp/services/ecm\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
                         }, 
                         {
                             "Linea": 147, 
                             "Texto": "com.axa.mx.saludweb.reglas.DecisionServiceDecisionServiceStub = http://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
                         }, 
                         {
                             "Linea": 156, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSATWSStub=http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 160, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSEPWSStub=http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -613,27 +613,27 @@
                         {
                             "Linea": 39, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=https://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl"
                         }, 
                         {
                             "Linea": 64, 
                             "Texto": "com.axa.mx.saludweb.bup.BUP3ServiceStub=https://agentesqa.axa.com.mx:446/Bup3/services\r\n", 
-                            "url": "https://agentesqa.axa.com.mx:446/Bup3/services"
+                            "url": "ttps://agentesqa.axa.com.mx:446/Bup3/services"
                         }, 
                         {
                             "Linea": 98, 
                             "Texto": "digitalizacion.idportal.visualizador.url=https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
                         }, 
                         {
                             "Linea": 109, 
                             "Texto": "digitalizacion.webscan.UrlWsRespuesta=https://agentesqa-2.axa.com.mx/SaludWeb2/services/DigitalizacionServiceService\r\n", 
-                            "url": "https://agentesqa-2.axa.com.mx/SaludWeb2/services/DigitalizacionServiceService"
+                            "url": "ttps://agentesqa-2.axa.com.mx/SaludWeb2/services/DigitalizacionServiceService"
                         }, 
                         {
                             "Linea": 140, 
                             "Texto": "mex.asefi.mpu42l0k.WebSSO.services.LegacyAccountManager.LegacyAccountManagerSoapBindingStub=http://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager\r\n", 
-                            "url": "http://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
+                            "url": "ttp://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -650,27 +650,27 @@
                         {
                             "Linea": 39, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 54, 
                             "Texto": "com.axa.mx.agentesws.bussiness.ConsultaDetallesAgenteStub=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 64, 
                             "Texto": "com.axa.mx.saludweb.sepomex.SepomexWSStub=http://servicioswebdev.axa.com.mx:7080/CodigosPostalesBancs/services/SepomexWS/\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:7080/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://servicioswebdev.axa.com.mx:7080/CodigosPostalesBancs/services/SepomexWS/"
                         }, 
                         {
                             "Linea": 110, 
                             "Texto": "com.axa.mx.saludweb.ecm.EncryptionServiceStub = https://servicioswebqa.axa.com.mx:4151/TSS/services/encryptionService\r\n", 
-                            "url": "https://servicioswebqa.axa.com.mx:4151/TSS/services/encryptionService"
+                            "url": "ttps://servicioswebqa.axa.com.mx:4151/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 115, 
                             "Texto": "com.axa.mx.saludweb.ecm.EcmWSStub = http://servicioswebqa.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -687,7 +687,7 @@
                         {
                             "Linea": 88, 
                             "Texto": "digitalizacion.idportal.visualizador.url=https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -704,17 +704,17 @@
                         {
                             "Linea": 60, 
                             "Texto": "com.axa.mx.saludweb.bup.BUP3ServiceStub=http://portaldev.axa.com.mx:80/Bup3/services\r\n", 
-                            "url": "http://portaldev.axa.com.mx:80/Bup3/services"
+                            "url": "ttp://portaldev.axa.com.mx:80/Bup3/services"
                         }, 
                         {
                             "Linea": 144, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSATWSStub = https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 149, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSEPWSStub = https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
+                            "url": "ttps://mxdata22001.asefi.mex:9091/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -731,67 +731,67 @@
                         {
                             "Linea": 18, 
                             "Texto": "com.axa.mx.gmm.wscliente.SiniestroWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 24, 
                             "Texto": "com.axa.mx.gmm.wscliente.ClienteWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 30, 
                             "Texto": "com.axa.mx.gmm.wscliente.PolizaWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 41, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 47, 
                             "Texto": "com.axa.mx.gmm.wscliente.PrestadorWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 54, 
                             "Texto": "com.axa.mx.agentesws.bussiness.ConsultaDetallesAgenteStub=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 71, 
                             "Texto": "com.axa.mx.saludweb.sepomex.SepomexWSStub=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/"
                         }, 
                         {
                             "Linea": 81, 
                             "Texto": "com.axa.mx.gmm.wscliente.TipoCambioWSStub=http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/TipoCambioWS?wsdl\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/TipoCambioWS?wsdl"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/SaludWebWS/services/TipoCambioWS?wsdl"
                         }, 
                         {
                             "Linea": 121, 
                             "Texto": "com.axa.mx.saludweb.ecm.EncryptionServiceStub = http://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 125, 
                             "Texto": "com.axa.mx.saludweb.ecm.EcmWSStub = http://servicioswebqa.axa.com.mx:9185/dp/services/ecm\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
                         }, 
                         {
                             "Linea": 143, 
                             "Texto": "com.axa.mx.saludweb.reglas.DecisionServiceDecisionServiceStub = http://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
                         }, 
                         {
                             "Linea": 152, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSATWSStub=http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 156, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSEPWSStub=http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -808,27 +808,27 @@
                         {
                             "Linea": 36, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=https://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl"
                         }, 
                         {
                             "Linea": 60, 
                             "Texto": "com.axa.mx.saludweb.bup.BUP3ServiceStub=https://agentesqa.axa.com.mx:446/Bup3/services\r\n", 
-                            "url": "https://agentesqa.axa.com.mx:446/Bup3/services"
+                            "url": "ttps://agentesqa.axa.com.mx:446/Bup3/services"
                         }, 
                         {
                             "Linea": 94, 
                             "Texto": "digitalizacion.idportal.visualizador.url=https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
                         }, 
                         {
                             "Linea": 105, 
                             "Texto": "digitalizacion.webscan.UrlWsRespuesta=https://agentesqa.axa.com.mx/SaludWeb/services/DigitalizacionServiceService\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWeb/services/DigitalizacionServiceService"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWeb/services/DigitalizacionServiceService"
                         }, 
                         {
                             "Linea": 136, 
                             "Texto": "mex.asefi.mpu42l0k.WebSSO.services.LegacyAccountManager.LegacyAccountManagerSoapBindingStub=http://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager\r\n", 
-                            "url": "http://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
+                            "url": "ttp://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -845,32 +845,32 @@
                         {
                             "Linea": 41, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebdev.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 54, 
                             "Texto": "com.axa.mx.agentesws.bussiness.ConsultaDetallesAgenteStub=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 67, 
                             "Texto": "com.axa.mx.saludweb.sepomex.SepomexWSStub=http://servicioswebdev.axa.com.mx:7080/CodigosPostalesBancs/services/SepomexWS/\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:7080/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://servicioswebdev.axa.com.mx:7080/CodigosPostalesBancs/services/SepomexWS/"
                         }, 
                         {
                             "Linea": 112, 
                             "Texto": "com.axa.mx.saludweb.ecm.EncryptionServiceStub = http://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9174/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 116, 
                             "Texto": "com.axa.mx.saludweb.ecm.EcmWSStub = http://servicioswebqa.axa.com.mx:9185/dp/services/ecm\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
                         }, 
                         {
                             "Linea": 133, 
                             "Texto": "com.axa.mx.saludweb.reglas.DecisionServiceDecisionServiceStub = http://servicioswebdev.axa.com.mx:9091/DecisionService/ws/SaludWebRulesApp\r\n", 
-                            "url": "http://servicioswebdev.axa.com.mx:9091/DecisionService/ws/SaludWebRulesApp"
+                            "url": "ttp://servicioswebdev.axa.com.mx:9091/DecisionService/ws/SaludWebRulesApp"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -887,7 +887,7 @@
                         {
                             "Linea": 60, 
                             "Texto": "com.axa.mx.saludweb.bup.BUP3ServiceStub=http://portal-dev1.axa.com.mx:80/Bup3/services\r\n", 
-                            "url": "http://portal-dev1.axa.com.mx:80/Bup3/services"
+                            "url": "ttp://portal-dev1.axa.com.mx:80/Bup3/services"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -904,77 +904,77 @@
                         {
                             "Linea": 21, 
                             "Texto": "com.axa.mx.gmm.wscliente.SiniestroWSStub=http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 28, 
                             "Texto": "com.axa.mx.gmm.wscliente.ClienteWSStub=http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/SaludWebWS/services/ClienteWS.ClienteWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 34, 
                             "Texto": "com.axa.mx.gmm.wscliente.PolizaWSStub=http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 43, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 44, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://serviciosweb.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://serviciosweb.axa.com.mx:9275/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 50, 
                             "Texto": "com.axa.mx.gmm.wscliente.PrestadorWSStub=http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 57, 
                             "Texto": "com.axa.mx.agentesws.bussiness.ConsultaDetallesAgenteStub=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 74, 
                             "Texto": "com.axa.mx.saludweb.sepomex.SepomexWSStub=http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS"
+                            "url": "ttp://serviciosweb.axa.com.mx:7815/CodigosPostalesBancs/services/SepomexWS"
                         }, 
                         {
                             "Linea": 84, 
                             "Texto": "com.axa.mx.gmm.wscliente.TipoCambioWSStub=http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/TipoCambioWS?wsdl\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/SaludWebWS/services/TipoCambioWS?wsdl"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/SaludWebWS/services/TipoCambioWS?wsdl"
                         }, 
                         {
                             "Linea": 118, 
                             "Texto": "com.axa.mx.saludweb.ecm.EncryptionServiceStub = http://serviciosweb.axa.com.mx:9174/TSS/services/encryptionService\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9174/TSS/services/encryptionService"
+                            "url": "ttp://serviciosweb.axa.com.mx:9174/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 123, 
                             "Texto": "com.axa.mx.saludweb.ecm.EcmWSStub = http://serviciosweb.axa.com.mx:9185/dp/services/ecm\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm"
+                            "url": "ttp://serviciosweb.axa.com.mx:9185/dp/services/ecm"
                         }, 
                         {
                             "Linea": 139, 
                             "Texto": "com.axa.sms.webservice.EnviarMensajeWSStub=http://serviciosweb.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 147, 
                             "Texto": "com.axa.mx.saludweb.reglas.DecisionServiceDecisionServiceStub = http://serviciosweb.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
                         }, 
                         {
                             "Linea": 157, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSATWSStub=http://serviciosweb.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap11Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSATWS.CedulasSATWSHttpSoap11Endpoint/"
                         }, 
                         {
                             "Linea": 163, 
                             "Texto": "com.axa.mx.saludweb.wscliente.CedulasSEPWSStub=http://serviciosweb.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap11Endpoint/\r\n", 
-                            "url": "http://serviciosweb.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap11Endpoint/"
+                            "url": "ttp://serviciosweb.axa.com.mx:9141/ValidarCedulasWS/services/CedulasSEPWS.CedulasSEPWSHttpSoap11Endpoint/"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -991,12 +991,12 @@
                         {
                             "Linea": 63, 
                             "Texto": "com.axa.mx.saludweb.bup.BUP3ServiceStub=https://portal.axa.com.mx:446/Bup3/services\r\n", 
-                            "url": "https://portal.axa.com.mx:446/Bup3/services"
+                            "url": "ttps://portal.axa.com.mx:446/Bup3/services"
                         }, 
                         {
                             "Linea": 132, 
                             "Texto": "mex.asefi.mpu42l0k.WebSSO.services.LegacyAccountManager.LegacyAccountManagerSoapBindingStub=http://portal.axa.com.mx:82/WebSSO/services/LegacyAccountManager\r\n", 
-                            "url": "http://portal.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
+                            "url": "ttp://portal.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1013,32 +1013,32 @@
                         {
                             "Linea": 43, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSPortTypeServiceStub=http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 57, 
                             "Texto": "com.axa.mx.agentesws.bussiness.ConsultaDetallesAgenteStub=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 74, 
                             "Texto": "com.axa.mx.saludweb.sepomex.SepomexWSStub=http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://servicioswebqa.axa.com.mx:7850/CodigosPostalesBancs/services/SepomexWS/"
                         }, 
                         {
                             "Linea": 124, 
                             "Texto": "com.axa.mx.saludweb.ecm.EncryptionServiceStub = https://servicioswebqa.axa.com.mx:4151/TSS/services/encryptionService\r\n", 
-                            "url": "https://servicioswebqa.axa.com.mx:4151/TSS/services/encryptionService"
+                            "url": "ttps://servicioswebqa.axa.com.mx:4151/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 129, 
                             "Texto": "com.axa.mx.saludweb.ecm.EcmWSStub = http://servicioswebqa.axa.com.mx:9185/dp/services/ecm\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9185/dp/services/ecm"
                         }, 
                         {
                             "Linea": 152, 
                             "Texto": "com.axa.mx.saludweb.reglas.DecisionServiceDecisionServiceStub = http://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp\r\n", 
-                            "url": "http://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
+                            "url": "ttp://servicioswebqa.axa.com.mx:9141/DecisionService/ws/SaludWebRulesApp"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -1055,27 +1055,27 @@
                         {
                             "Linea": 40, 
                             "Texto": "com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=https://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl#com.axa.mx.gmm.wscliente.CuentaBancariaWSStub=http://was-servicesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS.CuentaBancariaWSHttpSoap12Endpoint/\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWebWS/services/CuentaBancariaWS?wsdl"
                         }, 
                         {
                             "Linea": 63, 
                             "Texto": "com.axa.mx.saludweb.bup.BUP3ServiceStub=https://agentesqa.axa.com.mx:446/Bup3/services\r\n", 
-                            "url": "https://agentesqa.axa.com.mx:446/Bup3/services"
+                            "url": "ttps://agentesqa.axa.com.mx:446/Bup3/services"
                         }, 
                         {
                             "Linea": 97, 
                             "Texto": "digitalizacion.idportal.visualizador.url=https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
+                            "url": "ttps://agentesqa.axa.com.mx/IDPortalV9/IntegraVisor.aspx"
                         }, 
                         {
                             "Linea": 108, 
                             "Texto": "digitalizacion.webscan.UrlWsRespuesta=https://agentesqa.axa.com.mx/SaludWeb/services/DigitalizacionServiceService\r\n", 
-                            "url": "https://agentesqa.axa.com.mx/SaludWeb/services/DigitalizacionServiceService"
+                            "url": "ttps://agentesqa.axa.com.mx/SaludWeb/services/DigitalizacionServiceService"
                         }, 
                         {
                             "Linea": 139, 
                             "Texto": "mex.asefi.mpu42l0k.WebSSO.services.LegacyAccountManager.LegacyAccountManagerSoapBindingStub=http://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager\r\n", 
-                            "url": "http://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
+                            "url": "ttp://agentesqa.axa.com.mx:82/WebSSO/services/LegacyAccountManager"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -1098,12 +1098,12 @@
                         {
                             "Linea": 176, 
                             "Texto": "                    this(configurationContext,\"http://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/\" );\r\n", 
-                            "url": "http://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/"
                         }, 
                         {
                             "Linea": 185, 
                             "Texto": "                    this(\"http://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/\" );\r\n", 
-                            "url": "http://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/"
+                            "url": "ttp://10.77.5.75:7850/CodigosPostalesBancs/services/SepomexWS/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1120,12 +1120,12 @@
                         {
                             "Linea": 132, 
                             "Texto": "                    this(configurationContext,\"http://10.77.5.75:9174/TSS/services/encryptionService\" );\r\n", 
-                            "url": "http://10.77.5.75:9174/TSS/services/encryptionService"
+                            "url": "ttp://10.77.5.75:9174/TSS/services/encryptionService"
                         }, 
                         {
                             "Linea": 141, 
                             "Texto": "                    this(\"http://10.77.5.75:9174/TSS/services/encryptionService\" );\r\n", 
-                            "url": "http://10.77.5.75:9174/TSS/services/encryptionService"
+                            "url": "ttp://10.77.5.75:9174/TSS/services/encryptionService"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1142,12 +1142,12 @@
                         {
                             "Linea": 228, 
                             "Texto": "                    this(configurationContext,\"http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS\" );\r\n", 
-                            "url": "http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "ttp://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
                         }, 
                         {
                             "Linea": 237, 
                             "Texto": "                    this(\"http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS\" );\r\n", 
-                            "url": "http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "ttp://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1164,12 +1164,12 @@
                         {
                             "Linea": 111, 
                             "Texto": "                    this(configurationContext,\"http://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 120, 
                             "Texto": "                    this(\"http://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.52.42:9080/SaludWebWS/services/TipoCambioWS.TipoCambioWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1186,12 +1186,12 @@
                         {
                             "Linea": 531, 
                             "Texto": "                    this(configurationContext,\"http://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 540, 
                             "Texto": "                    this(\"http://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.53.113:9080/SaludWebWS/services/PolizaWS.PolizaWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1208,12 +1208,12 @@
                         {
                             "Linea": 395, 
                             "Texto": "                    this(configurationContext,\"http://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 404, 
                             "Texto": "                    this(\"http://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.15.234:9080/SaludWebWS/services/PrestadorWS.PrestadorWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1230,12 +1230,12 @@
                         {
                             "Linea": 959, 
                             "Texto": "                    this(configurationContext,\"http://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
                         }, 
                         {
                             "Linea": 968, 
                             "Texto": "                    this(\"http://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/\" );\r\n", 
-                            "url": "http://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
+                            "url": "ttp://10.133.35.169:9080/SaludWebWS/services/SiniestroWS.SiniestroWSHttpSoap12Endpoint/"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1252,64 +1252,16 @@
                         {
                             "Linea": 132, 
                             "Texto": "                    this(configurationContext,\"http://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\" );\r\n", 
-                            "url": "http://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }, 
                         {
                             "Linea": 141, 
                             "Texto": "                    this(\"http://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint\" );\r\n", 
-                            "url": "http://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
+                            "url": "ttp://10.77.5.75:7902/CuentaBancariaWS/CuentaBancariaSoapEndpoint"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/WebContent/supervisionEquipo/seguimientoReclamacion/recursosDetalleIncidencia.jsp", 
-                    "Cadena": [
-                        "(.*)Tipo de cambio(.*)"
-                    ], 
-                    "Extension": ".jsp", 
-                    "Hardcode": "true", 
-                    "Lineas": [
-                        {
-                            "Linea": 1560, 
-                            "Texto": "\t\t\talert (\"El Tipo de cambio de Moneda Nacional debe ser 1.0\");\r\n"
-                        }
-                    ], 
-                    "NombreCad": "JNDI", 
-                    "Repeticiones": 1
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/WebContent/resolucionIncidencias/atencionIncidencias/recursosDictamenesEditar.jsp", 
-                    "Cadena": [
-                        "(.*)Tipo de cambio(.*)"
-                    ], 
-                    "Extension": ".jsp", 
-                    "Hardcode": "true", 
-                    "Lineas": [
-                        {
-                            "Linea": 1454, 
-                            "Texto": "\t\t\talert (\"El Tipo de cambio de Moneda Nacional debe ser 1.0\");\r\n"
-                        }
-                    ], 
-                    "NombreCad": "JNDI", 
-                    "Repeticiones": 1
-                }, 
-                {
-                    "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/WebContent/resolucionIncidencias/atencionIncidencias/recursosDetalleIncidencias.jsp", 
-                    "Cadena": [
-                        "(.*)Tipo de cambio(.*)"
-                    ], 
-                    "Extension": ".jsp", 
-                    "Hardcode": "true", 
-                    "Lineas": [
-                        {
-                            "Linea": 2008, 
-                            "Texto": "\t\t\talert (\"El Tipo de cambio de Moneda Nacional debe ser 1.0\");\r\n"
-                        }
-                    ], 
-                    "NombreCad": "JNDI", 
-                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/AxaJava/S-116SaludWeb/src/com/axa/mx/saludweb/util/Constantes.java", 
@@ -1322,12 +1274,12 @@
                         {
                             "Linea": 716, 
                             "Texto": "\tpublic static final String END_POINT = \"http://10.133.10.92:9080/SaludWebWS/services/SiniestroWS?wsdl\";\r\n", 
-                            "url": "http://10.133.10.92:9080/SaludWebWS/services/SiniestroWS?wsdl"
+                            "url": "ttp://10.133.10.92:9080/SaludWebWS/services/SiniestroWS?wsdl"
                         }, 
                         {
                             "Linea": 717, 
                             "Texto": "\tpublic static final String END_POINT_BKR_SINIESTRO_OBTENFOLIO = \"http://10.133.191.139:7804/SaludWebWS/siniestro/obtenFolio\";\r\n", 
-                            "url": "http://10.133.191.139:7804/SaludWebWS/siniestro/obtenFolio"
+                            "url": "ttp://10.133.191.139:7804/SaludWebWS/siniestro/obtenFolio"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1344,7 +1296,7 @@
                         {
                             "Linea": 42, 
                             "Texto": "\t//private static final String END_POINT_SINIESTRO_1 = \"http://10.133.33.43:9081/SaludWebWS/services/SiniestroWS?wsdl\";\r\n", 
-                            "url": "http://10.133.33.43:9081/SaludWebWS/services/SiniestroWS?wsdl"
+                            "url": "ttp://10.133.33.43:9081/SaludWebWS/services/SiniestroWS?wsdl"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -1361,7 +1313,7 @@
                         {
                             "Linea": 36, 
                             "Texto": "\t//private static final String END_POINT_SINIESTRO_1 = \"http://10.133.33.43:9081/SaludWebWS/services/SiniestroWS?wsdl\";\r\n", 
-                            "url": "http://10.133.33.43:9081/SaludWebWS/services/SiniestroWS?wsdl"
+                            "url": "ttp://10.133.33.43:9081/SaludWebWS/services/SiniestroWS?wsdl"
                         }
                     ], 
                     "NombreCad": "IP", 

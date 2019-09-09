@@ -14,12 +14,12 @@
                         {
                             "Linea": 30, 
                             "Texto": "                                                                                          //Desa: \"http://smspraxis.com:8080/platform-ingm/MessageSenderWS\"\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 46, 
                             "Texto": "                                                                                       //Desa: \"http://smspraxis.com:8080/platform-ingm/MailSenderWS\"\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -36,17 +36,17 @@
                         {
                             "Linea": 10, 
                             "Texto": "#urlWsABC=http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
                         }, 
                         {
                             "Linea": 13, 
                             "Texto": "#server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 16, 
                             "Texto": "#server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -63,12 +63,12 @@
                         {
                             "Linea": 13, 
                             "Texto": "#server_url_praxis_SMS=https://smspraxis-02.net:443/platform-ingm/MessageSenderWS\r\n", 
-                            "url": "https://smspraxis-02.net:443/platform-ingm/MessageSenderWS"
+                            "url": "ttps://smspraxis-02.net:443/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 16, 
                             "Texto": "#server_url_praxis_MAIL=https://smspraxis-02.net:443/platform-ingm/MailSenderWS\r\n", 
-                            "url": "https://smspraxis-02.net:443/platform-ingm/MailSenderWS"
+                            "url": "ttps://smspraxis-02.net:443/platform-ingm/MailSenderWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -85,7 +85,7 @@
                         {
                             "Linea": 33, 
                             "Texto": "        //strURL      = \"http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\";    /*DESARROLLO y QA*/\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -102,12 +102,12 @@
                         {
                             "Linea": 28, 
                             "Texto": "//            pruebaWS1.InvoiceWS(\"http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\", \"2\", \"5525611830\", \"1\",\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
                         }, 
                         {
                             "Linea": 31, 
                             "Texto": "//            pruebaWS1.InvoiceWS(\"http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\", \"2\", \"5534843470\", \"1\",\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -130,22 +130,22 @@
                         {
                             "Linea": 7, 
                             "Texto": "urlWsABC=http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
                         }, 
                         {
                             "Linea": 9, 
                             "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 11, 
                             "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 13, 
                             "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -162,22 +162,22 @@
                         {
                             "Linea": 11, 
                             "Texto": "urlWsABC=http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
                         }, 
                         {
                             "Linea": 14, 
                             "Texto": "server_url_praxis_SMS=http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 17, 
                             "Texto": "server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 19, 
                             "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -194,22 +194,22 @@
                         {
                             "Linea": 7, 
                             "Texto": "urlWsABC=http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/CellPhoneActivatorWS"
                         }, 
                         {
                             "Linea": 9, 
                             "Texto": "server_url_praxis_SMS=http://smspraxis.com:8080/platform-ingm/MessageSenderWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 11, 
                             "Texto": "server_url_praxis_MAIL=http://smspraxis.com:8080/platform-ingm/MailSenderWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 13, 
                             "Texto": "server_url_praxis_BATCH=http://smspraxis.com:8080/platform-ingm/MessageQueueWS\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MessageQueueWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MessageQueueWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -226,22 +226,22 @@
                         {
                             "Linea": 11, 
                             "Texto": "urlWsABC=http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
                         }, 
                         {
                             "Linea": 14, 
                             "Texto": "server_url_praxis_SMS=http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 17, 
                             "Texto": "server_url_praxis_MAIL=http://smspraxis-02.net:8080/platform-ingm/MailSenderWS\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/MailSenderWS"
                         }, 
                         {
                             "Linea": 19, 
                             "Texto": "server_url_praxis_BATCH=https://smspraxis-02.net:443/platform-ingm/MessageQueueWS\r\n", 
-                            "url": "https://smspraxis-02.net:443/platform-ingm/MessageQueueWS"
+                            "url": "ttps://smspraxis-02.net:443/platform-ingm/MessageQueueWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -264,12 +264,12 @@
                         {
                             "Linea": 29, 
                             "Texto": "                paramsSMS, \"http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS\"); //Prod: \"http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS\"\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/MessageSenderWS"
                         }, 
                         {
                             "Linea": 45, 
                             "Texto": "                paramsCorreo, \"http://smspraxis.com:8080/platform-ingm/MailSenderWS\"); //Prod: \"http://smspraxis-02.net:8080/platform-ingm/MailSenderWS\"\r\n", 
-                            "url": "http://smspraxis.com:8080/platform-ingm/MailSenderWS"
+                            "url": "ttp://smspraxis.com:8080/platform-ingm/MailSenderWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -286,7 +286,7 @@
                         {
                             "Linea": 34, 
                             "Texto": "        strURL = \"http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\"; /*PROD*/\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -303,7 +303,7 @@
                         {
                             "Linea": 33, 
                             "Texto": "            pruebaWS1.InvoiceWS(\"http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS\", \"2\", \"5537337094\", \"1\",\r\n", 
-                            "url": "http://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
+                            "url": "ttp://smspraxis-02.net:8080/platform-ingm/CellPhoneActivatorWS"
                         }
                     ], 
                     "NombreCad": "IP", 

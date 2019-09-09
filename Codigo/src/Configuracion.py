@@ -35,7 +35,7 @@ class Configuracion(Json):
 			cad=CadenasBusqueda(f["nombre"],f["cadena"],f["expresion"],f["extracciones"][0])
 			aux.append(cad)
 		for f in mongo:
-			aux.append(CadenasBusqueda("JNDI","DS",["(.*)"+f["Nombre"]+"(.*)"],{}))
+			aux.append(CadenasBusqueda("JNDI","DS",[f["Nombre"]],{}))
 		self.setCadenasBusqueda(aux)
 
 	def clasificarValidos(self):
