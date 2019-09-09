@@ -1,0 +1,37 @@
+{
+    "Aplicacion": "S_100_D-Hogar", 
+    "Prioridades": [
+        {
+            "Archivos": [], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_D-Hogar/src/com/axa/mx/danos/hogarprotegido/dao/FactoresDAO.java", 
+                    "Cadena": [
+                        "(.*)Tipo de cambio(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 15, 
+                            "Texto": "     * @return Tipo de cambio.\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDI", 
+                    "Repeticiones": 1
+                }
+            ], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}

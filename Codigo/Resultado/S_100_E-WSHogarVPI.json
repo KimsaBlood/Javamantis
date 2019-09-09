@@ -1,0 +1,121 @@
+{
+    "Aplicacion": "S_100_E-WSHogarVPI", 
+    "Prioridades": [
+        {
+            "Archivos": [], 
+            "Nombre": "comentarios", 
+            "Numero": "3"
+        }, 
+        {
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/env/local/conf/WEB-INF/o4glconfig.xml", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 14, 
+                            "Texto": "            <url>http://ux_desa1:5329/asbdanhint</url>\r\n", 
+                            "url": "http://ux_desa1:5329/asbdanhint"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/env/qa/conf/WEB-INF/o4glconfig.xml", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 14, 
+                            "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi</url>\r\n", 
+                            "url": "http://ux_desa5:5329/asbdanvpihi"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi2</url>\r\n", 
+                            "url": "http://ux_desa5:5329/asbdanvpihi2"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/env/dev/conf/WEB-INF/o4glconfig.xml", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 14, 
+                            "Texto": "            <url>http://ux_desa1:5329/asbdanhint</url>\r\n", 
+                            "url": "http://ux_desa1:5329/asbdanhint"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/env/prod/conf/WEB-INF/o4glconfig.xml", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 14, 
+                            "Texto": "            <url>http://ux_danos:5329/asbdanvpihi</url>\r\n", 
+                            "url": "http://ux_danos:5329/asbdanvpihi"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "            <url>http://ux_danos:5329/asbdanvpihi2</url>\r\n", 
+                            "url": "http://ux_danos:5329/asbdanvpihi2"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/compilado/WEB-INF/o4glconfig.xml", 
+                    "Cadena": [
+                        "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 14, 
+                            "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi</url>\r\n", 
+                            "url": "http://ux_desa5:5329/asbdanvpihi"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi2</url>\r\n", 
+                            "url": "http://ux_desa5:5329/asbdanvpihi2"
+                        }
+                    ], 
+                    "NombreCad": "IP", 
+                    "Repeticiones": 2
+                }
+            ], 
+            "Nombre": "Sin hardcode", 
+            "Numero": "1"
+        }, 
+        {
+            "Archivos": [], 
+            "Nombre": "HardCode", 
+            "Numero": "2"
+        }
+    ]
+}
