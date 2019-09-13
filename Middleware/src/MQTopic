@@ -1,0 +1,1874 @@
+{
+    "MQTopic.json": [
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode02/servers/server20_QA2", 
+                "Deployment": "MQTopicConnectionFactory_1411667232696", 
+                "Nombre": "motorDanosCotizadorEmisorTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "819", 
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerCCSubQ": "SYSTEM.JMS.ND.CC.SUBSCRIBER.QUEUE", 
+                            "brokerControlQueue": "SYSTEM.BROKER.CONTROL.QUEUE", 
+                            "brokerPubQueue": "SYSTEM.BROKER.DEFAULT.STREAM", 
+                            "brokerSubQueue": "SYSTEM.JMS.ND.SUBSCRIBER.QUEUE", 
+                            "brokerVersion": "MA0C", 
+                            "channel": "S0118PVMWTOPI.SVRCON", 
+                            "clientID": "PVMCF2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "EntirePool", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/WorksiteConnectionFactory", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/AdmWorksites_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "motorDanosCotizadorEmisorTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode02/servers/server20_QA2|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188941", 
+                "Nombre": "adrcActualizacionQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ACT_DOC_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/actualizacionMRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcActualizacionQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ACTDOC.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978693832", 
+                "Nombre": "adrcActualizacionQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ACT_DOC_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/actualizacionMRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcActualizacionQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ACTDOC.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188936", 
+                "Nombre": "adrcActualizacionSAPRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ACTRESUL_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/actualizacionSAPRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcActualizacionSAPRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ACTRESUL.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100343a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692873", 
+                "Nombre": "adrcActualizacionSAPRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ACTRESUL_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/actualizacionSAPRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcActualizacionSAPRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ACTRESUL.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100343a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188942", 
+                "Nombre": "adrcAnulacionQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ANULACION_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/anulacionRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcAnulacionQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ANULADOC.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978693929", 
+                "Nombre": "adrcAnulacionQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ANULACION_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/anulacionRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcAnulacionQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ANULADOC.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188939", 
+                "Nombre": "adrcArchivoRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ARCHIVOS_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/archivoRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcArchivoRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ARCHIVOS.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978693372", 
+                "Nombre": "adrcArchivoRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ARCHIVOS_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/archivoRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcArchivoRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ARCHIVOS.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188934", 
+                "Nombre": "adrcBorrarDocRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_BORRARDOCTO_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/borrarDocRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcBorrarDocRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692624", 
+                "Nombre": "adrcBorrarDocRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_BORRARDOCTO_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/borrarDocRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcBorrarDocRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188935", 
+                "Nombre": "adrcBorrarDocResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_BORRARDOCTO_RESPONSE_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/borrarDocResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcBorrarDocResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692778", 
+                "Nombre": "adrcBorrarDocResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_BORRARDOCTO_RESPONSE_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/borrarDocResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcBorrarDocResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188938", 
+                "Nombre": "adrcEnvioRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ENVIO_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/envioRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcEnvioRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ENVDOCTO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100343a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978693265", 
+                "Nombre": "adrcEnvioRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_ENVIO_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/envioRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcEnvioRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061ENVDOCTO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100343a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188940", 
+                "Nombre": "adrcExtraccionQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_EXTRAERINF_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/extraccionRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcExtraccionQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061EXTRAERI.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978693590", 
+                "Nombre": "adrcExtraccionQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_EXTRAERINF_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/extraccionRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcExtraccionQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061EXTRAERI.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188927", 
+                "Nombre": "adrcNotifDocSinCamEstRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_NOTDOCTO_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/notifDocSinCamEstRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcNotifDocSinCamEstRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061NOTDOCTO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978691024", 
+                "Nombre": "adrcNotifDocSinCamEstRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_NOTDOCTO_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/notifDocSinCamEstRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcNotifDocSinCamEstRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061NOTDOCTO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188937", 
+                "Nombre": "adrcTransformacionRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_TRANSFORMACION_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/transformacionRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcTransformacionRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061TRANSFOR.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692982", 
+                "Nombre": "adrcTransformacionRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_TRANSFORMACION_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/transformacionRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcTransformacionRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061TRANSFOR.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100345a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188932", 
+                "Nombre": "adrcValidateDocGlobalRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTOGLOBAL_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocGlobalRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocGlobalRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692381", 
+                "Nombre": "adrcValidateDocGlobalRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTOGLOBAL_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocGlobalRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocGlobalRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188933", 
+                "Nombre": "adrcValidateDocGlobalResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTOGLOBAL_RESPONSE_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocGlobalResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocGlobalResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692530", 
+                "Nombre": "adrcValidateDocGlobalResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTOGLOBAL_RESPONSE_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocGlobalResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocGlobalResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188928", 
+                "Nombre": "adrcValidateDocRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTO_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978691222", 
+                "Nombre": "adrcValidateDocRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTO_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188929", 
+                "Nombre": "adrcValidateDocResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTO_RESPONSE_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978691557", 
+                "Nombre": "adrcValidateDocResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_DOCTO_RESPONSE_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateDocResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateDocResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188930", 
+                "Nombre": "adrcValidateRegRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_REGCON_REQUEST_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateRegRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateRegRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692143", 
+                "Nombre": "adrcValidateRegRequestQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_REGCON_REQUEST_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateRegRequestQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateRegRequestQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQQueue_1363067188931", 
+                "Nombre": "adrcValidateRegResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_REGCON_RESPONSE_QL", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateRegResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateRegResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQQueue_1393978692288", 
+                "Nombre": "adrcValidateRegResponseQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "ARC_VALIDAR_REGCON_RESPONSE_QL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/validateRegResponseQueue", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "adrcValidateRegResponseQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "LU1APP65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "AD061SOLEGADO.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100342a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster14_QA", 
+                "Deployment": "MQQueue_1384288959790", 
+                "Nombre": "c14ajuste01Q"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "QUEUE_SISAMOVIL", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/QUEUE_SISAMOVIL", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "c14ajuste01Q", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster14_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "S080SISAMOVIL.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100302a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQQueue_1421882478641", 
+                "Nombre": "cotizadorPBEQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "COTIZADOR_PBE_QUEUE", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/queueCotizadorPBE", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "cotizadorPBEQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "S100SEDPBEWEB.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100300a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster08_QA", 
+                "Deployment": "MQQueue_1408036925816", 
+                "Nombre": "emisionPolizasWSQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "EMISION_AUTOS_QUEUE", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/queueEmisionAutos", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "emisionPolizasWSQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "S039EMAWSEMIA.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100299a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQQueue_1408031240510", 
+                "Nombre": "emisionPolizasWSQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "EMISION_AUTOS_QUEUE", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/queueEmisionAutos", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "emisionPolizasWSQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "S039EMAWSEMIA.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100299a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster15_QA", 
+                "Deployment": "MQQueue_1418166408817", 
+                "Nombre": "reportesSAGQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "queueReportes_SAG", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/queue_MQ_SAG", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "reportesSAGQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster15_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "D080REPCMDBAP.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "s100298a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster08_QA", 
+                "Deployment": "MQQueue_1408036925145", 
+                "Nombre": "ventaDirectaQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "EMISION_AUTOS_QUEUE_VENTA_DIRECTA", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/VENTA_QUEUE", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "ventaDirectaQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "S039VENTADIRE.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "S100337a"
+                        }
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -20,7 +20,7 @@ class AplicacionOut:
 		#tipo excel
 		self.excel=excel
 		#tipo mongoDB
-		self.mdb=MongoDB("Kimsa","localhost","27017")
+		self.mdb=MongoDB("Pruebas","localhost","27017")
 
 	"""getters y setters"""
 	def setPaths(self,paths):
@@ -60,7 +60,7 @@ class AplicacionOut:
 		self.prior.ordenar()
 		#Creamos un objeto json con el contenido y el nombre del archivo con su ruta y despues lo convertimos todo a un json
 		Json.contenido("../../Codigo/Resultado/"+self.getNombre()+".json",self.toDict()).convertirAJson()
-		#self.mdb.insertar(self.toDict(),self.nombre)
+		self.mdb.insertar(self.toDict(),self.nombre)
 
 	def generarExcel():
 		#Llamamos el metodo para abrir un libro en el excel abierto

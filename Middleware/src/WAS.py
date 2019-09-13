@@ -45,43 +45,108 @@ class WAS:
 		self.result2=[]
 		self.pila=Pila()
 		self.ramas=[]
+		res=[]
+		r=[]
+		res2=[]
+		res3=[]
+		nombre=""
 		for l in arch.leer():
-			if l.startswith("#"):
-				pass
-			elif l.startswith("["):
-				self.filtrado(l.replace("[]","null"),result)
-		
-		js=Json("dataDS.json",result)
-		js.convertirAJson()
+			match = re.search(r'^([^\[\]]*):[^\[\]]*$', l)
+			if l.startswith("&&"):
+				if r:
+					res2.append({nombre:r})
+					r=[]
+				nombre=l.replace("&&","")
+			elif l.startswith("[") or l.startswith("#->") or match:
+				r.append(l)
+			elif l and not l.startswith("---"):
+				r.append(l)
+		if r:
+			res2.append({nombre:r})
+		for x in res2:
+			for l in x:
+				res3=[]
+				if "Aplicaciones" in l:
+					for y in x[l]:
+						print(y)
+				else:
+					for y in x[l]:
+						if y.startswith("#->"):
+							if result:
+								res3.append(result)
+								result=[]
+							o=self.getCabecera(y.replace("#->","").replace(")",""))
+							result.append(o)
+						elif y.startswith("["):
+							o=self.filtrado(y.replace("[]","null"),[])
+							result.append(o)
+					js=Json(l+".json",{l:res3})
+					js.convertirAJson()
+					res.append({l:res3})
 	
+	def getAnalizar(self,contenido):
+		pass
+	def getCabecera(self,contenido):
+		result2={}
+		x=re.split("[#|\()]",contenido)
+		if len(x)==4:
+			result2.update({"Nombre":x[0]})
+			result2.update({"Binario":x[1]})
+			result2.update({"Deployment":x[3]})
+		elif len(x)==1:
+			result2.update({"Nombre":x[0]})
+		return result2
+
+	def checarRepeticiones(self,diccionario,valor):
+		for key in valor.keys():
+			if key in diccionario.keys():
+				pass
 	def filtrado(self,contenido,result2):
 		pila=Pila()
 		pila.push("inicio")
 		result={}
-		r=self.cut3(contenido[self.getIndexRama(contenido)-1:],pila,contenido[self.getIndexRama(contenido)-1:],[],0)
-		print(r)
+		result3=[]
+		r=[]
+		p=0
+		if self.esRama2(contenido):
+			p=self.getIndexRama(contenido)-1
+		r=self.cut3(contenido[p:],pila,contenido[p:],[],0)
 		if r:
 			for l in r:
-				print(l)
 				if self.esRama2(l):
-					pila.vaciar()
-					pila.push("inicio")
-					w=self.cut3(l[self.getIndexRama(l)-1:],pila,l[self.getIndexRama(l)-1:],[],0)
-					print("vamos")
 					a=self.filtrado(l,[])
-					for y in a:
-						result.update(y)
-				elif self.tieneRama(l):
-					pila.vaciar()
-					pila.push("inicio")
-					x=0
-					w=self.cut3(l,pila,l,[],x)
+					if l==r[-1]:
+						result2.append(a)
+					else:
+						for y in a:
+							if type(y)==dict:
+								result.update(y)
+							else:
+								pass#result2.append(y)
 				else:
-					print(l)
-					result.update(self.getValores3(l))
+					u=self.getValores2(l)
+					if len(u)>1:
+						for x in u:
+							result3.append(self.getValores3(x))
+					else:
+						self.checarRepeticiones(result,self.getValores3(l))
+						result.update(self.getValores3(l))
+						result3.append(result)
+						result={}
 		else:
-			result.update(self.getValores3(contenido[self.getIndexRama(contenido)-1:]))
-		result2.append({self.getNombreRama(contenido):result})
+			u=self.getValores2(contenido[p:])
+			if len(u)>1:
+				for x in u:
+					result3.append(self.getValores3(x))
+				
+			else:
+				self.checarRepeticiones(result,self.getValores3(contenido[p:]))
+				result.update(self.getValores3(contenido[p:]))	
+				result3.append(result)
+		if self.esRama2(contenido):
+			result2.append({self.getNombreRama(contenido):result3})
+		else:
+			result2.append({"Propiedades":result3})
 		return result2
 
 
@@ -127,13 +192,14 @@ class WAS:
 					pila.pop()
 				init=contenido.index(match.group(0))+len(match.group(0)[:-1])
 				pila.push("[")
+				
 				x+=init
 				pila2=Pila()
 				pila2.push("inicio")
 				w=self.cut2(contenido[init:].strip(),pila2,original,0)
+				
 				u=contenido[:w+init].count("] [")
 				result.append(contenido[:w+init+u].strip())
-				
 				pila2=Pila()
 				pila2.push("inicio")
 				self.cut22(contenido[w+init+u:].strip(),pila,contenido[w+init+u:].strip(),result,0)
@@ -161,11 +227,9 @@ class WAS:
 				w=original[x+original[:x].count("] [")+1:].strip()
 				self.cut22(w,pila,w,result,x)
 		else:
-			pass#result.append(original[x+original[:x].count("] [")+1:].strip())
+			pass
 		return result
-#si es rama mandar a cut3, si en cut3 encuentra inicio de rama mandar a cut2
-#luego  hacer for con el resultado de cut2 en cut3 y agregar cada valor al resultado de cut2
-#de ahi el resultado de cut3 hacer lo mismo con cada elemento, si no es rama, sacar valores
+
 	def cut3(self,contenido,pila,original,result,x):	
 		match = re.search(r'^\[((\w)+(\s))+\[', contenido)
 		match2= re.search(r'^\[\[',contenido)
@@ -178,14 +242,20 @@ class WAS:
 				pila2=Pila()
 				pila2.push("inicio")
 				m=original[x+original[:x].count("] ["):].strip()
-				y=self.cut2(m,pila,m,0)
-					
+				y=self.cut2(m,pila,m,0)	
 				pila2=Pila()
 				pila2.push("inicio")
+				aux=original[:x+original[:x].count("] [")].strip()
 				u=self.cut22(m[:y+m[:y].count("] [")+2].strip(),pila2,m[:y+m[:y].count("] [")+2].strip(),[],0)
 				for h in u:
-					result.append(h)
-				result.append(m[y+m[:y].count("] [")+2:].strip())
+					contenido=contenido.replace(h,"",1)
+				contenido=contenido.replace(m[y+m[:y].count("] [")+2:].strip(),"",1)
+				result.append(contenido.strip())
+				for h in u:
+					if h not in result:
+						result.append(h)
+				if m[y+m[:y].count("] [")+2:].strip():
+					result.append(m[y+m[:y].count("] [")+2:].strip())				
 			elif match2:
 				if "inicio" in pila.top():
 					pila.pop()
@@ -239,15 +309,19 @@ class WAS:
 	def getValores3(self,contenido):
 		match={}
 		for m in re.finditer(r'\[[^\[\]]+\]',contenido):
-			val=m.group().strip().split(" ")
-			match.update({val[0]:val[1]})
+			val=m.group().strip().split(" ",1)
+			if len(val)==2:
+				match.update({val[0].replace("[","").replace("]",""):val[1].replace("[","").replace("]","")})
+			else:
+				match.update({"valorE":val[0].replace("[","").replace("]","")})
 		return match
 
 	def esValor(self,contenido):
 		match=re.search(r'^\[[^\[\]]+\]',contenido)
 		return match
 
-WAS=WAS(None,"../archivos/WAS/DeploymentsQA2.txt")
+WAS=WAS(None,"../archivos/WAS/DatosQACompletos.txt")
+#WAS=WAS(None,"../archivos/WAS/DeploymentsQA2.txt")
 WAS.AnalizarDS()
 #WAS.configurarAplicaciones("nueva","nueva","ueva","nueva")
 

@@ -14,12 +14,12 @@
                         {
                             "Linea": 12, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\n", 
-                            "url": "dbc:db2://10.212.213.11:50005/agentes"
+                            "url": "jdbc:db2://10.212.213.11:50005/agentes"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.212.14:50010/agentes\n", 
-                            "url": "dbc:db2://10.212.212.14:50010/agentes"
+                            "url": "jdbc:db2://10.212.212.14:50010/agentes"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -36,17 +36,17 @@
                         {
                             "Linea": 9, 
                             "Texto": "#urlAgentes = jdbc:db2://10.133.32.154:50030/DWH\n", 
-                            "url": "dbc:db2://10.133.32.154:50030/DWH"
+                            "url": "jdbc:db2://10.133.32.154:50030/DWH"
                         }, 
                         {
                             "Linea": 13, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\n", 
-                            "url": "dbc:db2://10.212.213.11:50005/agentes"
+                            "url": "jdbc:db2://10.212.213.11:50005/agentes"
                         }, 
                         {
                             "Linea": 19, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.37:50030/agentes\n", 
-                            "url": "dbc:db2://10.212.213.37:50030/agentes"
+                            "url": "jdbc:db2://10.212.213.37:50030/agentes"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -63,17 +63,17 @@
                         {
                             "Linea": 5, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.226.164:50030/agentes\r\n", 
-                            "url": "dbc:db2://10.212.226.164:50030/agentes"
+                            "url": "jdbc:db2://10.212.226.164:50030/agentes"
                         }, 
                         {
                             "Linea": 9, 
                             "Texto": "#urlAgentes = jdbc:db2://10.212.213.11:50005/agentes\r\n", 
-                            "url": "dbc:db2://10.212.213.11:50005/agentes"
+                            "url": "jdbc:db2://10.212.213.11:50005/agentes"
                         }, 
                         {
                             "Linea": 15, 
                             "Texto": "#urlAgentes = jdbc:db2://mxu40l3e:50010/DWH\r\n", 
-                            "url": "dbc:db2://mxu40l3e:50010/DWH"
+                            "url": "jdbc:db2://mxu40l3e:50010/DWH"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -89,17 +89,17 @@
                     "Lineas": [
                         {
                             "Linea": 111, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }, 
                         {
                             "Linea": 126, 
-                            "NombreSource": "dwhDS", 
+                            "NombreSource": "", 
                             "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n"
                         }, 
                         {
                             "Linea": 158, 
-                            "NombreSource": "dwhupdaDS", 
+                            "NombreSource": "", 
                             "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n"
                         }
                     ], 
@@ -117,12 +117,12 @@
                         {
                             "Linea": 416, 
                             "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidadm\r\n", 
-                            "url": "ppServer://Ing_bkp2:5305/asbvidadm"
+                            "url": "AppServer://Ing_bkp2:5305/asbvidadm"
                         }, 
                         {
                             "Linea": 417, 
                             "Texto": "#urlServerProxyGen=AppServer://Ing_bkp2:5305/asbvidaweb\r\n", 
-                            "url": "ppServer://Ing_bkp2:5305/asbvidaweb"
+                            "url": "AppServer://Ing_bkp2:5305/asbvidaweb"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -138,17 +138,17 @@
                     "Lineas": [
                         {
                             "Linea": 92, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }, 
                         {
                             "Linea": 107, 
-                            "NombreSource": "dwhDS", 
+                            "NombreSource": "", 
                             "Texto": "#      JNDIDataSourceName=dwhDS|\\\r\n"
                         }, 
                         {
                             "Linea": 116, 
-                            "NombreSource": "dwhupdaDS", 
+                            "NombreSource": "", 
                             "Texto": "#      JNDIDataSourceName=dwhupdaDS|\\      \r\n"
                         }
                     ], 
@@ -172,7 +172,7 @@
                         {
                             "Linea": 5, 
                             "Texto": "urlAgentes = jdbc:db2://mxu41l3q:50010/DWH\n", 
-                            "url": "dbc:db2://mxu41l3q:50010/DWH"
+                            "url": "jdbc:db2://mxu41l3q:50010/DWH"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -189,7 +189,7 @@
                         {
                             "Linea": 5, 
                             "Texto": "urlAgentes = jdbc:db2://MXU42L3J:50010/DWH\n", 
-                            "url": "dbc:db2://MXU42L3J:50010/DWH"
+                            "url": "jdbc:db2://MXU42L3J:50010/DWH"
                         }
                     ], 
                     "NombreCad": "JDBC", 
@@ -205,27 +205,56 @@
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "NombreSource": "ReportesNaranjaDS", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=ReportesNaranjaDS|\\\r\n"
                         }, 
                         {
                             "Linea": 71, 
-                            "NombreSource": "contactINGDS", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n"
                         }, 
                         {
                             "Linea": 134, 
-                            "NombreSource": "dwhDS", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=dwhDS|\\\r\n"
                         }, 
                         {
                             "Linea": 166, 
-                            "NombreSource": "dwhupdaDS", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=dwhupdaDS|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)'CatGralDS bk'(.*)", 
+                        "(.*)'jdbc/CatGralDSTipoCambio bk'(.*)", 
+                        "(.*)'RCU_DS bk'(.*)", 
+                        "(.*)contactINGDS(.*)", 
+                        "(.*)CatComServ_DS(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BdcomercialOracleDS(.*)", 
+                        "(.*)InformixBdcomercial(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)jdbc/CatGralDSTipoCambio(.*)", 
+                        "(.*)InformixCtrl_reqs(.*)", 
+                        "(.*)Juridico_DS(.*)", 
+                        "(.*)RCU_DS(.*)", 
+                        "(.*)SagDS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 71, 
+                            "Texto": "\tJNDIDataSourceName=contactINGDS|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/properties/framework.properties", 
@@ -238,7 +267,7 @@
                         {
                             "Linea": 414, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
-                            "url": "ppServer://ds_vida:5175/asbmeganor"
+                            "url": "AppServer://ds_vida:5175/asbmeganor"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -255,12 +284,12 @@
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 301, 
                             "Texto": "url_applet = http\\://tlp23406.mx.americas.intranet\\:82/axa\r\n", 
-                            "url": "ttp\\://tlp23406.mx.americas.intranet\\:82/axa"
+                            "url": "http\\://tlp23406.mx.americas.intranet\\:82/axa"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -277,7 +306,7 @@
                         {
                             "Linea": 418, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
-                            "url": "ppServer://ds_vida:5175/asbmeganor"
+                            "url": "AppServer://ds_vida:5175/asbmeganor"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -294,7 +323,7 @@
                         {
                             "Linea": 303, 
                             "Texto": "url_applet = https\\://agentesqa.axa.com.mx\r\n", 
-                            "url": "ttps\\://agentesqa.axa.com.mx"
+                            "url": "https\\://agentesqa.axa.com.mx"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -311,12 +340,12 @@
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 432, 
                             "Texto": "CFDIEndpoint=http://was-servicesqa.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint", 
-                            "url": "ttp://was-servicesqa.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
+                            "url": "http://was-servicesqa.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -333,7 +362,7 @@
                         {
                             "Linea": 414, 
                             "Texto": "urlServerProxyGen=AppServer://ds_vida:5175/asbmeganor\r\n", 
-                            "url": "ppServer://ds_vida:5175/asbmeganor"
+                            "url": "AppServer://ds_vida:5175/asbmeganor"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -350,12 +379,12 @@
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 301, 
                             "Texto": "url_applet = http\\://tlp23406.mx.americas.intranet\\:82/axa\r\n", 
-                            "url": "ttp\\://tlp23406.mx.americas.intranet\\:82/axa"
+                            "url": "http\\://tlp23406.mx.americas.intranet\\:82/axa"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -372,7 +401,7 @@
                         {
                             "Linea": 416, 
                             "Texto": "urlServerProxyGen=AppServer://ux_vida:5305/asbvidaweb\r\n", 
-                            "url": "ppServer://ux_vida:5305/asbvidaweb"
+                            "url": "AppServer://ux_vida:5305/asbvidaweb"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -389,16 +418,103 @@
                         {
                             "Linea": 265, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }, 
                         {
                             "Linea": 430, 
                             "Texto": "CFDIEndpoint=http://was-services.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint", 
-                            "url": "ttp://was-services.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
+                            "url": "http://was-services.axa.com.mx:82/iwcfdWebCustom/services/CFD_ConsultaWebServiceHttpSoap11Endpoint"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)'CatGralDS bk'(.*)", 
+                        "(.*)'jdbc/CatGralDSTipoCambio bk'(.*)", 
+                        "(.*)'RCU_DS bk'(.*)", 
+                        "(.*)contactINGDS(.*)", 
+                        "(.*)CatComServ_DS(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BdcomercialOracleDS(.*)", 
+                        "(.*)InformixBdcomercial(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)jdbc/CatGralDSTipoCambio(.*)", 
+                        "(.*)InformixCtrl_reqs(.*)", 
+                        "(.*)Juridico_DS(.*)", 
+                        "(.*)RCU_DS(.*)", 
+                        "(.*)SagDS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 69, 
+                            "Texto": "    <res-ref-name>contactINGDS</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/conf/spring-config.xml", 
+                    "Cadena": [
+                        "(.*)'CatGralDS bk'(.*)", 
+                        "(.*)'jdbc/CatGralDSTipoCambio bk'(.*)", 
+                        "(.*)'RCU_DS bk'(.*)", 
+                        "(.*)contactINGDS(.*)", 
+                        "(.*)CatComServ_DS(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BdcomercialOracleDS(.*)", 
+                        "(.*)InformixBdcomercial(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)jdbc/CatGralDSTipoCambio(.*)", 
+                        "(.*)InformixCtrl_reqs(.*)", 
+                        "(.*)Juridico_DS(.*)", 
+                        "(.*)RCU_DS(.*)", 
+                        "(.*)SagDS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 28, 
+                            "Texto": "\t<jee:jndi-lookup id=\"ContactING.dataSource\" jndi-name=\"contactINGDS\" />\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/WebContent/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)'CatGralDS bk'(.*)", 
+                        "(.*)'jdbc/CatGralDSTipoCambio bk'(.*)", 
+                        "(.*)'RCU_DS bk'(.*)", 
+                        "(.*)contactINGDS(.*)", 
+                        "(.*)CatComServ_DS(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BdcomercialOracleDS(.*)", 
+                        "(.*)InformixBdcomercial(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)jdbc/CatGralDSTipoCambio(.*)", 
+                        "(.*)InformixCtrl_reqs(.*)", 
+                        "(.*)Juridico_DS(.*)", 
+                        "(.*)RCU_DS(.*)", 
+                        "(.*)SagDS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 55, 
+                            "Texto": "TheContactAXAConnection=connectionClassName\\=com.framework.objectpool.OracleConnectionImpl|user\\=|password\\=|usingDataSourcePooling\\=false|JNDIDataSourceName\\=java\\:comp/env/contactINGDS|MONITOR_CONNECTION\\=FALSE|CHECKALERT_ONERROR\\=FALSE|MONITOR_INTERVAL_HB\\=10|CONN_ALIVE_STATEMENT\\=SELECT * FROM WEBLOGIC_PING|GROUP_TO_PAGE\\=ALERT_MON_TODO\\:|SEVERITY_LEVEL\\=ALERT_MON_TODO\\:|ALERT_MSG\\=ContactING DS Not Available|\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }
             ], 
             "Nombre": "Sin hardcode", 
@@ -417,7 +533,7 @@
                         {
                             "Linea": 73, 
                             "Texto": "\tString accionQA = \"https://agentesqa.axa.com.mx/waxs\";\r\n", 
-                            "url": "ttps://agentesqa.axa.com.mx/waxs"
+                            "url": "https://agentesqa.axa.com.mx/waxs"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -434,7 +550,7 @@
                         {
                             "Linea": 70, 
                             "Texto": "String accionDES = \"http://tlp23406.mx.americas.intranet:82/axa\";\r\n", 
-                            "url": "ttp://tlp23406.mx.americas.intranet:82/axa"
+                            "url": "http://tlp23406.mx.americas.intranet:82/axa"
                         }
                     ], 
                     "NombreCad": "IP", 

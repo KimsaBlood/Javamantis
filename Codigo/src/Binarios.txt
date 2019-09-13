@@ -1,0 +1,139 @@
+{
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/AD_058VisorCFDPlusXApp/pom.xml": [
+        "VisorCFDPlusXApp.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-024-EEWeb/build.xml": [
+        "expedientee.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/pom.xml": [
+        "UnitLinkWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-094-UnitLinkWS/target/m2e-wtp/web-resources/META-INF/maven/UnitLinkWS/UnitLinkWS/pom.xml": [
+        "UnitLinkWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-132-SPAD/spad/spad-batch/pom.xml": [
+        "spadBatch.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/D-132-SPAD/spad/spad-webapp/pom.xml": [
+        "spad.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/D_048-AdmonReportesIntranet/build.xml": [
+        "TipoDeCambio.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_002_3-reportes/build.xml": [
+        "Reportes.war", 
+        "Reportes.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/axis-1_1/webapps/build.xml": [
+        "axis.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/IA3framework/sampleapp/build.xml": [
+        "SampleAppBMPCustom.war", 
+        "SampleAppBMPCustom.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_004_CING-ModuloAdmonContacting/build.xml": [
+        "adminContactingF/w.war", 
+        "adminContacting.war", 
+        "adminContacting.ear", 
+        "adminContactingA-I.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_006-bonos/build.xml": [
+        "bonos.war", 
+        "bonos.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-PrimaPagadaAXA/build.xml": [
+        "PrimaPagadaAxa.war", 
+        "PrimaPagadaAxa.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/axis-1_1/webapps/build.xml": [
+        "axis.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/IA3framework/sampleapp/build.xml": [
+        "SampleAppBMPCustom.war", 
+        "SampleAppBMPCustom.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_009_2-ReportesCobranza/build.xml": [
+        "ReportesCobranza.war", 
+        "ReportesCobranza.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/FV_019Alertas/build.xml": [
+        "SMSWeb.war", 
+        "SMSWeb.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-036-02-Banamex/InterfazBanamex/build.xml": [
+        "InterfazBanamexAxa.war", 
+        "InterfazMIT.war", 
+        "InterfazBanamex.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-036-02-Banamex/SimuladorBanamex/build.xml": [
+        "SimuladorBanamex.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S-122BolsasCuposBatch/build.xml": [
+        "BolsasCuposBatch.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_01-Implementation/WSFlotillas/build.xml": [
+        "WSFlotillas.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_HMP-CotizadorWebAutos/build.xml": [
+        "CotizadorWeb-IN.war", 
+        "cotAutos.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/build.xml": [
+        "EmisionPolizasWS.war", 
+        "axis.war", 
+        "EmisionPolizasWS.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/build.xml": [
+        "EmisionGMMWS.ear", 
+        "EmisionGMMWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_072-AlertasSiniestrosVidaWS/pom.xml": [
+        "AlertasSiniestrosVidaWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_A-AdminWSDanosPymes/build.xml": [
+        "AdminWSDanosPymes.war", 
+        "AdminWSDanosPymes.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/build.xml": [
+        "CotizadorPBE.war", 
+        "CotizadorPBE.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-HogarWS/build.xml": [
+        "NvoSegHogarWS.ear", 
+        "NvoSegHogarWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSDanosPymes/build.xml": [
+        "WSDanosPymes.war", 
+        "WSDanosPymes.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/build.xml": [
+        "WSHogarVPI.war", 
+        "WSHogarVPI.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_112-mds/build.xml": [
+        "mds.war", 
+        "mds.ear"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_118-pva_danos_MotorDanosCotizadorEmisor/build.xml": [
+        "MotorDanosCotizadorEmisor.ear", 
+        "MotorDanosCotizadorEmisor.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_121-bumerang-visor/pom.xml": [
+        "visor-bumerang.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-BolsasCuposWS/build.xml": [
+        "BolsasCuposWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/build.xml": [
+        "FicheroVehiculos.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosBatch/build.xml": [
+        "FicheroVehiculosBatch.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build.xml": [
+        "FicheroVehiculosWS.war"
+    ], 
+    "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/build.xml": [
+        "BolsasCupos.war"
+    ]
+}

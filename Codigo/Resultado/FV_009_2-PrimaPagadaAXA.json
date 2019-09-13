@@ -13,7 +13,7 @@
                     "Lineas": [
                         {
                             "Linea": 96, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -36,7 +36,7 @@
                     "Lineas": [
                         {
                             "Linea": 57, 
-                            "NombreSource": "ReportesCobranzaDS", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=ReportesCobranzaDS|\\\r\n"
                         }
                     ], 
@@ -54,7 +54,7 @@
                         {
                             "Linea": 258, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -71,7 +71,7 @@
                         {
                             "Linea": 258, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -88,7 +88,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "AppServerURL=AppServer://ux_desa5:5176/asbconsagte\r\n", 
-                            "url": "ppServer://ux_desa5:5176/asbconsagte"
+                            "url": "AppServer://ux_desa5:5176/asbconsagte"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -105,7 +105,7 @@
                         {
                             "Linea": 258, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -122,7 +122,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "AppServerURL=AppServer://ux-desa1:6006/asbconsagte\r\n", 
-                            "url": "ppServer://ux-desa1:6006/asbconsagte"
+                            "url": "AppServer://ux-desa1:6006/asbconsagte"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -139,7 +139,7 @@
                         {
                             "Linea": 258, 
                             "Texto": "ssoUrl=http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
+                            "url": "http\\://dev-ia3ssoadmin.us.americas.intranet\\:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -156,7 +156,7 @@
                         {
                             "Linea": 2, 
                             "Texto": "AppServerURL=AppServer://ux_conta:5176/asbconsagte\r\n", 
-                            "url": "ppServer://ux_conta:5176/asbconsagte"
+                            "url": "AppServer://ux_conta:5176/asbconsagte"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -173,7 +173,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServerURL=AppServer://ux_desa5:5176/asbconsagte\r\n", 
-                            "url": "ppServer://ux_desa5:5176/asbconsagte"
+                            "url": "AppServer://ux_desa5:5176/asbconsagte"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -196,7 +196,7 @@
                         {
                             "Linea": 66, 
                             "Texto": "\t\t//appServerURL = \"AppServer://10.212.213.3:6006/asbconsagte\";\r\n", 
-                            "url": "ppServer://10.212.213.3:6006/asbconsagte"
+                            "url": "AppServer://10.212.213.3:6006/asbconsagte"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -213,7 +213,7 @@
                         {
                             "Linea": 30, 
                             "Texto": "\t\t    //appServerURL = \"AppServer://10.212.213.3:6006/asbconsagte\"; // URL del Appserver de progress\r\n", 
-                            "url": "ppServer://10.212.213.3:6006/asbconsagte"
+                            "url": "AppServer://10.212.213.3:6006/asbconsagte"
                         }
                     ], 
                     "NombreCad": "Progress", 

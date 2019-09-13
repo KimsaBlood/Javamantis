@@ -1,0 +1,245 @@
+{
+    "URL.json": [
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/AXANodeDMQA", 
+                "Deployment": "builtin_JDBCProvider_1169228386227", 
+                "Nombre": "OTiSDataSource"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "classpath": "${WAS_INSTALL_ROOT}/derby/lib/derby.jar", 
+                            "implementationClassName": "org.apache.derby.jdbc.EmbeddedConnectionPoolDataSource", 
+                            "isolatedClassLoader": "false", 
+                            "name": "OTiSDataSource", 
+                            "nativepath": "null", 
+                            "xa": "false"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster15_QA", 
+                "Deployment": "MailSession_1532635078803", 
+                "Nombre": "AltaUsuarioJuridico"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "description": "CTASK0285620", 
+                            "jndiName": "AltaUsuarioJuridico", 
+                            "mailFrom": "no-reply@axa.com.mx", 
+                            "mailStoreHost": "SMTP.asefi.mex", 
+                            "mailStorePort": "0", 
+                            "mailStoreProtocol": "(cells/AXACellQA/clusters/cluster15_QA|resources.xml#builtin_imap)", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster15_QA|resources.xml#builtin_smtp)", 
+                            "mailTransportUser": "AltaUsuario", 
+                            "name": "AltaUsuarioJuridico", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster15_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MailSession_1429296521940", 
+                "Nombre": "MailSegHogar"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "jndiName": "MailSegHogar", 
+                            "mailFrom": "no-reply@axa.com.mx", 
+                            "mailStoreHost": "smtp.asefi.mex", 
+                            "mailStorePort": "0", 
+                            "mailStoreProtocol": "(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_imap)", 
+                            "mailTransportHost": "smtp.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_smtp)", 
+                            "mailTransportUser": "SegHogar", 
+                            "name": "MailSegHogar", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster08_QA", 
+                "Deployment": "MailSession_1423096892246", 
+                "Nombre": "MailVentaDirecta"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "jndiName": "MailVentaDirecta", 
+                            "mailFrom": "no-reply@axa.com.mx", 
+                            "mailStoreHost": "smtp.asefi.mex", 
+                            "mailStorePort": "0", 
+                            "mailStoreProtocol": "(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_imap)", 
+                            "mailTransportHost": "smtp.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_smtp)", 
+                            "mailTransportUser": "VentaDirecta", 
+                            "name": "MailVentaDirecta", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster08_QA", 
+                "Deployment": "MailSession_1421349984468", 
+                "Nombre": "WorkSitePepsicoMail"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "jndiName": "MailAltaUsuario", 
+                            "mailFrom": "no-reply@axa.com.mx", 
+                            "mailStoreHost": "SMTP.asefi.mex", 
+                            "mailStorePassword": "*****", 
+                            "mailStorePort": "0", 
+                            "mailStoreProtocol": "(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_imap)", 
+                            "mailStoreUser": "AltaUsuario", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPassword": "*****", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_smtp)", 
+                            "mailTransportUser": "AltaUsuario", 
+                            "name": "WorkSitePepsicoMail", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MailSession_1363067188928", 
+                "Nombre": "bci"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "description": "\"Recurso para envi\u00f3 de correo electr\u00f3nico para el aplicativo BCI. WO 460,600\"", 
+                            "jndiName": "mail/bci", 
+                            "mailStorePort": "0", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_smtp)", 
+                            "name": "bci", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster05_QA", 
+                "Deployment": "MailSession_1433973671627", 
+                "Nombre": "bci"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "description": "\"WO 544,472\"", 
+                            "jndiName": "mail/bci", 
+                            "mailStorePort": "0", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster05_QA|resources.xml#builtin_smtp)", 
+                            "name": "bci", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster05_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster22_QA", 
+                "Deployment": "MailSession_1487886949001", 
+                "Nombre": "c22solvencyMail"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "jndiName": "mail/solvency", 
+                            "mailFrom": "solvencia@axa.com.mx", 
+                            "mailStorePort": "0", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPassword": "*****", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster22_QA|resources.xml#builtin_smtp)", 
+                            "mailTransportUser": "MXI02007192M", 
+                            "name": "c22solvencyMail", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster22_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster02_QA", 
+                "Deployment": "MailSession_1399310581567", 
+                "Nombre": "motorWorkSitesMail"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "jndiName": "mailWorkSites", 
+                            "mailFrom": "worksite@axa.com.mx", 
+                            "mailStoreHost": "SMTP.asefi.mex", 
+                            "mailStorePort": "0", 
+                            "mailStoreProtocol": "(cells/AXACellQA/clusters/cluster02_QA|resources.xml#builtin_pop3)", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster02_QA|resources.xml#builtin_smtp)", 
+                            "name": "motorWorkSitesMail", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster02_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ]
+    ]
+}

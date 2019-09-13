@@ -1,0 +1,310 @@
+{
+    "MQTopic": [
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQQueue_1408031241475", 
+                "Nombre": "ventaDirectaQD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseQueueManagerName": "QMTBK01", 
+                            "baseQueueName": "EMISION_AUTOS_QUEUE_VENTA_DIRECTA", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/VENTA_QUEUE", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "name": "ventaDirectaQD", 
+                            "password": "*****", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "queueManagerHost": "lu1app65", 
+                            "queueManagerPort": "1710", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "serverConnectionChannelName": "S039VENTADIRE.SVRCON", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "userName": "S100337a"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster08_QA", 
+                "Deployment": "MQTopic_1408038862826", 
+                "Nombre": "VentaDirectaTD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "1208", 
+                            "baseTopicName": "SINCRONIZA_CACHE", 
+                            "brokerVersion": "V1", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/VDSCTOPIC", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "multicast": "AS_CF", 
+                            "name": "VentaDirectaTD", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster08_QA|resources.xml#builtin_mqprovider)\"", 
+                            "readAhead": "QUEUE_DEFINED", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "QUEUE_DEFINED", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQTopic_1408031629828", 
+                "Nombre": "VentaDirectaTD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "1208", 
+                            "baseTopicName": "SINCRONIZA_CACHE", 
+                            "brokerVersion": "V1", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/VDSCTOPIC", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "multicast": "AS_CF", 
+                            "name": "VentaDirectaTD", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "readAhead": "QUEUE_DEFINED", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "QUEUE_DEFINED", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQTopic_1363067188928", 
+                "Nombre": "admRegistroContableTD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseTopicName": "ACTUALIZACION_CATALOGOS", 
+                            "brokerVersion": "V1", 
+                            "category": "null", 
+                            "decimalEncoding": "Normal", 
+                            "description": "null", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/ADRCTOPIC", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "multicast": "AS_CF", 
+                            "name": "admRegistroContableTD", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQTopic_1393978944879", 
+                "Nombre": "admRegistroContableTD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseTopicName": "ACTUALIZACION_CATALOGOS", 
+                            "brokerVersion": "V1", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/ADRCTOPIC", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "multicast": "AS_CF", 
+                            "name": "admRegistroContableTD", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "MQ", 
+                            "useNativeEncoding": "false", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster02_QA", 
+                "Deployment": "MQTopic_1399311371284", 
+                "Nombre": "admWorksitesTD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "1208", 
+                            "baseTopicName": "WORKSITE_DESTINATION", 
+                            "brokerVersion": "V1", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/WorksiteDestination", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "multicast": "AS_CF", 
+                            "name": "admWorksitesTD", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster02_QA|resources.xml#builtin_mqprovider)\"", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQTopic_1408031629564", 
+                "Nombre": "admWorksitesTD"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "0", 
+                            "baseTopicName": "WORKSITE_DESTINATION", 
+                            "brokerVersion": "V1", 
+                            "decimalEncoding": "Normal", 
+                            "expiry": "APPLICATION_DEFINED", 
+                            "floatingPointEncoding": "IEEENormal", 
+                            "integerEncoding": "Normal", 
+                            "jndiName": "jms/WorksiteDestination", 
+                            "messageBody": "UNSPECIFIED", 
+                            "mqmdMessageContext": "DEFAULT", 
+                            "mqmdReadEnabled": "false", 
+                            "mqmdWriteEnabled": "false", 
+                            "multicast": "AS_CF", 
+                            "name": "admWorksitesTD", 
+                            "persistence": "APPLICATION_DEFINED", 
+                            "priority": "APPLICATION_DEFINED", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "readAhead": "YES", 
+                            "readAheadClose": "DELIVERALL", 
+                            "receiveCCSID": "1208", 
+                            "receiveConvert": "QMGR", 
+                            "replyToStyle": "DEFAULT", 
+                            "sendAsync": "YES", 
+                            "specifiedExpiry": "0", 
+                            "specifiedPriority": "0", 
+                            "targetClient": "JMS", 
+                            "useNativeEncoding": "false", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ]
+    ]
+}

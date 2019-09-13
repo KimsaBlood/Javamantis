@@ -14,7 +14,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "#AppServer = http://10.133.32.158:5180/asbliongmi\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -31,7 +31,7 @@
                         {
                             "Linea": 19, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -48,7 +48,7 @@
                         {
                             "Linea": 22, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -65,7 +65,7 @@
                         {
                             "Linea": 25, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -82,7 +82,7 @@
                         {
                             "Linea": 16, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -99,7 +99,7 @@
                         {
                             "Linea": 27, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -116,7 +116,7 @@
                         {
                             "Linea": 27, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -133,7 +133,7 @@
                         {
                             "Linea": 36, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -150,7 +150,7 @@
                         {
                             "Linea": 27, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -167,7 +167,7 @@
                         {
                             "Linea": 21, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -184,7 +184,7 @@
                         {
                             "Linea": 35, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -201,7 +201,7 @@
                         {
                             "Linea": 21, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -218,7 +218,7 @@
                         {
                             "Linea": 29, 
                             "Texto": "    /*String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -241,7 +241,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://10.133.32.158:5180/asbliongmi", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -258,7 +258,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "url": "ttp://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -275,7 +275,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "url": "ttp://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -292,7 +292,7 @@
                         {
                             "Linea": 3, 
                             "Texto": "AppServer = http://ux_desa5:5165/asbliongmi", 
-                            "url": "ttp://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -309,7 +309,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "url": "ttp://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -326,7 +326,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "url": "ttp://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -343,7 +343,7 @@
                         {
                             "Linea": 15, 
                             "Texto": "\t\t<url>http://ux_desa5:5165/asbliongmi</url>\r\n", 
-                            "url": "ttp://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -360,7 +360,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP188:5018/asbliongmi\r\n", 
-                            "url": "ppServer://LU2APP188:5018/asbliongmi"
+                            "url": "AppServer://LU2APP188:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -377,7 +377,7 @@
                         {
                             "Linea": 15, 
                             "Texto": "\t\t<url>http://ux_desa5:5165/asbliongmi</url>\r\n", 
-                            "url": "ttp://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -394,7 +394,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP88:5018/asbliongmi\r\n", 
-                            "url": "ppServer://LU2APP88:5018/asbliongmi"
+                            "url": "AppServer://LU2APP88:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -411,7 +411,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP190:5018/asbliongmi", 
-                            "url": "ppServer://LU2APP190:5018/asbliongmi"
+                            "url": "AppServer://LU2APP190:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -428,7 +428,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP87:5018/asbliongmi", 
-                            "url": "ppServer://LU2APP87:5018/asbliongmi"
+                            "url": "AppServer://LU2APP87:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -445,7 +445,7 @@
                         {
                             "Linea": 15, 
                             "Texto": "\t\t<url>http://ux_desa5:5165/asbliongmi</url>\r\n", 
-                            "url": "ttp://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -462,7 +462,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = AppServer://LU2APP89:5018/asbliongmi\r\n", 
-                            "url": "ppServer://LU2APP89:5018/asbliongmi"
+                            "url": "AppServer://LU2APP89:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -479,7 +479,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "\t\t<url>http://k9000:5165/asbliongmi</url>\r\n", 
-                            "url": "ttp://k9000:5165/asbliongmi"
+                            "url": "http://k9000:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -496,7 +496,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = Appserver://LU1APP93:5018/asbliongmi", 
-                            "url": "ppserver://LU1APP93:5018/asbliongmi"
+                            "url": "Appserver://LU1APP93:5018/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -513,7 +513,7 @@
                         {
                             "Linea": 1, 
                             "Texto": "AppServer = http://ux-desa1:5180/asbliongmi", 
-                            "url": "ttp://ux-desa1:5180/asbliongmi"
+                            "url": "http://ux-desa1:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -536,7 +536,7 @@
                         {
                             "Linea": 470, 
                             "Texto": "            String appserver = \"http://ux_desa5:5165/asbliongmi\";\r\n", 
-                            "url": "ttp://ux_desa5:5165/asbliongmi"
+                            "url": "http://ux_desa5:5165/asbliongmi"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -553,11 +553,90 @@
                         {
                             "Linea": 21, 
                             "Texto": "        String address = \"http://portaldev.asefi.mex:80/EmisionGMMWS/ConexionLegadoPort\";\r\n", 
-                            "url": "ttp://portaldev.asefi.mex:80/EmisionGMMWS/ConexionLegadoPort"
+                            "url": "http://portaldev.asefi.mex:80/EmisionGMMWS/ConexionLegadoPort"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/util/Constants.java", 
+                    "Cadena": [
+                        "(.*)jndi/emiautosInterfazBanamex(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)JDBC/sso(.*)", 
+                        "(.*)jdbc/catgral(.*)", 
+                        "(.*)jdbc/pfn(.*)", 
+                        "(.*)BolsasCuposBatch(.*)", 
+                        "(.*)FicheroVehiculosBatch(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 714, 
+                            "Texto": "    public static final String CONTEXTNAME = \"jdbc/catgral\";\r\n"
+                        }, 
+                        {
+                            "Linea": 715, 
+                            "Texto": "    public static final String CONTEXTNAMEPFN = \"jdbc/pfn\"; //Se agrega para jdbc de pfn\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/util/Constants.java", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/catgral(.*)", 
+                        "(.*)jdbc/pfn(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 714, 
+                            "Texto": "    public static final String CONTEXTNAME = \"jdbc/catgral\";\r\n"
+                        }, 
+                        {
+                            "Linea": 715, 
+                            "Texto": "    public static final String CONTEXTNAMEPFN = \"jdbc/pfn\"; //Se agrega para jdbc de pfn\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_041EmisionGMMWS/src/com/axa/mx/gmm/legacy/DAO/PrcFindAsegsCuestDAO.java", 
@@ -570,7 +649,7 @@
                         {
                             "Linea": 30, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -587,7 +666,7 @@
                         {
                             "Linea": 18, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -604,7 +683,7 @@
                         {
                             "Linea": 21, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -621,7 +700,7 @@
                         {
                             "Linea": 21, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -638,7 +717,7 @@
                         {
                             "Linea": 19, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -655,7 +734,7 @@
                         {
                             "Linea": 17, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -672,7 +751,7 @@
                         {
                             "Linea": 13, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -689,7 +768,7 @@
                         {
                             "Linea": 19, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -706,7 +785,7 @@
                         {
                             "Linea": 20, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -723,7 +802,7 @@
                         {
                             "Linea": 25, 
                             "Texto": "    String urlApp = \"http://10.133.32.158:5180/asbliongmi\";\r\n", 
-                            "url": "ttp://10.133.32.158:5180/asbliongmi"
+                            "url": "http://10.133.32.158:5180/asbliongmi"
                         }
                     ], 
                     "NombreCad": "IP", 

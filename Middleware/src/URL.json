@@ -1,0 +1,130 @@
+{
+    "URL": [
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster20_QA", 
+                "Deployment": "MailSession_1411665945238", 
+                "Nombre": "motorWorkSitesMail"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "debug": "false", 
+                            "jndiName": "mailWorkSites", 
+                            "mailFrom": "worksite@axa.com.mx", 
+                            "mailStoreHost": "SMTP.asefi.mex", 
+                            "mailStorePort": "0", 
+                            "mailStoreProtocol": "(cells/AXACellQA/clusters/cluster20_QA|resources.xml#builtin_pop3)", 
+                            "mailTransportHost": "SMTP.asefi.mex", 
+                            "mailTransportPort": "0", 
+                            "mailTransportProtocol": "(cells/AXACellQA/clusters/cluster20_QA|resources.xml#builtin_smtp)", 
+                            "name": "motorWorkSitesMail", 
+                            "provider": "\"Built-in Mail Provider(cells/AXACellQA/clusters/cluster20_QA|resources.xml#builtin_mailprovider)\"", 
+                            "strict": "true"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster18_QA", 
+                "Deployment": "URL_1475523282691", 
+                "Nombre": "EnviarMensajeWS"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "description": "T27643", 
+                            "jndiName": "url/EnviarMensajeWS", 
+                            "name": "EnviarMensajeWS", 
+                            "provider": "\"Default URL Provider(cells/AXACellQA/clusters/cluster18_QA|resources.xml#URLProvider_1)\"", 
+                            "spec": "http://servicioswebqa.axa.com.mx:9141/enviosmsWS/services/EnviarMensajeWS.EnviarMensajeWSHttpSoap12Endpoint/"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster18_QA", 
+                "Deployment": "URL_1475523326305", 
+                "Nombre": "UtilsRandomCodeWS"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "description": "T27643", 
+                            "jndiName": "url/UtilsRandomCodeWS", 
+                            "name": "UtilsRandomCodeWS", 
+                            "provider": "\"Default URL Provider(cells/AXACellQA/clusters/cluster18_QA|resources.xml#URLProvider_1)\"", 
+                            "spec": "http://servicioswebqa.axa.com.mx:7902/UtilsRandomCodeWS/UtilsRandomCodeWS"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster18_QA", 
+                "Deployment": "URL_1420741533163", 
+                "Nombre": "c18ENCODEPROGRESSURL"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "jndiName": "url/ENCODEPROGRESSURL", 
+                            "name": "c18ENCODEPROGRESSURL", 
+                            "provider": "\"Default URL Provider(cells/AXACellQA/clusters/cluster18_QA|resources.xml#URLProvider_1)\"", 
+                            "spec": "http://ux_desa5.asefi.mex:5180/asbencode"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster18_QA", 
+                "Deployment": "URL_1418150372399", 
+                "Nombre": "c18SSOPROGRESSURL"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "description": "\"WO 529,095\"", 
+                            "jndiName": "url/SSOPROGRESSURL", 
+                            "name": "c18SSOPROGRESSURL", 
+                            "provider": "\"Default URL Provider(cells/AXACellQA/clusters/cluster18_QA|resources.xml#URLProvider_1)\"", 
+                            "spec": "http://progress-appsqa.axa.com.mx:5001/asbgralc"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster18_PreProd", 
+                "Deployment": "URL_1463526238418", 
+                "Nombre": "c18ssoURL"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "description": "T16999", 
+                            "jndiName": "url/ENCODEPROGRESSURL", 
+                            "name": "c18ssoURL", 
+                            "provider": "\"Default URL Provider(cells/AXACellQA/clusters/cluster18_PreProd|resources.xml#URLProvider_1)\"", 
+                            "spec": "https://ux_desa6.asefitest.mex:5168/asbencode"
+                        }
+                    ]
+                }
+            ]
+        ]
+    ]
+}

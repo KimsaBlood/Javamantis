@@ -13,7 +13,7 @@
                     "Lineas": [
                         {
                             "Linea": 87, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -30,7 +30,7 @@
                     "Lineas": [
                         {
                             "Linea": 86, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -47,7 +47,7 @@
                     "Lineas": [
                         {
                             "Linea": 87, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -64,7 +64,7 @@
                     "Lineas": [
                         {
                             "Linea": 86, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -81,7 +81,7 @@
                     "Lineas": [
                         {
                             "Linea": 86, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource\r\n"
                         }
                     ], 
@@ -105,12 +105,12 @@
                         {
                             "Linea": 16, 
                             "Texto": "\t\t<url>AppServer://ux_desa8:5329/asbdanpbe</url>\r\n", 
-                            "url": "ppServer://ux_desa8:5329/asbdanpbe"
+                            "url": "AppServer://ux_desa8:5329/asbdanpbe"
                         }, 
                         {
                             "Linea": 26, 
                             "Texto": "\t\t<url>AppServer://ux_desa8:5329/asbdanpbe2</url>\r\n", 
-                            "url": "ppServer://ux_desa8:5329/asbdanpbe2"
+                            "url": "AppServer://ux_desa8:5329/asbdanpbe2"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -126,17 +126,41 @@
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/cotizadorPBE|\\\r\n"
                         }, 
                         {
                             "Linea": 64, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa2/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 64, 
+                            "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/local/WEB-INF/o4glconfig.xml", 
@@ -149,7 +173,7 @@
                         {
                             "Linea": 16, 
                             "Texto": "\t\t<url>http://10.133.42.89:5329/asbdanpbe</url> \r\n", 
-                            "url": "ttp://10.133.42.89:5329/asbdanpbe"
+                            "url": "http://10.133.42.89:5329/asbdanpbe"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -165,17 +189,41 @@
                     "Lineas": [
                         {
                             "Linea": 55, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/cotizadorPBE|\\\r\n"
                         }, 
                         {
                             "Linea": 63, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 63, 
+                            "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa/WEB-INF/o4glconfig.xml", 
@@ -188,12 +236,12 @@
                         {
                             "Linea": 16, 
                             "Texto": "\t\t<url>AppServer://ux_desa5:5329/asbdanpbe</url>\r\n", 
-                            "url": "ppServer://ux_desa5:5329/asbdanpbe"
+                            "url": "AppServer://ux_desa5:5329/asbdanpbe"
                         }, 
                         {
                             "Linea": 26, 
                             "Texto": "\t\t<url>AppServer://ux_desa5:5329/asbdanpbe2</url>\r\n", 
-                            "url": "ppServer://ux_desa5:5329/asbdanpbe2"
+                            "url": "AppServer://ux_desa5:5329/asbdanpbe2"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -209,17 +257,41 @@
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/cotizadorPBE|\\\r\n"
                         }, 
                         {
                             "Linea": 64, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/qa/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 64, 
+                            "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/dev/WEB-INF/o4glconfig.xml", 
@@ -232,7 +304,7 @@
                         {
                             "Linea": 16, 
                             "Texto": "\t\t<url>http://10.133.42.89:5329/asbdanpbe</url>\r\n", 
-                            "url": "ttp://10.133.42.89:5329/asbdanpbe"
+                            "url": "http://10.133.42.89:5329/asbdanpbe"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -248,17 +320,41 @@
                     "Lineas": [
                         {
                             "Linea": 55, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/cotizadorPBE|\\\r\n"
                         }, 
                         {
                             "Linea": 63, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/dev/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 63, 
+                            "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/prod/WEB-INF/o4glconfig.xml", 
@@ -271,17 +367,17 @@
                         {
                             "Linea": 16, 
                             "Texto": "\t\t<url>AppServer://ux_danos:5329/asbdanpbe</url>\r\n", 
-                            "url": "ppServer://ux_danos:5329/asbdanpbe"
+                            "url": "AppServer://ux_danos:5329/asbdanpbe"
                         }, 
                         {
                             "Linea": 26, 
                             "Texto": "\t\t<url>AppServer://ux_danos:5329/asbdanpbe2</url>\r\n", 
-                            "url": "ppServer://ux_danos:5329/asbdanpbe2"
+                            "url": "AppServer://ux_danos:5329/asbdanpbe2"
                         }, 
                         {
                             "Linea": 36, 
                             "Texto": "\t\t<url>AppServer://ux_danos:5329/asbdanpbe3</url>\r\n", 
-                            "url": "ppServer://ux_danos:5329/asbdanpbe3"
+                            "url": "AppServer://ux_danos:5329/asbdanpbe3"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -297,17 +393,65 @@
                     "Lineas": [
                         {
                             "Linea": 56, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/cotizadorPBE|\\\r\n"
                         }, 
                         {
                             "Linea": 63, 
-                            "NombreSource": "jndi", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/env/prod/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 63, 
+                            "Texto": "\tJNDIDataSourceName=jndi/emiautosPBE|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_B-CotizadorPBE/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 195, 
+                            "Texto": "\t\t<res-ref-name>jndi/emiautosPBE</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }
             ], 
             "Nombre": "Sin hardcode", 

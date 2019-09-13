@@ -7,12 +7,1106 @@
             "Numero": "3"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculosWS.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculosWS.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculosWS</context-root>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculosWS</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculosWS.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculosWS.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculosWS</context-root>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculosWS</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculosWS.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculosWS.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculosWS</context-root>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculosWS</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 6
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculosWS\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculosWS\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculosWS\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculosWS\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.war\" value=\"FicheroVehiculosWS.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.war\" value=\"FicheroVehiculosWS.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculosWS.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculosWS.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculosWS\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculosWS\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculosWS.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculosWS.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculosWS\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculosWS\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculosWS.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculosWS.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 226, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculosWS.war}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 226, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculosWS.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 20
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculosWS\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculosWS\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculosWS\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculosWS\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.war\" value=\"FicheroVehiculosWS.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.war\" value=\"FicheroVehiculosWS.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculosWS.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculosWS.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculosWS\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculosWS\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculosWS.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculosWS.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculosWS\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculosWS\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculosWS.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculosWS.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 226, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculosWS.war}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 226, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculosWS.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 20
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculosWS\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculosWS\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculosWS\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculosWS\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.war\" value=\"FicheroVehiculosWS.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.war\" value=\"FicheroVehiculosWS.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculosWS.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculosWS.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculosWS.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculosWS\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculosWS\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculosWS.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculosWS.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculosWS\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculosWS\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculosWS.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculosWS.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 226, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculosWS.war}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 226, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculosWS.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 20
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculosWS\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculosWS\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculosWS\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculosWS\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build/WEB-INF/classes/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build/WEB-INF/classes/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build/WEB-INF/classes/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 29, 
+                            "Texto": "\t\t<res-ref-name>FicheroVehiculosWS</res-ref-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 29, 
+                            "Texto": "\t\t<res-ref-name>FicheroVehiculosWS</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 29, 
+                            "Texto": "\t\t<res-ref-name>FicheroVehiculosWS</res-ref-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 29, 
+                            "Texto": "\t\t<res-ref-name>FicheroVehiculosWS</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<display-name>FicheroVehiculosWS</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 29, 
+                            "Texto": "\t\t<res-ref-name>FicheroVehiculosWS</res-ref-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 29, 
+                            "Texto": "\t\t<res-ref-name>FicheroVehiculosWS</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/WEB-INF/services/FicherosVehiculosWS/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/WEB-INF/services/FicherosVehiculosWS/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/WEB-INF/services/FicherosVehiculosWS/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculosWS</property> \r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }
+            ], 
             "Nombre": "Sin hardcode", 
             "Numero": "1"
         }, 
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\tComponente: FicheroVehiculosWS\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\tComponente: FicheroVehiculosWS\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\tComponente: FicheroVehiculosWS\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\tComponente: FicheroVehiculosWS\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/build/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\tComponente: FicheroVehiculosWS\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t\tComponente: FicheroVehiculosWS\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculosWS/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculosWS</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }
+            ], 
             "Nombre": "HardCode", 
             "Numero": "2"
         }

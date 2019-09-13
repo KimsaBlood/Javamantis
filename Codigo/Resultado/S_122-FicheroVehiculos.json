@@ -4,6 +4,78 @@
         {
             "Archivos": [
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 8, 
+                            "Texto": "<!-- \t\t<property name=\"hibernate.connection.datasource\">java:comp/env/FicheroVehiculos</property> -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 8, 
+                            "Texto": "<!-- \t\t<property name=\"hibernate.connection.datasource\">java:comp/env/FicheroVehiculos</property> -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 8, 
+                            "Texto": "<!-- \t\t<property name=\"hibernate.connection.datasource\">java:comp/env/FicheroVehiculos</property> -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/mx/com/axa/ficheros/webservices/VehicleUploadWSServiceStub.java", 
                     "Cadena": [
                         "(^(?!.*[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S]).*)(^(?!.*[a|A][p|P][p|P][s|S][e|E][r|R][v|V][e|E][r|R]))(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(^(?!.*[uU][rR][lL]_[pP][rR][o|O][g|G][rR][eE][sS][sS]))(^(?!.*[J|j][d|D][b|B][c|C]))(^(?!.*[a|A][g|G][e|E][n|N][t|T][e|E][s|S]))(^(?!.*[M|m][O|o][N|n][G|g][O|o][D|d][B|b]).*)((.*):([0-9]{2,5})/)"
@@ -14,7 +86,7 @@
                         {
                             "Linea": 429, 
                             "Texto": "     //http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "ttp://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -27,6 +99,450 @@
         {
             "Archivos": [
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculos.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculos</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculos.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculos</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>FicheroVehiculos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>FicheroVehiculos.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/FicheroVehiculos</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculos\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculos\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculos.war\" value=\"FicheroVehiculos.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculos.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculos.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculos\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculos.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculos\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 220, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculos.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculos.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculos\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculos\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculos.war\" value=\"FicheroVehiculos.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculos.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculos.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculos\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculos.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculos\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 220, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculos.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculos.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"FicheroVehiculos\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"FicheroVehiculos\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"FicheroVehiculos.war\" value=\"FicheroVehiculos.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 20, 
+                            "Texto": "\t<property name=\"FicheroVehiculos.build.dir\" value=\"${build}\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"FicheroVehiculos.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"FicheroVehiculos\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"${FicheroVehiculos.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 25, 
+                            "Texto": "\t<filter value=\"/FicheroVehiculos\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 220, 
+                            "Texto": "\t<delete file=\"${FicheroVehiculos.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${FicheroVehiculos.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 10
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/pon.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 6, 
+                            "Texto": "  <artifactId>FicheroVehiculos</artifactId>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "  <name>FicheroVehiculos</name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/pon.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 6, 
+                            "Texto": "  <artifactId>FicheroVehiculos</artifactId>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "  <name>FicheroVehiculos</name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/pon.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 6, 
+                            "Texto": "  <artifactId>FicheroVehiculos</artifactId>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "  <name>FicheroVehiculos</name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculos\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculos\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculos\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculos\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122-FicheroVehiculos\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122-FicheroVehiculos\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/local/properties/application.properties", 
                     "Cadena": [
                         "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
@@ -37,7 +553,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -54,16 +570,88 @@
                         {
                             "Linea": 12, 
                             "Texto": "mx.com.axa.ficheros.filetx.derivacion.urlbase = sftp://10.133.32.158:22/bancs/vehiculos/output/\r\n", 
-                            "url": "ftp://10.133.32.158:22/bancs/vehiculos/output/"
+                            "url": "sftp://10.133.32.158:22/bancs/vehiculos/output/"
                         }, 
                         {
                             "Linea": 19, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://10.77.66.42:21002/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "ttp://10.77.66.42:21002/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://10.77.66.42:21002/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/local/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 20, 
+                            "Texto": "mx.com.axa.ficheros.derivacion.filename = DeriFicheroVehiculos{0}.csv\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/local/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 20, 
+                            "Texto": "mx.com.axa.ficheros.derivacion.filename = DeriFicheroVehiculos{0}.csv\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/local/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 20, 
+                            "Texto": "mx.com.axa.ficheros.derivacion.filename = DeriFicheroVehiculos{0}.csv\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/qa/properties/application.properties", 
@@ -76,10 +664,82 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://servicioswebqa.axa.com.mx:7850/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "ttp://servicioswebqa.axa.com.mx:7850/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://servicioswebqa.axa.com.mx:7850/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/qa/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir = FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/qa/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir = FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/qa/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir = FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -93,10 +753,82 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://servicioswebdev.axa.com.mx:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/dev/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir = FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/dev/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir = FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/dev/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir = FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -110,10 +842,238 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.ficheros.derivacion.bancs.urlbase=http://serviciosweb.axa.com.mx:7815/BancsAPIWebservices/VehicleUploadWS\r\n", 
-                            "url": "ttp://serviciosweb.axa.com.mx:7815/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://serviciosweb.axa.com.mx:7815/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/prod/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir=FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/prod/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir=FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/env/prod/properties/application.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "mx.com.axa.ficheros.upload.tempdir=FicheroVehiculos\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 4, 
+                            "Texto": "  <display-name>FicheroVehiculos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "    <res-ref-name>FicheroVehiculos</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 4, 
+                            "Texto": "  <display-name>FicheroVehiculos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "    <res-ref-name>FicheroVehiculos</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 4, 
+                            "Texto": "  <display-name>FicheroVehiculos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 7, 
+                            "Texto": "    <res-ref-name>FicheroVehiculos</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculos</property>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculos</property>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t\t<property name=\"hibernate.connection.datasource\">FicheroVehiculos</property>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }
             ], 
@@ -122,6 +1082,150 @@
         }, 
         {
             "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculos WEB</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculos WEB</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version FicheroVehiculos WEB</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/logout.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 51, 
+                            "Texto": "\t<h3><a href=\"/FicheroVehiculos\">Volver a ingresar</a></h3>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/logout.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 51, 
+                            "Texto": "\t<h3><a href=\"/FicheroVehiculos\">Volver a ingresar</a></h3>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/WebContent/logout.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 51, 
+                            "Texto": "\t<h3><a href=\"/FicheroVehiculos\">Volver a ingresar</a></h3>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122-FicheroVehiculos/src/mx/com/axa/ficheros/webservices/VehicleUploadWSServiceStub.java", 
                     "Cadena": [
@@ -133,12 +1237,12 @@
                         {
                             "Linea": 106, 
                             "Texto": "                    this(configurationContext,\"http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS\" );\r\n", 
-                            "url": "ttp://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
                         }, 
                         {
                             "Linea": 115, 
                             "Texto": "                    this(\"http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS\" );\r\n", 
-                            "url": "ttp://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
+                            "url": "http://10.77.66.105:7080/BancsAPIWebservices/VehicleUploadWS"
                         }
                     ], 
                     "NombreCad": "IP", 

@@ -280,7 +280,7 @@
                 {
                     "nombre":"NombreSource",
                     "expresiones":[
-                        "=(\\w*)"
+                        "(\\w*)"
                     ]
                 }
             ]

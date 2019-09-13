@@ -19,7 +19,7 @@
                         {
                             "Linea": 11, 
                             "Texto": "endpoint.javaUnitLink=http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
+                            "url": "http://servicioswebdev.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -36,7 +36,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "endpoint.progressUnitlink=http://lu2app87:8282/AxaServices/vida\r\n", 
-                            "url": "ttp://lu2app87:8282/AxaServices/vida"
+                            "url": "http://lu2app87:8282/AxaServices/vida"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -53,7 +53,7 @@
                         {
                             "Linea": 11, 
                             "Texto": "endpoint.javaUnitLink=http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
-                            "url": "ttp://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
+                            "url": "http://servicioswebqa.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -70,7 +70,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "endpoint.progressUnitlink=http://lu2app88:8282/AxaServices/vida\r\n", 
-                            "url": "ttp://lu2app88:8282/AxaServices/vida"
+                            "url": "http://lu2app88:8282/AxaServices/vida"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -87,7 +87,7 @@
                         {
                             "Linea": 11, 
                             "Texto": "endpoint.javaUnitLink=http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral\r\n", 
-                            "url": "ttp://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
+                            "url": "http://serviciosweb.axa.com.mx:9213/UnitLinkWS/consulta/informaciongeneral"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -104,7 +104,7 @@
                         {
                             "Linea": 12, 
                             "Texto": "endpoint.progressUnitlink=http://progress-apps.axa.com.mx:8282/AxaServices/vida\r\n", 
-                            "url": "ttp://progress-apps.axa.com.mx:8282/AxaServices/vida"
+                            "url": "http://progress-apps.axa.com.mx:8282/AxaServices/vida"
                         }
                     ], 
                     "NombreCad": "IP", 

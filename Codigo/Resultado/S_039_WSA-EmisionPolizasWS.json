@@ -13,11 +13,35 @@
                     "Lineas": [
                         {
                             "Linea": 97, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 4, 
+                            "Texto": "<!-- \t<Resource name=\"EmisionPolizasWSDataSource\" auth=\"Container\" -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -30,7 +54,7 @@
                     "Lineas": [
                         {
                             "Linea": 97, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -47,7 +71,7 @@
                     "Lineas": [
                         {
                             "Linea": 97, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -64,7 +88,7 @@
                     "Lineas": [
                         {
                             "Linea": 97, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
@@ -81,11 +105,35 @@
                     "Lineas": [
                         {
                             "Linea": 97, 
-                            "NombreSource": "MyOracleDataSource", 
+                            "NombreSource": "", 
                             "Texto": "#\tJNDIDataSourceName=MyOracleDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 4, 
+                            "Texto": "<!-- \t<Resource name=\"EmisionPolizasWSDataSource\" auth=\"Container\" -->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -121,16 +169,64 @@
                         {
                             "Linea": 14, 
                             "Texto": "URL_WS1=http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "url": "ttp://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "URL_WS2=http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "url": "ttp://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 148, 
+                            "Texto": "\t\t<res-ref-name>EmisionPolizasWSDataSource</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/conf/spring-config.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 21, 
+                            "Texto": "\t<jee:jndi-lookup id=\"dataSource\" jndi-name=\"EmisionPolizasWSDataSource\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
@@ -142,11 +238,35 @@
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "NombreSource": "EmisionPolizasWSDataSource", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/WEB-INF/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -160,7 +280,7 @@
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -177,16 +297,40 @@
                         {
                             "Linea": 14, 
                             "Texto": "URL_WS1=http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "url": "ttp://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "URL_WS2=http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "url": "ttp://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/bin/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<Resource name=\"EmisionPolizasWSDataSource\" auth=\"Container\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
@@ -198,11 +342,35 @@
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "NombreSource": "EmisionPolizasWSDataSource", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/local/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -216,7 +384,7 @@
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -232,11 +400,35 @@
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "NombreSource": "EmisionPolizasWSDataSource", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/qa/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -250,7 +442,7 @@
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -266,11 +458,35 @@
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "NombreSource": "EmisionPolizasWSDataSource", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/dev/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -284,7 +500,7 @@
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -300,11 +516,35 @@
                     "Lineas": [
                         {
                             "Linea": 58, 
-                            "NombreSource": "EmisionPolizasWSDataSource", 
+                            "NombreSource": "", 
                             "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
                         }
                     ], 
                     "NombreCad": "DataSourceName", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/env/prod/properties/connectionpool.properties", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 58, 
+                            "Texto": "\tJNDIDataSourceName=EmisionPolizasWSDataSource|\\\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -318,10 +558,82 @@
                         {
                             "Linea": 295, 
                             "Texto": "ssoUrl=http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter\r\n", 
-                            "url": "ttp://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
+                            "url": "http://dev-ia3ssoadmin.us.americas.intranet:80/soap/servlet/rpcrouter"
                         }
                     ], 
                     "NombreCad": "IP", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 148, 
+                            "Texto": "\t\t<res-ref-name>EmisionPolizasWSDataSource</res-ref-name>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/WEB-INF/conf/spring-config.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 21, 
+                            "Texto": "\t<jee:jndi-lookup id=\"dataSource\" jndi-name=\"EmisionPolizasWSDataSource\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_039_WSA-EmisionPolizasWS/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<Resource name=\"EmisionPolizasWSDataSource\" auth=\"Container\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
                     "Repeticiones": 1
                 }, 
                 {
@@ -335,12 +647,12 @@
                         {
                             "Linea": 14, 
                             "Texto": "URL_WS1=http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "url": "ttp://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.196.13:9080/EmisionPolizasWS/services/StartJobService"
                         }, 
                         {
                             "Linea": 18, 
                             "Texto": "URL_WS2=http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService\r\n", 
-                            "url": "ttp://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
+                            "url": "http://10.212.227.34:9080/EmisionPolizasWS/services/StartJobService"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -363,12 +675,12 @@
                         {
                             "Linea": 26, 
                             "Texto": "\t\t// urlString = \"AppServer://ds_vida:5235/asbautwse\";\r\n", 
-                            "url": "ppServer://ds_vida:5235/asbautwse"
+                            "url": "AppServer://ds_vida:5235/asbautwse"
                         }, 
                         {
                             "Linea": 27, 
                             "Texto": "\t\turlString = \"AppServer://ds_vida:5235/asbautwse2\";\r\n", 
-                            "url": "ppServer://ds_vida:5235/asbautwse2"
+                            "url": "AppServer://ds_vida:5235/asbautwse2"
                         }
                     ], 
                     "NombreCad": "Progress", 
@@ -385,7 +697,7 @@
                         {
                             "Linea": 59, 
                             "Texto": "    \t//String url  = \"http://servicioswebdev.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS\";\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "http://servicioswebdev.axa.com.mx:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -402,7 +714,7 @@
                         {
                             "Linea": 60, 
                             "Texto": "    \t//String url  = \"http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS\";\r\n", 
-                            "url": "ttp://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
+                            "url": "http://10.77.5.75:9185/eip/dp/gestionDocumental/ecmWS"
                         }
                     ], 
                     "NombreCad": "IP", 

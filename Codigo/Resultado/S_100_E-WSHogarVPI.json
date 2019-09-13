@@ -2,7 +2,32 @@
     "Aplicacion": "S_100_E-WSHogarVPI", 
     "Prioridades": [
         {
-            "Archivos": [], 
+            "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_100_E-WSHogarVPI/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)jdbc/AdminEnvioCorreos(.*)", 
+                        "(.*)CargoEnLineaDS(.*)", 
+                        "(.*)CatGralDS(.*)", 
+                        "(.*)EmisionPolizasWSDataSource(.*)", 
+                        "(.*)jndi/emiautos(.*)", 
+                        "(.*)jdbc/WSAutosFlotillasDS(.*)", 
+                        "(.*)VentaDirectaDS(.*)", 
+                        "(.*)WorkSiteDataSource(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 3, 
+                            "Texto": "<!--\t<ResourceLink name=\"jndi/emiautospbe\" global=\"jdbc/localDB\" type=\"javax.sql.DataSource\"/>-->\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }
+            ], 
             "Nombre": "comentarios", 
             "Numero": "3"
         }, 
@@ -19,7 +44,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_desa1:5329/asbdanhint</url>\r\n", 
-                            "url": "ttp://ux_desa1:5329/asbdanhint"
+                            "url": "http://ux_desa1:5329/asbdanhint"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -36,12 +61,12 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi</url>\r\n", 
-                            "url": "ttp://ux_desa5:5329/asbdanvpihi"
+                            "url": "http://ux_desa5:5329/asbdanvpihi"
                         }, 
                         {
                             "Linea": 23, 
                             "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi2</url>\r\n", 
-                            "url": "ttp://ux_desa5:5329/asbdanvpihi2"
+                            "url": "http://ux_desa5:5329/asbdanvpihi2"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -58,7 +83,7 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_desa1:5329/asbdanhint</url>\r\n", 
-                            "url": "ttp://ux_desa1:5329/asbdanhint"
+                            "url": "http://ux_desa1:5329/asbdanhint"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -75,12 +100,12 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_danos:5329/asbdanvpihi</url>\r\n", 
-                            "url": "ttp://ux_danos:5329/asbdanvpihi"
+                            "url": "http://ux_danos:5329/asbdanvpihi"
                         }, 
                         {
                             "Linea": 23, 
                             "Texto": "            <url>http://ux_danos:5329/asbdanvpihi2</url>\r\n", 
-                            "url": "ttp://ux_danos:5329/asbdanvpihi2"
+                            "url": "http://ux_danos:5329/asbdanvpihi2"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -97,12 +122,12 @@
                         {
                             "Linea": 14, 
                             "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi</url>\r\n", 
-                            "url": "ttp://ux_desa5:5329/asbdanvpihi"
+                            "url": "http://ux_desa5:5329/asbdanvpihi"
                         }, 
                         {
                             "Linea": 23, 
                             "Texto": "            <url>http://ux_desa5:5329/asbdanvpihi2</url>\r\n", 
-                            "url": "ttp://ux_desa5:5329/asbdanvpihi2"
+                            "url": "http://ux_desa5:5329/asbdanvpihi2"
                         }
                     ], 
                     "NombreCad": "IP", 

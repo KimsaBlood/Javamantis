@@ -5,20 +5,39 @@ from Paths import Paths
 from AplicacionOut import AplicacionOut
 import threading
 from Excel import Excel
-import json
+from Json import Json
 from MongoDB import MongoDB
 from pprint import pprint
 from Prioridad import Prioridad
 from PrioridadesOut import PrioridadesOut
 from LineasOut import LineasOut
 from ArchivoOut import ArchivoOut
-
+from Binarios import Binarios
+from CadenasBusqueda import CadenasBusqueda
+from QueryMongoDB import QueryMongoDB
 class Analizador:
 	def __init__(self):
 		pass
 
 	def AnalizarThread(self,config,paths,l,ex):
 		"""Genera una aplicacion de salida"""
+		binario=Binarios(paths.getPath())
+		binariosList=binario.buscabinarios()
+		querysMongo=QueryMongoDB()
+		h=[]
+		for x in binariosList:
+			h=querysMongo.obtenerDatasourcePorAplicacion(x)
+
+		if h:
+			y=[]
+			for x in h:
+				y.append("(.*)"+x+"(.*)")
+			print(l.getNombre())
+			cadenas=config.getCadenasBusqueda()
+			cadenas.append(CadenasBusqueda("JNDIS","None",y,[]))
+			config.setCadenasBusqueda(cadenas)
+			cadenas=config.getCadenasBusqueda()
+			
 		self.appOut=AplicacionOut(paths,config,l.getNombre(),ex)
 		self.appOut.generar()
 			
@@ -28,6 +47,8 @@ class Analizador:
 		ex=Excel()
 		threads = list()
 		count=1
+		
+
 		config=Configuracion("../../Codigo/archivos/config.json","../../Codigo/archivos/Datasources.json")
 		#Recorremos la lista de objetos Aplicacion en config y creamos un hilo por cada objeto
 		for l in config.getAplicaciones():

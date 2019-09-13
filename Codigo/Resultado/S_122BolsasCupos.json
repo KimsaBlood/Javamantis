@@ -14,7 +14,7 @@
                         {
                             "Linea": 16, 
                             "Texto": "##mx.com.axa.byc.ws.client.callidus=https://servicioswebqa.axa.com.mx:9044/AXAservicios/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "ttps://servicioswebqa.axa.com.mx:9044/AXAservicios/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "https://servicioswebqa.axa.com.mx:9044/AXAservicios/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -31,7 +31,7 @@
                         {
                             "Linea": 17, 
                             "Texto": "##mx.com.axa.byc.ws.client.callidusQA=https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "ttps://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "https://agentesqa.axa.com.mx/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }
                     ], 
                     "NombreCad": "Apache", 
@@ -48,7 +48,7 @@
                         {
                             "Linea": 42, 
                             "Texto": "##mx.com.axa.byc.ws.client.consultaterritorial=http://mxdata22001.asefi.mex:9081/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://mxdata22001.asefi.mex:9081/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://mxdata22001.asefi.mex:9081/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -65,7 +65,7 @@
                         {
                             "Linea": 40, 
                             "Texto": "##QA mx.com.axa.byc.ws.client.consultaterritorial=http://LU2APP17.asefitest.mex:9081/albpmServices/ENGINE_AX/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://LU2APP17.asefitest.mex:9081/albpmServices/ENGINE_AX/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://LU2APP17.asefitest.mex:9081/albpmServices/ENGINE_AX/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -82,7 +82,7 @@
                         {
                             "Linea": 40, 
                             "Texto": "#mx.com.axa.byc.ws.client.consultaterritorial=http://10.133.228.14:9080/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://10.133.228.14:9080/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://10.133.228.14:9080/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -99,7 +99,7 @@
                         {
                             "Linea": 1317, 
                             "Texto": "     //http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -112,6 +112,122 @@
         {
             "Archivos": [
                 {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/application.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 5, 
+                            "Texto": "\t<display-name>BolsasCupos</display-name>\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "        \t<web-uri>BolsasCupos.war</web-uri>\r\n"
+                        }, 
+                        {
+                            "Linea": 10, 
+                            "Texto": "        \t<context-root>/BolsasCupos</context-root>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/build.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "<project name=\"BolsasCupos\" default=\"local\" basedir=\".\">\r\n"
+                        }, 
+                        {
+                            "Linea": 9, 
+                            "Texto": "\t<property name=\"applicationname\" value=\"BolsasCupos\" /><!-- Nombre de la Aplicaci\u00c3\u00b3n -->\r\n"
+                        }, 
+                        {
+                            "Linea": 19, 
+                            "Texto": "\t<property name=\"BolsasCupos.war\" value=\"BolsasCupos.war\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 21, 
+                            "Texto": "\t<property name=\"ear.file\" value=\"BolsasCupos.ear\" />\r\n"
+                        }, 
+                        {
+                            "Linea": 22, 
+                            "Texto": "\t<filter value=\"BolsasCupos\" token=\"APPNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "\t<filter value=\"${BolsasCupos.war}\" token=\"WARNAME\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 24, 
+                            "Texto": "\t<filter value=\"/BolsasCupos\" token=\"APPROOT\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 225, 
+                            "Texto": "\t<delete file=\"${BolsasCupos.war}\" verbose=\"true\"/>\r\n"
+                        }, 
+                        {
+                            "Linea": 228, 
+                            "Texto": "\t\t<fileset dir=\"${dist}\" includes=\"${BolsasCupos.war}\"/>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 9
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/sonar-project.properties", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".properties", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 1, 
+                            "Texto": "sonar.projectKey=S_122BolsasCupos\n"
+                        }, 
+                        {
+                            "Linea": 2, 
+                            "Texto": "sonar.projectName=S_122BolsasCupos\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/env/local/properties/application.properties", 
                     "Cadena": [
                         "(^(?!.*[L|l][O|o][C|c][A|a][L|l][H|h][O|o][S|s][T|t]))(.*)[s|S][e|E][r|R][v|V][i|I][c|C][i|I][o|O][s|S][w|W][e|E][b|B](.*)"
@@ -122,12 +238,12 @@
                         {
                             "Linea": 15, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 41, 
                             "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -144,12 +260,12 @@
                         {
                             "Linea": 18, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "ttp://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "http://servicioswebqa.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 39, 
                             "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebqa.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://servicioswebqa.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://servicioswebqa.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -166,12 +282,12 @@
                         {
                             "Linea": 18, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "http://servicioswebdev.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 41, 
                             "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://servicioswebdev.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -188,16 +304,208 @@
                         {
                             "Linea": 18, 
                             "Texto": "mx.com.axa.byc.ws.client.callidus=http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente\r\n", 
-                            "url": "ttp://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
+                            "url": "http://serviciosweb.axa.com.mx:9152/ConsultaAgentes/services/ConsultaDetallesAgente"
                         }, 
                         {
                             "Linea": 39, 
                             "Texto": "mx.com.axa.byc.ws.client.consultaterritorial=http://serviciosweb.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\r\n", 
-                            "url": "ttp://serviciosweb.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://serviciosweb.axa.com.mx:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "Datapower", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 12, 
+                            "Texto": "\t\t<res-ref-name>BolsasCupos</res-ref-name>\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/WebContent/WEB-INF/web.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 12, 
+                            "Texto": "\t\t<res-ref-name>BolsasCupos</res-ref-name>\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 3, 
+                            "Texto": "  <Resource name=\"jdbc/BolsasCupos\" auth=\"Container\" type=\"javax.sql.DataSource\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 3, 
+                            "Texto": "  <Resource name=\"jdbc/BolsasCupos\" auth=\"Container\" type=\"javax.sql.DataSource\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/WebContent/META-INF/context.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 3, 
+                            "Texto": "  <Resource name=\"jdbc/BolsasCupos\" auth=\"Container\" type=\"javax.sql.DataSource\"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t    <property name=\"hibernate.connection.datasource\">BolsasCupos</property>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t    <property name=\"hibernate.connection.datasource\">BolsasCupos</property>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/hibernate.cfg.xml", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".xml", 
+                    "Hardcode": "false", 
+                    "Lineas": [
+                        {
+                            "Linea": 10, 
+                            "Texto": "\t    <property name=\"hibernate.connection.datasource\">BolsasCupos</property>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
                 }
             ], 
             "Nombre": "Sin hardcode", 
@@ -205,6 +513,550 @@
         }, 
         {
             "Archivos": [
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/Test/mx/com/axa/byc/cupos/servicio/CupoServicioTest.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 15, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 136, 
+                            "Texto": "\t\tTransferBolsasCuposVO transferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/Test/mx/com/axa/byc/comun/SolicitudAsignacion/AsignacionTest.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 8, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 18, 
+                            "Texto": "\t\tBolsasCuposServicio servicio = new BolsasCuposServicio();\r\n"
+                        }, 
+                        {
+                            "Linea": 44, 
+                            "Texto": "\t\tBolsasCuposServicio servicio = new BolsasCuposServicio();\r\n"
+                        }, 
+                        {
+                            "Linea": 71, 
+                            "Texto": "\t\tBolsasCuposServicio servicio = new BolsasCuposServicio();\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/WebContent/version.jsp", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".jsp", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 7, 
+                            "Texto": "\t<title>Version BolsasCupos</title>\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 1
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/util/CuposUtil.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 17, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 149, 
+                            "Texto": "\tpublic static List<TransferBolsasCuposVO> crearListaUsuariosTransfer(\r\n"
+                        }, 
+                        {
+                            "Linea": 151, 
+                            "Texto": "\t\tList<TransferBolsasCuposVO> usuariosTransfer = new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 163, 
+                            "Texto": "\t\t\t\t\t\tusuariosTransfer.add(new TransferBolsasCuposVO(usuario,idElementoLoggeado));\r\n"
+                        }, 
+                        {
+                            "Linea": 166, 
+                            "Texto": "\t\t\t\t\t\tusuariosTransfer.add(new TransferBolsasCuposVO(usuario,idElementoLoggeado));\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/util/CuposUtil.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 17, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 149, 
+                            "Texto": "\tpublic static List<TransferBolsasCuposVO> crearListaUsuariosTransfer(\r\n"
+                        }, 
+                        {
+                            "Linea": 151, 
+                            "Texto": "\t\tList<TransferBolsasCuposVO> usuariosTransfer = new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 163, 
+                            "Texto": "\t\t\t\t\t\tusuariosTransfer.add(new TransferBolsasCuposVO(usuario,idElementoLoggeado));\r\n"
+                        }, 
+                        {
+                            "Linea": 166, 
+                            "Texto": "\t\t\t\t\t\tusuariosTransfer.add(new TransferBolsasCuposVO(usuario,idElementoLoggeado));\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/util/CuposUtil.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 17, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 149, 
+                            "Texto": "\tpublic static List<TransferBolsasCuposVO> crearListaUsuariosTransfer(\r\n"
+                        }, 
+                        {
+                            "Linea": 151, 
+                            "Texto": "\t\tList<TransferBolsasCuposVO> usuariosTransfer = new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 163, 
+                            "Texto": "\t\t\t\t\t\tusuariosTransfer.add(new TransferBolsasCuposVO(usuario,idElementoLoggeado));\r\n"
+                        }, 
+                        {
+                            "Linea": 166, 
+                            "Texto": "\t\t\t\t\t\tusuariosTransfer.add(new TransferBolsasCuposVO(usuario,idElementoLoggeado));\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 5
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/managedbean/SolicitudCuposMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 30, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 73, 
+                            "Texto": "\tprivate BolsasCuposServicio bcServicio = new BolsasCuposServicio();\r\n"
+                        }, 
+                        {
+                            "Linea": 1271, 
+                            "Texto": "\t\t\t\t\t\tBolsasCuposServicio.STATUS_PENDIENTE, tipoSolicitud,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/managedbean/SolicitudCuposMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 30, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 73, 
+                            "Texto": "\tprivate BolsasCuposServicio bcServicio = new BolsasCuposServicio();\r\n"
+                        }, 
+                        {
+                            "Linea": 1271, 
+                            "Texto": "\t\t\t\t\t\tBolsasCuposServicio.STATUS_PENDIENTE, tipoSolicitud,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/managedbean/SolicitudCuposMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 30, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 73, 
+                            "Texto": "\tprivate BolsasCuposServicio bcServicio = new BolsasCuposServicio();\r\n"
+                        }, 
+                        {
+                            "Linea": 1271, 
+                            "Texto": "\t\t\t\t\t\tBolsasCuposServicio.STATUS_PENDIENTE, tipoSolicitud,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 3
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/managedbean/TransferirCuposMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 20, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 43, 
+                            "Texto": "\tprivate TransferBolsasCuposVO transferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }, 
+                        {
+                            "Linea": 44, 
+                            "Texto": "\tprivate List<TransferBolsasCuposVO> usuariosTransfer;\r\n"
+                        }, 
+                        {
+                            "Linea": 106, 
+                            "Texto": "\t\tusuariosTransfer = new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 107, 
+                            "Texto": "\t\tList<TransferBolsasCuposVO> usuariosTransferCont = null;\r\n"
+                        }, 
+                        {
+                            "Linea": 178, 
+                            "Texto": "\t\t\t\t\t\t\tfor (TransferBolsasCuposVO tbc : usuariosTransferCont) {\r\n"
+                        }, 
+                        {
+                            "Linea": 289, 
+                            "Texto": "\t\tfor (TransferBolsasCuposVO usrTrans : usuariosTransfer) {\r\n"
+                        }, 
+                        {
+                            "Linea": 310, 
+                            "Texto": "\t\t\tlista = new BolsasCuposServicio().intersectaEstructuraVsMXI(auxMap,\r\n"
+                        }, 
+                        {
+                            "Linea": 439, 
+                            "Texto": "\t\tTransferBolsasCuposVO transferAux = (TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData();\r\n"
+                        }, 
+                        {
+                            "Linea": 453, 
+                            "Texto": "\t\t\tInteger disponibles = ((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getCuposDisponibles();\r\n"
+                        }, 
+                        {
+                            "Linea": 455, 
+                            "Texto": "\t\t\tInteger cuposTransaccion = ((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getCuposTransaccion();\r\n"
+                        }, 
+                        {
+                            "Linea": 459, 
+                            "Texto": "\t\t\tthis.transferSeleccion.setUsuario(((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getUsuario());\r\n"
+                        }, 
+                        {
+                            "Linea": 556, 
+                            "Texto": "\tpublic List<TransferBolsasCuposVO> getUsuariosTransfer() {\r\n"
+                        }, 
+                        {
+                            "Linea": 560, 
+                            "Texto": "\tpublic void setUsuariosTransfer(List<TransferBolsasCuposVO> usuariosTransfer) {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 15
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/managedbean/TransferirCuposMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 20, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 43, 
+                            "Texto": "\tprivate TransferBolsasCuposVO transferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }, 
+                        {
+                            "Linea": 44, 
+                            "Texto": "\tprivate List<TransferBolsasCuposVO> usuariosTransfer;\r\n"
+                        }, 
+                        {
+                            "Linea": 106, 
+                            "Texto": "\t\tusuariosTransfer = new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 107, 
+                            "Texto": "\t\tList<TransferBolsasCuposVO> usuariosTransferCont = null;\r\n"
+                        }, 
+                        {
+                            "Linea": 178, 
+                            "Texto": "\t\t\t\t\t\t\tfor (TransferBolsasCuposVO tbc : usuariosTransferCont) {\r\n"
+                        }, 
+                        {
+                            "Linea": 289, 
+                            "Texto": "\t\tfor (TransferBolsasCuposVO usrTrans : usuariosTransfer) {\r\n"
+                        }, 
+                        {
+                            "Linea": 310, 
+                            "Texto": "\t\t\tlista = new BolsasCuposServicio().intersectaEstructuraVsMXI(auxMap,\r\n"
+                        }, 
+                        {
+                            "Linea": 439, 
+                            "Texto": "\t\tTransferBolsasCuposVO transferAux = (TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData();\r\n"
+                        }, 
+                        {
+                            "Linea": 453, 
+                            "Texto": "\t\t\tInteger disponibles = ((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getCuposDisponibles();\r\n"
+                        }, 
+                        {
+                            "Linea": 455, 
+                            "Texto": "\t\t\tInteger cuposTransaccion = ((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getCuposTransaccion();\r\n"
+                        }, 
+                        {
+                            "Linea": 459, 
+                            "Texto": "\t\t\tthis.transferSeleccion.setUsuario(((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getUsuario());\r\n"
+                        }, 
+                        {
+                            "Linea": 556, 
+                            "Texto": "\tpublic List<TransferBolsasCuposVO> getUsuariosTransfer() {\r\n"
+                        }, 
+                        {
+                            "Linea": 560, 
+                            "Texto": "\tpublic void setUsuariosTransfer(List<TransferBolsasCuposVO> usuariosTransfer) {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 15
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/cupos/managedbean/TransferirCuposMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 20, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 23, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 43, 
+                            "Texto": "\tprivate TransferBolsasCuposVO transferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }, 
+                        {
+                            "Linea": 44, 
+                            "Texto": "\tprivate List<TransferBolsasCuposVO> usuariosTransfer;\r\n"
+                        }, 
+                        {
+                            "Linea": 106, 
+                            "Texto": "\t\tusuariosTransfer = new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 107, 
+                            "Texto": "\t\tList<TransferBolsasCuposVO> usuariosTransferCont = null;\r\n"
+                        }, 
+                        {
+                            "Linea": 178, 
+                            "Texto": "\t\t\t\t\t\t\tfor (TransferBolsasCuposVO tbc : usuariosTransferCont) {\r\n"
+                        }, 
+                        {
+                            "Linea": 289, 
+                            "Texto": "\t\tfor (TransferBolsasCuposVO usrTrans : usuariosTransfer) {\r\n"
+                        }, 
+                        {
+                            "Linea": 310, 
+                            "Texto": "\t\t\tlista = new BolsasCuposServicio().intersectaEstructuraVsMXI(auxMap,\r\n"
+                        }, 
+                        {
+                            "Linea": 439, 
+                            "Texto": "\t\tTransferBolsasCuposVO transferAux = (TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData();\r\n"
+                        }, 
+                        {
+                            "Linea": 453, 
+                            "Texto": "\t\t\tInteger disponibles = ((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getCuposDisponibles();\r\n"
+                        }, 
+                        {
+                            "Linea": 455, 
+                            "Texto": "\t\t\tInteger cuposTransaccion = ((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getCuposTransaccion();\r\n"
+                        }, 
+                        {
+                            "Linea": 459, 
+                            "Texto": "\t\t\tthis.transferSeleccion.setUsuario(((TransferBolsasCuposVO) this.tablaTransferenciaCupos.getRowData()).getUsuario());\r\n"
+                        }, 
+                        {
+                            "Linea": 556, 
+                            "Texto": "\tpublic List<TransferBolsasCuposVO> getUsuariosTransfer() {\r\n"
+                        }, 
+                        {
+                            "Linea": 560, 
+                            "Texto": "\tpublic void setUsuariosTransfer(List<TransferBolsasCuposVO> usuariosTransfer) {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 15
+                }, 
                 {
                     "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/ws/client/consultaterritorial/stub/ConsultaTerritorialServiceStub.java", 
                     "Cadena": [
@@ -216,16 +1068,616 @@
                         {
                             "Linea": 154, 
                             "Texto": "                    this(configurationContext,\"http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\" );\r\n", 
-                            "url": "ttp://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }, 
                         {
                             "Linea": 163, 
                             "Texto": "                    this(\"http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener\" );\r\n", 
-                            "url": "ttp://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
+                            "url": "http://10.77.5.36:7902/albpmServices/Engine_axa/ws/ConsultaTerritorialServiceListener"
                         }
                     ], 
                     "NombreCad": "IP", 
                     "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/comun/vo/TransferBolsasCuposVO.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 17, 
+                            "Texto": "public class TransferBolsasCuposVO {\r\n"
+                        }, 
+                        {
+                            "Linea": 30, 
+                            "Texto": "\tpublic TransferBolsasCuposVO() {\r\n"
+                        }, 
+                        {
+                            "Linea": 33, 
+                            "Texto": "\tpublic TransferBolsasCuposVO(DescripcionUsuarioVO usuarioSimple) {\r\n"
+                        }, 
+                        {
+                            "Linea": 39, 
+                            "Texto": "\tpublic TransferBolsasCuposVO(DescripcionUsuarioVO usuarioSimple,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/comun/vo/TransferBolsasCuposVO.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 17, 
+                            "Texto": "public class TransferBolsasCuposVO {\r\n"
+                        }, 
+                        {
+                            "Linea": 30, 
+                            "Texto": "\tpublic TransferBolsasCuposVO() {\r\n"
+                        }, 
+                        {
+                            "Linea": 33, 
+                            "Texto": "\tpublic TransferBolsasCuposVO(DescripcionUsuarioVO usuarioSimple) {\r\n"
+                        }, 
+                        {
+                            "Linea": 39, 
+                            "Texto": "\tpublic TransferBolsasCuposVO(DescripcionUsuarioVO usuarioSimple,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/comun/vo/TransferBolsasCuposVO.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 17, 
+                            "Texto": "public class TransferBolsasCuposVO {\r\n"
+                        }, 
+                        {
+                            "Linea": 30, 
+                            "Texto": "\tpublic TransferBolsasCuposVO() {\r\n"
+                        }, 
+                        {
+                            "Linea": 33, 
+                            "Texto": "\tpublic TransferBolsasCuposVO(DescripcionUsuarioVO usuarioSimple) {\r\n"
+                        }, 
+                        {
+                            "Linea": 39, 
+                            "Texto": "\tpublic TransferBolsasCuposVO(DescripcionUsuarioVO usuarioSimple,\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/comun/servicio/BolsasCuposServicio.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 43, 
+                            "Texto": "public class BolsasCuposServicio {\r\n"
+                        }, 
+                        {
+                            "Linea": 46, 
+                            "Texto": "\t\t\t.getLogger(BolsasCuposServicio.class);\r\n"
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "\tpublic BolsasCuposServicio() {\r\n"
+                        }, 
+                        {
+                            "Linea": 328, 
+                            "Texto": "\t\t\t\t\t\t.error(\"Error al consultar el nivel superior. asignacionCupo@BolsasCuposServicio. \"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/comun/servicio/BolsasCuposServicio.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 43, 
+                            "Texto": "public class BolsasCuposServicio {\r\n"
+                        }, 
+                        {
+                            "Linea": 46, 
+                            "Texto": "\t\t\t.getLogger(BolsasCuposServicio.class);\r\n"
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "\tpublic BolsasCuposServicio() {\r\n"
+                        }, 
+                        {
+                            "Linea": 328, 
+                            "Texto": "\t\t\t\t\t\t.error(\"Error al consultar el nivel superior. asignacionCupo@BolsasCuposServicio. \"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/comun/servicio/BolsasCuposServicio.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 43, 
+                            "Texto": "public class BolsasCuposServicio {\r\n"
+                        }, 
+                        {
+                            "Linea": 46, 
+                            "Texto": "\t\t\t.getLogger(BolsasCuposServicio.class);\r\n"
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "\tpublic BolsasCuposServicio() {\r\n"
+                        }, 
+                        {
+                            "Linea": 328, 
+                            "Texto": "\t\t\t\t\t\t.error(\"Error al consultar el nivel superior. asignacionCupo@BolsasCuposServicio. \"\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 4
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/bolsas/managedbean/SolicitudBolsaMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 32, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 70, 
+                            "Texto": "\tprivate BolsasCuposServicio bcServicio = new BolsasCuposServicio();\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/bolsas/managedbean/SolicitudBolsaMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 32, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 70, 
+                            "Texto": "\tprivate BolsasCuposServicio bcServicio = new BolsasCuposServicio();\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/bolsas/managedbean/SolicitudBolsaMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 32, 
+                            "Texto": "import mx.com.axa.byc.comun.servicio.BolsasCuposServicio;\r\n"
+                        }, 
+                        {
+                            "Linea": 70, 
+                            "Texto": "\tprivate BolsasCuposServicio bcServicio = new BolsasCuposServicio();\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 2
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/bolsas/managedbean/TransferirBolsaMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 27, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 53, 
+                            "Texto": "\t * Lista que almacena objetos de tipo TransferBolsasCuposVO\r\n"
+                        }, 
+                        {
+                            "Linea": 55, 
+                            "Texto": "\tprivate List<TransferBolsasCuposVO> usuariosTransfer;\r\n"
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "\t * Objeto TransferBolsasCuposVO para almacenar una sola seleccion de la lista\r\n"
+                        }, 
+                        {
+                            "Linea": 59, 
+                            "Texto": "\tprivate TransferBolsasCuposVO transferSeleccion;\r\n"
+                        }, 
+                        {
+                            "Linea": 115, 
+                            "Texto": "\t\t\t\tList<TransferBolsasCuposVO> usuariosTransferLocal=null;\r\n"
+                        }, 
+                        {
+                            "Linea": 116, 
+                            "Texto": "\t\t\t\tthis.usuariosTransfer= new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 118, 
+                            "Texto": "\t\t\t\t\tusuariosTransferLocal=new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 127, 
+                            "Texto": "\t\t\t\t\t\tfor(TransferBolsasCuposVO elemento: usuariosTransferLocal){\r\n"
+                        }, 
+                        {
+                            "Linea": 194, 
+                            "Texto": "\t\ttransferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }, 
+                        {
+                            "Linea": 197, 
+                            "Texto": "\t\t\tDouble montoTransaccion = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 208, 
+                            "Texto": "\t\t\t\torigen.setIdElemento(((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData()).getUsuarioEmisor()); //Usuario logeado\r\n"
+                        }, 
+                        {
+                            "Linea": 213, 
+                            "Texto": "\t\t\t\tString idElemento = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 215, 
+                            "Texto": "\t\t\t\tString nombreUsuario = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 217, 
+                            "Texto": "\t\t\t\tString territorial = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 219, 
+                            "Texto": "\t\t\t\tString zona = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 221, 
+                            "Texto": "\t\t\t\tString oficina = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t\t\t\tString centroCosto = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 312, 
+                            "Texto": "\tpublic List<TransferBolsasCuposVO> getUsuariosTransfer() {\r\n"
+                        }, 
+                        {
+                            "Linea": 328, 
+                            "Texto": "\tpublic void setUsuariosTransfer(List<TransferBolsasCuposVO> usuariosTransfer) {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 20
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/bolsas/managedbean/TransferirBolsaMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 27, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 53, 
+                            "Texto": "\t * Lista que almacena objetos de tipo TransferBolsasCuposVO\r\n"
+                        }, 
+                        {
+                            "Linea": 55, 
+                            "Texto": "\tprivate List<TransferBolsasCuposVO> usuariosTransfer;\r\n"
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "\t * Objeto TransferBolsasCuposVO para almacenar una sola seleccion de la lista\r\n"
+                        }, 
+                        {
+                            "Linea": 59, 
+                            "Texto": "\tprivate TransferBolsasCuposVO transferSeleccion;\r\n"
+                        }, 
+                        {
+                            "Linea": 115, 
+                            "Texto": "\t\t\t\tList<TransferBolsasCuposVO> usuariosTransferLocal=null;\r\n"
+                        }, 
+                        {
+                            "Linea": 116, 
+                            "Texto": "\t\t\t\tthis.usuariosTransfer= new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 118, 
+                            "Texto": "\t\t\t\t\tusuariosTransferLocal=new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 127, 
+                            "Texto": "\t\t\t\t\t\tfor(TransferBolsasCuposVO elemento: usuariosTransferLocal){\r\n"
+                        }, 
+                        {
+                            "Linea": 194, 
+                            "Texto": "\t\ttransferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }, 
+                        {
+                            "Linea": 197, 
+                            "Texto": "\t\t\tDouble montoTransaccion = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 208, 
+                            "Texto": "\t\t\t\torigen.setIdElemento(((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData()).getUsuarioEmisor()); //Usuario logeado\r\n"
+                        }, 
+                        {
+                            "Linea": 213, 
+                            "Texto": "\t\t\t\tString idElemento = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 215, 
+                            "Texto": "\t\t\t\tString nombreUsuario = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 217, 
+                            "Texto": "\t\t\t\tString territorial = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 219, 
+                            "Texto": "\t\t\t\tString zona = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 221, 
+                            "Texto": "\t\t\t\tString oficina = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t\t\t\tString centroCosto = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 312, 
+                            "Texto": "\tpublic List<TransferBolsasCuposVO> getUsuariosTransfer() {\r\n"
+                        }, 
+                        {
+                            "Linea": 328, 
+                            "Texto": "\tpublic void setUsuariosTransfer(List<TransferBolsasCuposVO> usuariosTransfer) {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 20
+                }, 
+                {
+                    "Archivo": "/home/javamantis1/Documentos/Analizar/Axa02Collection/S_122BolsasCupos/src/mx/com/axa/byc/bolsas/managedbean/TransferirBolsaMB.java", 
+                    "Cadena": [
+                        "(.*)CatalogosProductos(.*)", 
+                        "(.*)jdbc/DefaultEJBTimerDataSource(.*)", 
+                        "(.*)BolsasCupos(.*)", 
+                        "(.*)BolsasCuposWS(.*)", 
+                        "(.*)CatalogosComunesBancs(.*)", 
+                        "(.*)CodigosPostalesBancs(.*)", 
+                        "(.*)FicheroVehiculos(.*)", 
+                        "(.*)FicherosVehiculosBancs(.*)", 
+                        "(.*)FicheroVehiculosWS(.*)"
+                    ], 
+                    "Extension": ".java", 
+                    "Hardcode": "true", 
+                    "Lineas": [
+                        {
+                            "Linea": 27, 
+                            "Texto": "import mx.com.axa.byc.comun.vo.TransferBolsasCuposVO;\r\n"
+                        }, 
+                        {
+                            "Linea": 53, 
+                            "Texto": "\t * Lista que almacena objetos de tipo TransferBolsasCuposVO\r\n"
+                        }, 
+                        {
+                            "Linea": 55, 
+                            "Texto": "\tprivate List<TransferBolsasCuposVO> usuariosTransfer;\r\n"
+                        }, 
+                        {
+                            "Linea": 57, 
+                            "Texto": "\t * Objeto TransferBolsasCuposVO para almacenar una sola seleccion de la lista\r\n"
+                        }, 
+                        {
+                            "Linea": 59, 
+                            "Texto": "\tprivate TransferBolsasCuposVO transferSeleccion;\r\n"
+                        }, 
+                        {
+                            "Linea": 115, 
+                            "Texto": "\t\t\t\tList<TransferBolsasCuposVO> usuariosTransferLocal=null;\r\n"
+                        }, 
+                        {
+                            "Linea": 116, 
+                            "Texto": "\t\t\t\tthis.usuariosTransfer= new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 118, 
+                            "Texto": "\t\t\t\t\tusuariosTransferLocal=new ArrayList<TransferBolsasCuposVO>();\r\n"
+                        }, 
+                        {
+                            "Linea": 127, 
+                            "Texto": "\t\t\t\t\t\tfor(TransferBolsasCuposVO elemento: usuariosTransferLocal){\r\n"
+                        }, 
+                        {
+                            "Linea": 194, 
+                            "Texto": "\t\ttransferSeleccion = new TransferBolsasCuposVO();\r\n"
+                        }, 
+                        {
+                            "Linea": 197, 
+                            "Texto": "\t\t\tDouble montoTransaccion = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 208, 
+                            "Texto": "\t\t\t\torigen.setIdElemento(((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData()).getUsuarioEmisor()); //Usuario logeado\r\n"
+                        }, 
+                        {
+                            "Linea": 213, 
+                            "Texto": "\t\t\t\tString idElemento = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 215, 
+                            "Texto": "\t\t\t\tString nombreUsuario = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 217, 
+                            "Texto": "\t\t\t\tString territorial = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 219, 
+                            "Texto": "\t\t\t\tString zona = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 221, 
+                            "Texto": "\t\t\t\tString oficina = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 223, 
+                            "Texto": "\t\t\t\tString centroCosto = ((TransferBolsasCuposVO) this.getTablaTransferenciaBolsa().getRowData())\r\n"
+                        }, 
+                        {
+                            "Linea": 312, 
+                            "Texto": "\tpublic List<TransferBolsasCuposVO> getUsuariosTransfer() {\r\n"
+                        }, 
+                        {
+                            "Linea": 328, 
+                            "Texto": "\tpublic void setUsuariosTransfer(List<TransferBolsasCuposVO> usuariosTransfer) {\r\n"
+                        }
+                    ], 
+                    "NombreCad": "JNDIS", 
+                    "Repeticiones": 20
                 }
             ], 
             "Nombre": "HardCode", 

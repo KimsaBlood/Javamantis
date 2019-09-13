@@ -1,0 +1,1216 @@
+{
+    "MQQueue.json": [
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster15_QA", 
+                "Deployment": "MQQueueConnectionFactory_1418163187430", 
+                "Nombre": "reportesSAGCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "channel": "D080REPCMDBAP.SVRCON", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "failIfQuiesce": "false", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/qcf_MQ_SAG", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/reportesSAG_CF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgRetention": "true", 
+                            "name": "reportesSAGCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster15_QA|resources.xml#builtin_mqprovider)\"", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "replyWithRFH2": "AS_REPLY_DEST", 
+                            "rescanInterval": "5000", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "xaRecoveryAuthAlias": "AXANodeDMQA/reportesSAG_CF_Alias"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode01/servers/server08_QA1", 
+                "Deployment": "MQTopicConnectionFactory_1408042948839", 
+                "Nombre": "VentaDirecta_TCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "819", 
+                            "XAEnabled": "true", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerCCSubQ": "SYSTEM.JMS.ND.CC.SUBSCRIBER.QUEUE", 
+                            "brokerControlQueue": "SYSTEM.BROKER.CONTROL.QUEUE", 
+                            "brokerPubQueue": "SYSTEM.BROKER.DEFAULT.STREAM", 
+                            "brokerSubQueue": "SYSTEM.JMS.ND.SUBSCRIBER.QUEUE", 
+                            "brokerVersion": "MA0C", 
+                            "channel": "S039VDIRTOPIC.SVRCON", 
+                            "clientID": "GTM_CLIENT_1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "EntirePool", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "description": "\"VentaDirecta TCF 396600\"", 
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/VDSCTCF", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/VentaDirecta_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "VentaDirecta_TCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode01/servers/server08_QA1|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode02/servers/server08_QA2", 
+                "Deployment": "MQTopicConnectionFactory_1408042949100", 
+                "Nombre": "VentaDirecta_TCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "819", 
+                            "XAEnabled": "true", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerCCSubQ": "SYSTEM.JMS.ND.CC.SUBSCRIBER.QUEUE", 
+                            "brokerControlQueue": "SYSTEM.BROKER.CONTROL.QUEUE", 
+                            "brokerPubQueue": "SYSTEM.BROKER.DEFAULT.STREAM", 
+                            "brokerSubQueue": "SYSTEM.JMS.ND.SUBSCRIBER.QUEUE", 
+                            "brokerVersion": "MA0C", 
+                            "channel": "S039VDIRTOPIC.SVRCON", 
+                            "clientID": "GTM_CLIENT_2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "EntirePool", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "description": "\"VentaDirecta TCF WO 396600\"", 
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/VDSCTCF", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/VentaDirecta_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "VentaDirecta_TCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode02/servers/server08_QA2|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQTopicConnectionFactory_1363067188928", 
+                "Nombre": "admRegistroContableTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "category": "null", 
+                            "channel": "AD061ARCTOPIC.SVRCON", 
+                            "clientID": "server1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "description": "null", 
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/ADRCTCF", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/admRegistroContable_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "BROKER", 
+                            "multicast": "DISABLED", 
+                            "name": "admRegistroContableTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null"
+                        }, 
+                        {
+                            "resourceProperties": "null"
+                        }, 
+                        {
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "providerVersion": "null", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQTopicConnectionFactory_1393978828629", 
+                "Nombre": "admRegistroContableTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "AD061ARCTOPIC.SVRCON", 
+                            "clientID": "server1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "LU1APP65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/ADRCTCF", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/admRegistroContable_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "BROKER", 
+                            "multicast": "DISABLED", 
+                            "name": "admRegistroContableTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/Cluster_intqa_07", 
+                "Deployment": "MQTopicConnectionFactory_1363067188929", 
+                "Nombre": "admRegistroContableTCF2"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "category": "null", 
+                            "channel": "AD061ARCTOPIC.SVRCON", 
+                            "clientID": "server2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "description": "null", 
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/ADRCTCF2", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/admRegistroContable_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "BROKER", 
+                            "multicast": "DISABLED", 
+                            "name": "admRegistroContableTCF2", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null"
+                        }, 
+                        {
+                            "resourceProperties": "null"
+                        }, 
+                        {
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/Cluster_intqa_07|resources.xml#builtin_mqprovider)\"", 
+                            "providerVersion": "null", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster07_QA", 
+                "Deployment": "MQTopicConnectionFactory_1393978828882", 
+                "Nombre": "admRegistroContableTCF2"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "AD061ARCTOPIC.SVRCON", 
+                            "clientID": "server2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "LU1APP65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/ADRCTCF2", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/admRegistroContable_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "BROKER", 
+                            "multicast": "DISABLED", 
+                            "name": "admRegistroContableTCF2", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster07_QA|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQTopicConnectionFactory_1408028047315", 
+                "Nombre": "admWorksitesTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "S0118PVMWTOPI.SVRCON", 
+                            "clientID": "PVMCF1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/WorksiteConnectionFactory1", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/AdmWorksites_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "admWorksitesTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode01/servers/server02_QA1", 
+                "Deployment": "MQTopicConnectionFactory_1399390420927", 
+                "Nombre": "admWorksitesTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "S0118PVMWTOPI.SVRCON", 
+                            "clientID": "PVMCF1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/WorksiteConnectionFactory", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/AdmWorksites_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "admWorksitesTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode01/servers/server02_QA1|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode02/servers/server02_QA2", 
+                "Deployment": "MQTopicConnectionFactory_1399390422447", 
+                "Nombre": "admWorksitesTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "S0118PVMWTOPI.SVRCON", 
+                            "clientID": "PVMCF2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/WorksiteConnectionFactory", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/AdmWorksites_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "admWorksitesTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode02/servers/server02_QA2|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/clusters/cluster09_QA", 
+                "Deployment": "MQTopicConnectionFactory_1408028064446", 
+                "Nombre": "admWorksitesTCF2"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "S0118PVMWTOPI.SVRCON", 
+                            "clientID": "PVMCF2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/WorksiteConnectionFactory2", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/AdmWorksites_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "admWorksitesTCF2", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/clusters/cluster09_QA|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode01/servers/server14_QA1", 
+                "Deployment": "MQTopicConnectionFactory_1384288767042", 
+                "Nombre": "ajusteMovilWSTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "S080AJSTMOVIL.SVRCON", 
+                            "clientID": "ALRS_CLIENT_1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/AMTCF", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/Ajuste_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "ajusteMovilWSTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode01/servers/server14_QA1|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode02/servers/server14_QA2", 
+                "Deployment": "MQTopicConnectionFactory_1384288767242", 
+                "Nombre": "ajusteMovilWSTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerVersion": "MQSI", 
+                            "channel": "S080AJSTMOVIL.SVRCON", 
+                            "clientID": "ALRS_CLIENT_2", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "FailingConnectionOnly", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/AMTCF", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/Ajuste_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "ajusteMovilWSTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode02/servers/server14_QA2|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ], 
+        [
+            {
+                "Binario": "cells/AXACellQA/nodes/WASFarmQANode01/servers/server20_QA1", 
+                "Deployment": "MQTopicConnectionFactory_1411667231598", 
+                "Nombre": "motorDanosCotizadorEmisorTCF"
+            }, 
+            [
+                {
+                    "Propiedades": [
+                        {
+                            "CCSID": "819", 
+                            "XAEnabled": "false", 
+                            "authMechanismPreference": "BASIC_PASSWORD", 
+                            "brokerCCSubQ": "SYSTEM.JMS.ND.CC.SUBSCRIBER.QUEUE", 
+                            "brokerControlQueue": "SYSTEM.BROKER.CONTROL.QUEUE", 
+                            "brokerPubQueue": "SYSTEM.BROKER.DEFAULT.STREAM", 
+                            "brokerSubQueue": "SYSTEM.JMS.ND.SUBSCRIBER.QUEUE", 
+                            "brokerVersion": "MA0C", 
+                            "channel": "S0118PVMWTOPI.SVRCON", 
+                            "clientID": "PVMCF1", 
+                            "clientReconnectOptions": "DISABLED", 
+                            "clientReconnectTimeout": "1800", 
+                            "cloneSupport": "true", 
+                            "compressHeaders": "NONE", 
+                            "compressPayload": "NONE"
+                        }, 
+                        {
+                            "agedTimeout": "0", 
+                            "connectionTimeout": "180", 
+                            "freePoolDistributionTableSize": "0", 
+                            "maxConnections": "10", 
+                            "minConnections": "1", 
+                            "numberOfFreePoolPartitions": "0", 
+                            "numberOfSharedPoolPartitions": "0", 
+                            "numberOfUnsharedPoolPartitions": "0", 
+                            "properties": "null", 
+                            "purgePolicy": "EntirePool", 
+                            "reapTime": "180", 
+                            "stuckThreshold": "0", 
+                            "stuckTime": "0", 
+                            "stuckTimerTime": "0", 
+                            "surgeCreationInterval": "0", 
+                            "surgeThreshold": "-1", 
+                            "testConnection": "false", 
+                            "testConnectionInterval": "0", 
+                            "unusedTimeout": "1800"
+                        }, 
+                        {
+                            "diagnoseConnectionUsage": "false", 
+                            "directAuth": "BASIC", 
+                            "failIfQuiesce": "true", 
+                            "host": "lu1app65", 
+                            "inheritRRSContext": "false", 
+                            "jndiName": "jms/WorksiteConnectionFactory", 
+                            "logMissingTransactionContext": "true", 
+                            "manageCachedHandles": "false"
+                        }, 
+                        {
+                            "authDataAlias": "AXANodeDMQA/AdmWorksites_TCF_Alias", 
+                            "mappingConfigAlias": "DefaultPrincipalMapping"
+                        }, 
+                        {
+                            "maxBatchSize": "10", 
+                            "msgSelection": "CLIENT", 
+                            "multicast": "DISABLED", 
+                            "name": "motorDanosCotizadorEmisorTCF", 
+                            "pollingInterval": "5000", 
+                            "port": "1710", 
+                            "properties": "null", 
+                            "provider": "\"WebSphere MQ JMS Provider(cells/AXACellQA/nodes/WASFarmQANode01/servers/server20_QA1|resources.xml#builtin_mqprovider)\"", 
+                            "proxyPort": "0", 
+                            "pubSubCleanup": "SAFE", 
+                            "pubSubCleanupInterval": "3600000", 
+                            "publishAckInterval": "25", 
+                            "qmgrType": "QMGR", 
+                            "queueManager": "QMTBK01", 
+                            "rescanInterval": "5000", 
+                            "sparseSubscriptions": "false", 
+                            "sslResetCount": "0", 
+                            "sslType": "NONE", 
+                            "statRefreshInterval": "60000", 
+                            "substore": "MIGRATE", 
+                            "transportType": "CLIENT", 
+                            "useConnectionPooling": "true", 
+                            "wildcardFormat": "topicWildcards"
+                        }
+                    ]
+                }
+            ]
+        ]
+    ]
+}

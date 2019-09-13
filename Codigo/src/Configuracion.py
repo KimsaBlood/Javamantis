@@ -6,12 +6,13 @@ from Prioridades import Prioridades
 
 class Configuracion(Json):
 
-	def __init__(self,jsonRuta,jsonMongo):
+	def __init__(self,jsonRuta,jsonMongo=None):
 		self.jsonR=jsonRuta
 		self.json=Json(self.jsonR)
 		self.openJson()
-		json2=Json(jsonMongo).leer()
-		self.clasificar(json2)
+		if jsonMongo:
+			json2=Json(jsonMongo).leer()
+		self.clasificar(None)
 
 	def openJson(self):
 		self.jsonText=self.json.leer()
@@ -34,8 +35,9 @@ class Configuracion(Json):
 		for f in self.jsonText["cadenasBusqueda"]:
 			cad=CadenasBusqueda(f["nombre"],f["cadena"],f["expresion"],f["extracciones"][0])
 			aux.append(cad)
-		for f in mongo:
-			aux.append(CadenasBusqueda("JNDI","DS",[f["Nombre"]],{}))
+		if mongo:
+			for f in mongo:
+				aux.append(CadenasBusqueda("JNDI","DS",[f["Nombre"]],{}))
 		self.setCadenasBusqueda(aux)
 
 	def clasificarValidos(self):

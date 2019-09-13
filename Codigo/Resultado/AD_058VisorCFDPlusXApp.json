@@ -14,7 +14,7 @@
                         {
                             "Linea": 7, 
                             "Texto": "#ecm.conexion = mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027, lu2mdb02.asefitest.mex:27027, lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
+                            "url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -31,7 +31,7 @@
                         {
                             "Linea": 7, 
                             "Texto": "#ecm.conexion = mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027, lu2mdb02.asefitest.mex:27027, lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
+                            "url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -48,7 +48,7 @@
                         {
                             "Linea": 7, 
                             "Texto": "#ecm.conexion = mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027, lu2mdb02.asefitest.mex:27027, lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
+                            "url": "mongodb://ecm:NEWpass01@lu1mdb05.asefitest.mex:27027,"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -65,7 +65,7 @@
                         {
                             "Linea": 25, 
                             "Texto": "    //private java.lang.String ecmWS_address = \"http://10.77.5.75:9185/dp/services/ecm\";\r\n", 
-                            "url": "ttp://10.77.5.75:9185/dp/services/ecm"
+                            "url": "http://10.77.5.75:9185/dp/services/ecm"
                         }
                     ], 
                     "NombreCad": "IP", 
@@ -88,7 +88,7 @@
                         {
                             "Linea": 8, 
                             "Texto": "ecm.conexion = mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -105,7 +105,7 @@
                         {
                             "Linea": 8, 
                             "Texto": "ecm.conexion = mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -122,7 +122,7 @@
                         {
                             "Linea": 8, 
                             "Texto": "ecm.conexion = mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 
@@ -145,7 +145,7 @@
                         {
                             "Linea": 27, 
                             "Texto": "    private java.lang.String ecmWS_address = \"http://serviciosweb.axa.com.mx:9185/dp/services/ecm\";\r\n", 
-                            "url": "ttp://serviciosweb.axa.com.mx:9185/dp/services/ecm"
+                            "url": "http://serviciosweb.axa.com.mx:9185/dp/services/ecm"
                         }
                     ], 
                     "NombreCad": "Datapower", 
@@ -162,12 +162,12 @@
                         {
                             "Linea": 29, 
                             "Texto": "\t\t\t\t\"mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM\");\r\n", 
-                            "url": "ongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM"
+                            "url": "mongodb://ECM_ADMIN:Uk5p7uFnM2tC8CXC@lu1mdb03:27027,lu2mdb04:27027,lu2mdb07:27027/ECM"
                         }, 
                         {
                             "Linea": 31, 
                             "Texto": "\t\t//URI = new MongoClientURI(\"mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM\");\r\n", 
-                            "url": "ongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
+                            "url": "mongodb://ecm:NEWpass01@lu2mdb06.asefitest.mex:27027/ECM"
                         }
                     ], 
                     "NombreCad": "MongoDB", 

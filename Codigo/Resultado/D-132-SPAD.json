@@ -19,7 +19,7 @@
                         {
                             "Linea": 34, 
                             "Texto": "\t\t\t<url>http://artifactory.axa.com.mx:8082/artifactory/libs-release</url>\r\n", 
-                            "url": "ttp://artifactory.axa.com.mx:8082/artifactory/libs-release"
+                            "url": "http://artifactory.axa.com.mx:8082/artifactory/libs-release"
                         }
                     ], 
                     "NombreCad": "IP", 

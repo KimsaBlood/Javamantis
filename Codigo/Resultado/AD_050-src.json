@@ -14,22 +14,22 @@
                         {
                             "Linea": 223, 
                             "Texto": "  //\"AppServer://10.212.213.3:5214/asbautjuri\";\r\n", 
-                            "url": "ppServer://10.212.213.3:5214/asbautjuri"
+                            "url": "AppServer://10.212.213.3:5214/asbautjuri"
                         }, 
                         {
                             "Linea": 225, 
                             "Texto": "  //\"AppServer://130.2.1.21:5178/asbjuridico\";\r\n", 
-                            "url": "ppServer://130.2.1.21:5178/asbjuridico"
+                            "url": "AppServer://130.2.1.21:5178/asbjuridico"
                         }, 
                         {
                             "Linea": 227, 
                             "Texto": "  //\"AppServer://130.2.1.17:5170/asbsinijuri\";\r\n", 
-                            "url": "ppServer://130.2.1.17:5170/asbsinijuri"
+                            "url": "AppServer://130.2.1.17:5170/asbsinijuri"
                         }, 
                         {
                             "Linea": 229, 
                             "Texto": "  //\"AppServer://130.2.1.14:6024/asbjuriressini\";\r\n", 
-                            "url": "ppServer://130.2.1.14:6024/asbjuriressini"
+                            "url": "AppServer://130.2.1.14:6024/asbjuriressini"
                         }
                     ], 
                     "NombreCad": "Progress", 
