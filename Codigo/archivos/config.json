@@ -280,7 +280,7 @@
                 {
                     "nombre":"NombreSource",
                     "expresiones":[
-                        "(\\w*)"
+                        "(=)(\\w*)"
                     ]
                 }
             ]
@@ -403,6 +403,20 @@
             "numero":"3",
             "expresion":"^( *)[\/][\/]|^( *)[#]|^( *)[<][!][-][-]|^( *)[\/][*]",
             "nombre":"comentarios"
+        }
+    ],
+    "entornos":[
+        {
+            "nombre":"dev",
+            "carpeta":"dev"
+        },
+        {
+            "nombre":"qa",
+            "carpeta":"qa"
+        },
+        {
+            "nombre":"produccion",
+            "carpeta":"prod"
         }
     ]
 }

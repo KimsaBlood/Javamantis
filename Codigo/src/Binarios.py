@@ -1,6 +1,8 @@
 import os
 import re
-class Binarios:
+
+class Binarios(object):
+
 	#Inicializa la ruta con "."
 	def __init__(self):
 		self.ruta = "."
@@ -74,7 +76,7 @@ class Binarios:
 		path = self.ruta
 		filesBuild = []
 		filesPom   = []
-		listaWars  = []
+		listaWars  = {}
 		for root, directories, files in os.walk(path):
 			for f in files:
 				if 'build.xml' in f :
@@ -89,13 +91,14 @@ class Binarios:
 			for linea in lineas:
 				if linea.find("<finalName>") >= 0 :
 					value = linea[linea.find("<finalName>"):linea.find("</finalName>")].replace("<finalName>","").strip()
-					value += ".war"	
-					if (f in listaWars) :
-						if not value in listaWars[f]:
-							listaWars.append(value)
-					else:
-						listaWars = []
-						listaWars.append(value) 
+					if not "artifactId" in value: 
+						value += ".war"	
+						if (f in listaWars) :
+							if not value in listaWars[f]:
+								listaWars[f].append(value)
+						else:
+							listaWars[f] = []
+							listaWars[f].append(value) 
 			
 		for f in filesBuild:
 			arch = open(f, "r")
@@ -112,10 +115,15 @@ class Binarios:
 				if value != "" and value != "null":
 					#print (listaWars[f])
 					if (f in listaWars) :
-						if not value in listaWars:
-							listaWars.append(value)
+						if not value in listaWars[f]:
+							listaWars[f].append(value)
 					else:
-						listaWars = []
-						listaWars.append(value)
-			self.incidencias = listaWars
-		return listaWars
+						listaWars[f] = []
+						listaWars[f].append(value)
+		self.incidencias = listaWars
+		listW=[]
+		for l in listaWars.values():
+			for m in l:
+				if m not in listW:
+					listW.append(m)
+		return listW

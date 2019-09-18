@@ -5,7 +5,7 @@ from Extracciones import Extracciones
 """Clase que define la salida de los archivos con su informacion en el json"""
 class ArchivoOut:
 
-	def __init__(self,archivo=None,extension=None,hardcode=None,cadena=None,lineas=None,repeticiones=None,nombre=None):
+	def __init__(self,archivo=None,extension=None,hardcode=None,cadena=None,lineas=None,repeticiones=None,nombre=None,entorno=None):
 		"""Constructor"""
 		#Tipo string
 		self.archivo=archivo
@@ -21,6 +21,7 @@ class ArchivoOut:
 		self.repeticiones=repeticiones
 		#tipo string
 		self.nombre=nombre
+		self.entorno=entorno
 
 	#getters y setters
 	def getArchivo(self):
@@ -74,8 +75,14 @@ class ArchivoOut:
 	def setLineasDict(self,lineasDict):
 		self.lineasDict=lineasDict
 
+	def setEntorno(self,entorno):
+		self.entorno=entorno
+
 	def getLineasDict(self):
 		return self.lineasDict
+
+	def getEntorno(self):
+		return self.entorno
 
 	def AsLineasDict(self):
 		"""Asigna en una lista todos los objetos linea de forma para que se genere un json valido"""
@@ -86,6 +93,7 @@ class ArchivoOut:
 	def buscar(self,cadena):
 		j=i=0
 		lineas=[]
+
 		#Recorremos la lista con el contenido del archivo
 		for f in self.contenido:
 			j+=1
@@ -114,6 +122,8 @@ class ArchivoOut:
 		#Si es igual cero regresamos a vacia la lista de lineas
 		else:
 			self.setLineas([])
+		
+				#print(self.entorno)
 
 	def leer(self):
 		"""Lee todas las lineas contenidas en el archivo"""
@@ -125,4 +135,4 @@ class ArchivoOut:
 	def asADict(self):
 		"""Regresa en forma de diccionario el archivo con sus atributos"""
 		self.AsLineasDict()
-		return {"Archivo":self.getArchivo(),"Extension":self.getExtension(),"NombreCad":self.getNombre(),"Cadena":self.getCadena(),"Repeticiones":self.getRepeticiones(),"Hardcode":self.getHardCode(),"Lineas":self.getLineasDict()}
+		return {"Archivo":self.getArchivo(),"Extension":self.getExtension(),"NombreCad":self.getNombre(),"Cadena":self.getCadena(),"Repeticiones":self.getRepeticiones(),"Hardcode":self.getHardCode(),"Lineas":self.getLineasDict(),"Entorno":self.getEntorno()}

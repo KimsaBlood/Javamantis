@@ -3,6 +3,7 @@ from Aplicaciones import Aplicaciones
 from ArchivosValidos import ArchivosValidos
 from CadenasBusqueda import CadenasBusqueda
 from Prioridades import Prioridades
+from Entornos import Entornos
 
 class Configuracion(Json):
 
@@ -12,7 +13,9 @@ class Configuracion(Json):
 		self.openJson()
 		if jsonMongo:
 			json2=Json(jsonMongo).leer()
-		self.clasificar(None)
+			self.clasificar(json2)
+		else:
+			self.clasificar(None)
 
 	def openJson(self):
 		self.jsonText=self.json.leer()
@@ -22,6 +25,7 @@ class Configuracion(Json):
 		self.clasificarValidos()
 		self.clasificarCadBusqueda(mongo)
 		self.clasificarPrioridades()
+		self.clasificarEntornos()
 	
 	def clasificarPrioridades(self):
 		aux=[]
@@ -54,6 +58,16 @@ class Configuracion(Json):
 			aux.append(app)
 		self.setAplicaciones(aux)
 
+	def clasificarEntornos(self):
+		aux=[]
+		for f in self.jsonText["entornos"]:
+			entorno=Entornos(f["nombre"],f["carpeta"])
+			aux.append(entorno)
+		self.setEntornos(aux)
+
+	def setEntornos(self,entornos):
+		self.entornos=entornos
+
 	def setAplicaciones(self,aplicaciones):
 		self.aplicaciones=aplicaciones
 
@@ -65,6 +79,9 @@ class Configuracion(Json):
 		
 	def setPrioridades(self,prioridades):
 		self.prioridades=prioridades
+
+	def getEntornos(self):
+		return self.entornos
 
 	def getAplicaciones(self):
 		return self.aplicaciones

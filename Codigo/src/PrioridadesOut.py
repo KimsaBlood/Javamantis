@@ -39,7 +39,7 @@ class PrioridadesOut:
 		for l in self.archivos2:
 			if l.getHardCode() in "false":
 				if l.getLineas():
-					archAux.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),l.getLineas(),l.getRepeticiones(),l.getNombre()))
+					archAux.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),l.getLineas(),l.getRepeticiones(),l.getNombre(),l.getEntorno()))
 		self.priorList.append(Prioridad("1",archAux,"Sin hardcode"))
 
 	def hardCodePrior2(self):
@@ -66,9 +66,9 @@ class PrioridadesOut:
 					else:
 						linePrior2.append(x)
 				if linePrior:
-					archPrior.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior,count,l.getNombre()))
+					archPrior.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior,count,l.getNombre(),l.getEntorno()))
 				if linePrior2:
-					self.archivos2.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior2,l.getRepeticiones()-count,l.getNombre()))
+					self.archivos2.append(ArchivoOut(l.getArchivo(),l.getExtension(),l.getHardCode(),l.getCadena(),linePrior2,l.getRepeticiones()-count,l.getNombre(),l.getEntorno()))
 			self.priorList.append(Prioridad(f.getNumero(),archPrior,f.getNombre()))
 
 	def AsPriorDict(self):

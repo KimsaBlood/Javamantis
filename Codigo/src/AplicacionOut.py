@@ -78,7 +78,7 @@ class AplicacionOut:
 			#Si al momento de buscar encontro coincidencias el objeto lineas no estara vacio
 			if archivo.getLineas():
 				#Agregamos al atributos archivosAux del tipo lista de ArchivoOut un nuevo objeto del tipo para evitar problemas de apuntadores
-				self.archivosAux.append(ArchivoOut(archivo.getArchivo(),archivo.getExtension(),archivo.getHardCode(),archivo.getCadena(),archivo.getLineas(),archivo.getRepeticiones(),archivo.getNombre()))
+				self.archivosAux.append(ArchivoOut(archivo.getArchivo(),archivo.getExtension(),archivo.getHardCode(),archivo.getCadena(),archivo.getLineas(),archivo.getRepeticiones(),archivo.getNombre(),archivo.getEntorno()))
 	
 	def toDict(self):
 		"""Convierte a tipo diccionario el objeto para mejorar su renderizacion a json"""

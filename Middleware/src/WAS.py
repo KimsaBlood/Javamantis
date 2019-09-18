@@ -86,6 +86,7 @@ class WAS:
 	
 	def getAnalizar(self,contenido):
 		pass
+		
 	def getCabecera(self,contenido):
 		result2={}
 		x=re.split("[#|\()]",contenido)

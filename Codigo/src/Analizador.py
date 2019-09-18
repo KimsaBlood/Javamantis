@@ -19,7 +19,7 @@ class Analizador:
 	def __init__(self):
 		pass
 
-	def AnalizarThread(self,config,paths,l,ex):
+	def AnalizarThread(self,config,paths,l):
 		"""Genera una aplicacion de salida"""
 		binario=Binarios(paths.getPath())
 		binariosList=binario.buscabinarios()
@@ -38,31 +38,25 @@ class Analizador:
 			config.setCadenasBusqueda(cadenas)
 			cadenas=config.getCadenasBusqueda()
 			
-		self.appOut=AplicacionOut(paths,config,l.getNombre(),ex)
+		self.appOut=AplicacionOut(paths,config,l.getNombre())
 		self.appOut.generar()
 			
 	def Analizar(self):
 		"""Crea objeto de configuracion y crea un thread por cada aplicacion de entrada"""
 		#Creamos un objeto del tipo Excel donde se crea un nuevo archivo
-		ex=Excel()
+		
 		threads = list()
 		count=1
 		
 
-		config=Configuracion("../../Codigo/archivos/config.json","../../Codigo/archivos/Datasources.json")
+		config=Configuracion("../../Codigo/archivos/config.json")
 		#Recorremos la lista de objetos Aplicacion en config y creamos un hilo por cada objeto
 		for l in config.getAplicaciones():
 			#Creamos el hilo y un objeto como parametro del tipo paths 
-			t=threading.Thread(target=self.AnalizarThread,args=(config,Paths(l.getCarpetas(),l.getRuta(),config.getArchivosValidos()),l,ex,))
+			t=threading.Thread(target=self.AnalizarThread,args=(config,Paths(l.getCarpetas(),l.getRuta(),config.getArchivosValidos(),config.getEntornos()),l,))
 			threads.append(t)
 			t.start()
-			count+=1
-		#Esperamos a que terminen todos los hilos paa cerrar el archivo excel
-		for count, thread in enumerate(threads):
-			thread.join()
-		#cerramos el excel 
-		ex.cerrar()
-
+			
 	def Excel(self):
 		ex=Excel()
 		config=Configuracion("../../Codigo/archivos/config.json","../../Codigo/archivos/Datasources.json")
