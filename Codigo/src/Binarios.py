@@ -33,14 +33,15 @@ class Binarios(object):
 	#producido 
 	def __extraeProp(self, prop, archivo, fileName):
 		for l in archivo:
-			match = re.search(r'name=.('+prop+').', l)
-			if match :
-				#print (l)
-				coincide = l[l.find("value=")+7:]
-				if (coincide.find("'")>= 0):
-					return coincide[:coincide.find("'")]
-				if (coincide.find('"')>= 0):
-					return coincide[:coincide.find('"')]
+			if not l.strip().startswith("<!--") and not l.strip().startswith("#") and not l.strip().startswith("/"):
+				match = re.search(r'name=.('+prop+').', l)
+				if match :
+					#print (l)
+					coincide = l[l.find("value=")+7:]
+					if (coincide.find("'")>= 0):
+						return coincide[:coincide.find("'")]
+					if (coincide.find('"')>= 0):
+						return coincide[:coincide.find('"')]
 		
 		return self.__fileExtra(prop, fileName)
 		

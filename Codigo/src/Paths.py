@@ -47,7 +47,6 @@ class Paths:
 									for f in self.entornos:
 										if f.getCarpeta() in os.path.join(r, file):
 											entorno=f.getNombre()
-									print(entorno)
 									arch=ArchivoOut(os.path.join(r, file),l.getExtension(),l.getHardCode(),None,None,None,None,entorno)
 									arch.leer()
 									files.append(arch)

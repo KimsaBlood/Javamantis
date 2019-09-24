@@ -27,7 +27,7 @@ class Analizador:
 		h=[]
 		for x in binariosList:
 			h=querysMongo.obtenerDatasourcePorAplicacion(x)
-
+#DS
 		if h:
 			y=[]
 			for x in h:
