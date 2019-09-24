@@ -1,10 +1,15 @@
-#db.AplicacionesQA.find({"MapResRefToEJB.Resourcetype":"javax.sql.DataSource"},{"MapResRefToEJB.TargetResourceJNDIName":1}).pretty() #
+#db.AplicacionesQA.find({"MapResRefToEJB.Resourcetype":"javax.sql.DataSource"},{"MapResRefToEJB.TargetResourceJNDIName":1}).pretty() 
 #db.DataSourceQA.find({"Datos_Generales.Tipo":"DataSource"},{"Datos_Generales.Nombre":1, "Datos_Generales.Cluster":1}).pretty()
 #db.DataSourceQA.find({"Datos_Generales.Tipo":"DataSource"},{"Descripcion.Propiedades.jndiName":1})
+#db.DataSourceQA.find({"Descripcion.Propiedades.jndiName":{$regex:"Exp"}},{"Datos_Generales.Nombre":1} ).pretty()
+
+#db.AplicacionesQA.find("MapResRefToEJB.TargetResourceJNDIName":"mds.war,WEB-INF/web.xml"}).pretty() 
 
 import sys
+import re
 from pymongo import MongoClient
 from bson import json_util
+#from Json import Json 
 
 class QueryMongoDB:
     client = None
@@ -15,16 +20,17 @@ class QueryMongoDB:
         #properties = Json("properties.json")
         #self.url = properties.obtenerJson()
         
-        self.client = MongoClient('mongodb://192.168.15.137:27017')
+        self.client = MongoClient('mongodb://localhost:27017')
         self.db = self.client['CoreIT']
-        self.collection = self.db['DataSourceQA']
+        self.collection = self.db['Data SourceQA']
 
+    def getURLS(self, str_applicationName):
+        db = self.client['Pruebas']
+        collection = db[str_applicationName]
+        list_urls = collection.find({"$or":[{"Prioridades.Numero":1}, {"Prioridades.Numero":2}]},{"Prioridades.Archivos.Lineas.url":1})
 
-    def usarDB(self, baseDeDatos):
-        self.db = self.client['CoreIT']
-		
-    def usarCollection(self, coleccion):
-        self.collection = self.db[coleccion+"QA"]
+        return list_urls
+
 
 
     """
@@ -37,133 +43,85 @@ class QueryMongoDB:
 
         Excepciones lanzadas:
     """
-    def obtenerRecursos(self, string_tipoRecurso):
-        self.db = self.client['CoreIT']
-        self.collection = self.db['AplicacionesQA']
-        list_recursos = self.collection.find({"MapResRefToEJB.Resourcetype":string_tipoRecurso},{"MapResRefToEJB.TargetResourceJNDIName":1})
-
-        self.client.close()
-        return list_recursos
-
-    """
-        Parametros de Entrada: 
-            self (Objeto)       :  
-            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
-        Parametros de Salida:
-            recursos (List): Lista con los recursos 
-        Funcionalidad:
-
-        Excepciones lanzadas:
-    """
-    def obtenerDatasourcePorAplicacion(self, str_Aplicacion):    
+    def getApplicationDatasourcesJndis(self, str_application):    
+        #print("App: " + str_application)
         json_Datasources = []
-        list_cluster = self.obtenerClusterDeAplicacion(str_Aplicacion)
+        list_cluster = self.getClustersNames(str_application)
 
         self.collection = self.db['DataSourceQA']
-
+        
         for cluster in list_cluster:
-            #print(cluster)
+            #print("-Cluster: " + cluster)
             list_recursos = self.collection.find({"Datos_Generales.Tipo":"DataSource", "Datos_Generales.Cluster":{"$regex":cluster}},{"Descripcion.Propiedades.jndiName":1})
             for a in list_recursos:
                 try:
-                    #print("- 5: "+a['Descripcion']['Propiedades'][5]['jndiName'])
+                    #print("-> 5: "+a['Descripcion']['Propiedades'][5]['jndiName'])
                     json_nombreDatasource = a['Descripcion']['Propiedades'][5]['jndiName']
                 except:
-                    #print("- 6: "+a['Descripcion']['Propiedades'][6]['jndiName'])
+                    #print("-> 6: "+a['Descripcion']['Propiedades'][6]['jndiName'])
                     json_nombreDatasource = a['Descripcion']['Propiedades'][6]['jndiName']
 
                 json_Datasources.append(json_nombreDatasource)
         self.client.close()
         
         return json_Datasources
-    
-    """
-        Parametros de Entrada: 
-            self (Objeto)       :  
-            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
-        Parametros de Salida:
-            recursos (List): Lista con los recursos 
-        Funcionalidad:
 
-        Excepciones lanzadas:
-    """
-    def obtenerTodosLosDatasource(self, string_nombreAplicacion):
-        self.db = self.client['CoreIT']
+
+    def getApplicationDatasourcesNames(self, str_application):    
+        #print("App: " + str_application)
+        json_Datasources = []
+        list_cluster = self.getClustersNames(str_application)
 
         self.collection = self.db['DataSourceQA']
-        list_recursos = self.collection.find({"Datos_Generales.Tipo":"DataSource"},{"Descripcion.Propiedades.jndiName":1})
         
-        #for a in list_recursos:
-        #    print(a)
+        for cluster in list_cluster:
+            #print("-Cluster: " + cluster)
+            list_recursos = self.collection.find({"Datos_Generales.Tipo":"DataSource", "Datos_Generales.Cluster":{"$regex":cluster} },{"Datos_Generales.Nombre":1})
+            for a in list_recursos:
+                #print("-> ds: "+a['Datos_Generales']['Nombre'])
+                json_nombreDatasource = a['Datos_Generales']['Nombre']
+              
 
-        #self.collection = self.db['DataSourceQA']
-        #list_recursos = self.collection.find({"Datos_Generales.Tipo":"DataSource"},{"Datos_Generales.Nombre":1, "Datos_Generales.Cluster":1})
-
+                json_Datasources.append(json_nombreDatasource)
         self.client.close()
-        return list_recursos
-
-    """
-        Parametros de Entrada: 
-            self (Objeto)       :  
-            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
-        Parametros de Salida:
-            recursos (List): Lista con los recursos 
-        Funcionalidad:
-
-        Excepciones lanzadas:
-    """
-    def obtenerClusterDeAplicacion(self, str_Aplicacion):
-        list_cluster = []
-        list_server = self.obtenerServersDeAplicacion(str_Aplicacion)
-
-        for cluster in list_server:
-            for aux in cluster['MapModulesToServers'] :
-                list_cluster.append(self.separarClusterDeCadenaServer(aux['Server']))
-
-
-        list_cluster = self.eliminarElementosDuplicados(list_cluster)
-
-        return list_cluster
-    """
-        Parametros de Entrada: 
-            self (Objeto)       :  
-            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
-        Parametros de Salida:
-            recursos (List): Lista con los recursos 
-        Funcionalidad:
-
-        Excepciones lanzadas:
-    """
-    def separarClusterDeCadenaServer(self, server):
-        str_aux = server.split(",")
-        str_aux1 = str_aux[1].split("+")
-        str_aux2 = str_aux1[0].split("=")
-
-        return str_aux2[1]
-    
-    """
-        Parametros de Entrada: 
-            self (Objeto)       :  
-            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
-        Parametros de Salida:
-            recursos (List): Lista con los recursos 
-        Funcionalidad:
-
-        Excepciones lanzadas:
-    """
-    def obtenerServersDeAplicacion(self, str_Aplicacion):
-        uri = str_Aplicacion + ",WEB-INF/web.xml"
-        self.db = self.client['CoreIT']
+        
+        return json_Datasources
+    def getApplicationResourceReference(self, str_application):
         self.collection = self.db['AplicacionesQA']
-        list_server= self.collection.find({"MapModulesToServers.URI":uri},{"MapModulesToServers.Server":1})
+        json_mapResRefToEJB= self.collection.find({"MapResRefToEJB.URI":{"$regex":str_application}},{"MapResRefToEJB.ResourceReference":1})
+        list_resourceReference = []
+
+        for json_resourceReference in json_mapResRefToEJB:
+            for aux in json_resourceReference["MapResRefToEJB"]:
+                list_resourceReference.append(aux["ResourceReference"])
+
+        return list_resourceReference
+
+    """
+        Parametros de Entrada: 
+            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
+        Parametros de Salida:
+            recursos (List): Lista con los recursos 
+        Funcionalidad:
+
+        Excepciones lanzadas:
+    """
+    def getClustersNames(self, str_application):
+        list_clusters = []
+        json_server = self.getServers(str_application)
         
-        return list_server
+        for json_mapModulesToServers in json_server:
+            for server in json_mapModulesToServers['MapModulesToServers'] :
+                str_serverName = server['Server']
+                list_foundClusters = re.findall("cluster\w+", str_serverName)
+                list_clusters.extend(list_foundClusters)
 
+        list_clusters = self.deleteRepeated(list_clusters)
 
+        return list_clusters
 
     """
         Parametros de Entrada: 
-            self (Objeto)       :  
             tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
         Parametros de Salida:
             recursos (List): Lista con los recursos 
@@ -171,34 +129,30 @@ class QueryMongoDB:
 
         Excepciones lanzadas:
     """
-    def eliminarElementosDuplicados(self, list_cluster):
-        list_clusterNoDuplicados = list_cluster
+    def getServers(self, str_application):
+        self.collection = self.db['AplicacionesQA']
+        json_server= self.collection.find({"MapModulesToServers.URI":{"$regex":str_application}},{"MapModulesToServers.Server":1})
+        
+        return json_server
 
-        for i, cluster in enumerate(list_cluster):
-            for j, clusterAux in enumerate(list_clusterNoDuplicados):
-                if cluster == clusterAux and i != j:
-                    del list_clusterNoDuplicados[j]
+
+
+    """
+        Parametros de Entrada: 
+            list_repeated (Lista)  : Lista con elementos repetidos
+        Parametros de Salida:
+            list_noRepeated (List): Lista sin elementos repetidos
+        Funcionalidad:
+
+        Excepciones lanzadas:
+    """
+    def deleteRepeated(self, list_repeated):
+        list_noRepeated = list_repeated
+
+        for i, item_repeated in enumerate(list_repeated):
+            for j, item_noRepeated in enumerate(list_noRepeated):
+                if item_noRepeated == item_repeated and i != j:
+                    del list_noRepeated[j]
                     break
-                      
 
-
-        return list_clusterNoDuplicados
-
-
-    """
-        Parametros de Entrada: 
-            self (Objeto)       :  
-            tipoRecurso (String | Default = javax.sql.DataSource)  : Nombre del tipo de recurso a obtener. Este nombre esta definido por wsadmin para WAS
-        Parametros de Salida:
-            recursos (List): Lista con los recursos 
-        Funcionalidad:
-
-        Excepciones lanzadas:
-    """
-    def obtenerRoles(self):
-        self.db = self.client['CoreIT']
-        self.collection = self.db['DataSourceQA']
-        list_recursos = self.collection.find({"Datos_Generales.Tipo":"DataSource"},{"Datos_Generales.Nombre":1})
-
-        self.client.close()
-        return list_recursos
+        return list_noRepeated

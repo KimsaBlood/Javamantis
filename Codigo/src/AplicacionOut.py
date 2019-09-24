@@ -5,10 +5,11 @@ from ArchivoOut import ArchivoOut
 from Json import Json
 from Excel import Excel
 from MongoDB import MongoDB
+from CadenasBusqueda import CadenasBusqueda
 
 class AplicacionOut:
 	
-	def __init__(self,paths,config,nombre,excel=None):
+	def __init__(self,paths=None,config=None,nombre=None,excel=None,jndis=None):
 		#tipo Path
 		self.paths=paths
 		#tipo Configuracion
@@ -20,7 +21,8 @@ class AplicacionOut:
 		#tipo excel
 		self.excel=excel
 		#tipo mongoDB
-		self.mdb=MongoDB("Pruebas","localhost","27017")
+		self.mdb=MongoDB("Generales","localhost","27017")
+		self.jndis=jndis
 
 	"""getters y setters"""
 	def setPaths(self,paths):
@@ -60,7 +62,7 @@ class AplicacionOut:
 		self.prior.ordenar()
 		#Creamos un objeto json con el contenido y el nombre del archivo con su ruta y despues lo convertimos todo a un json
 		Json.contenido("../../Codigo/Resultado/"+self.getNombre()+".json",self.toDict()).convertirAJson()
-		self.mdb.insertar(self.toDict(),self.nombre)
+		self.mdb.insertar(self.toDict(),"AnalisisDependencias")
 
 	def generarExcel():
 		#Llamamos el metodo para abrir un libro en el excel abierto
@@ -79,7 +81,12 @@ class AplicacionOut:
 			if archivo.getLineas():
 				#Agregamos al atributos archivosAux del tipo lista de ArchivoOut un nuevo objeto del tipo para evitar problemas de apuntadores
 				self.archivosAux.append(ArchivoOut(archivo.getArchivo(),archivo.getExtension(),archivo.getHardCode(),archivo.getCadena(),archivo.getLineas(),archivo.getRepeticiones(),archivo.getNombre(),archivo.getEntorno()))
-	
+		for l in self.jndis:
+			archivo.buscar(CadenasBusqueda(l.getTipo(),"None",[l.getCadena()],[]))
+			if archivo.getLineas():
+				l.setEncontrado(1)
+				self.archivosAux.append(ArchivoOut(archivo.getArchivo(),archivo.getExtension(),archivo.getHardCode(),archivo.getCadena(),archivo.getLineas(),archivo.getRepeticiones(),archivo.getNombre(),archivo.getEntorno()))
+
 	def toDict(self):
 		"""Convierte a tipo diccionario el objeto para mejorar su renderizacion a json"""
 		return {"Aplicacion":self.getNombre(),"Prioridades":self.prior.toDict()}

@@ -4,7 +4,7 @@ from Configuracion import Configuracion
 from Paths import Paths
 from AplicacionOut import AplicacionOut
 import threading
-from Excel import Excel
+#from Excel import Excel
 from Json import Json
 from MongoDB import MongoDB
 from pprint import pprint
@@ -14,41 +14,36 @@ from LineasOut import LineasOut
 from ArchivoOut import ArchivoOut
 from Binarios import Binarios
 from CadenasBusqueda import CadenasBusqueda
-from QueryMongoDB import QueryMongoDB
+
+from JNDIS import JNDIS
 class Analizador:
 	def __init__(self):
 		pass
 
+	def getBinarios(self,path):
+		binario=Binarios(path)
+		return binario.buscabinarios()
+	
+	def getURLSobrantes(self):
+		pass
+
 	def AnalizarThread(self,config,paths,l):
 		"""Genera una aplicacion de salida"""
-		binario=Binarios(paths.getPath())
-		binariosList=binario.buscabinarios()
-		querysMongo=QueryMongoDB()
-		h=[]
-		for x in binariosList:
-			h=querysMongo.obtenerDatasourcePorAplicacion(x)
-#DS
-		if h:
-			y=[]
-			for x in h:
-				y.append("(.*)"+x+"(.*)")
-			print(l.getNombre())
-			cadenas=config.getCadenasBusqueda()
-			cadenas.append(CadenasBusqueda("JNDIS","None",y,[]))
-			config.setCadenasBusqueda(cadenas)
-			cadenas=config.getCadenasBusqueda()
-			
-		self.appOut=AplicacionOut(paths,config,l.getNombre())
+		mdb=MongoDB("Generales","localhost","27017")
+		jndis=JNDIS()
+		jndisLista=[]
+		jndisLista=jndis.getJNDIS(self.getBinarios(paths.getPath()))
+		self.appOut=AplicacionOut(paths,config,l.getNombre(),None,jndisLista)
 		self.appOut.generar()
+		x=jndis.encontradosToDict()
+		if x:
+			mdb.insertar({"Aplicacion":l.getNombre(),"JNDIS":x},"AppDS")
 			
 	def Analizar(self):
 		"""Crea objeto de configuracion y crea un thread por cada aplicacion de entrada"""
 		#Creamos un objeto del tipo Excel donde se crea un nuevo archivo
 		
 		threads = list()
-		count=1
-		
-
 		config=Configuracion("../../Codigo/archivos/config.json")
 		#Recorremos la lista de objetos Aplicacion en config y creamos un hilo por cada objeto
 		for l in config.getAplicaciones():
