@@ -36,8 +36,11 @@ class Analizador:
 		self.appOut=AplicacionOut(paths,config,l.getNombre(),None,jndisLista)
 		self.appOut.generar()
 		x=jndis.encontradosToDict()
-		if x:
-			mdb.insertar({"Aplicacion":l.getNombre(),"JNDIS":x},"AppDS")
+		y=[]
+		y=objetoC.metodoCharly(x)
+		for l in y:
+			x.append(l)
+		self.jsonJNDIS.append({"Aplicacion":l.getNombre(),"JNDIS":x})
 			
 	def Analizar(self):
 		"""Crea objeto de configuracion y crea un thread por cada aplicacion de entrada"""
