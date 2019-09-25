@@ -14,11 +14,12 @@ from LineasOut import LineasOut
 from ArchivoOut import ArchivoOut
 from Binarios import Binarios
 from CadenasBusqueda import CadenasBusqueda
+from QueryMongoDB import QueryMongoDB
 
 from JNDIS import JNDIS
 class Analizador:
 	def __init__(self):
-		pass
+		self.jsonJNDIS=[]
 
 	def getBinarios(self,path):
 		binario=Binarios(path)
@@ -37,10 +38,8 @@ class Analizador:
 		self.appOut.generar()
 		x=jndis.encontradosToDict()
 		y=[]
-		y=objetoC.metodoCharly(x)
-		for l in y:
-			x.append(l)
-		self.jsonJNDIS.append({"Aplicacion":l.getNombre(),"JNDIS":x})
+		y=QueryMongoDB.metodoCharly(x)
+		self.jsonJNDIS.append({"Aplicacion":l.getNombre(),"JNDIS":y})
 			
 	def Analizar(self):
 		"""Crea objeto de configuracion y crea un thread por cada aplicacion de entrada"""
@@ -54,6 +53,11 @@ class Analizador:
 			t=threading.Thread(target=self.AnalizarThread,args=(config,Paths(l.getCarpetas(),l.getRuta(),config.getArchivosValidos(),config.getEntornos()),l,))
 			threads.append(t)
 			t.start()
+		for l in threads:
+			l.join()
+		print(self.jsonJNDIS)
+		return self.jsonJNDIS
+
 			
 	def Excel(self):
 		ex=Excel()
